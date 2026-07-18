@@ -1,2 +1,6 @@
 node_modules/*
 build/*
+.vite-react-ssg-temp/
+# pixi environments
+.pixi/*
+!.pixi/config.toml

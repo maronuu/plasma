@@ -1,5 +1,4 @@
 import React from 'react';
-import { render } from 'react-dom';
 import { FaGithub } from 'react-icons/fa6';
 import { MdAlternateEmail, MdContactMail } from 'react-icons/md';
 
