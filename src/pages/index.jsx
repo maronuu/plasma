@@ -71,7 +71,7 @@ class Template extends React.Component {
             contact_ids={data.contact_ids}
             resources={data.resources}
           />
-          <Citation bibtex={data.bibtex} />
+          {data.bibtex && <Citation bibtex={data.bibtex} />}
           <Projects projects={data.projects} />
         </div>
         <Footer />
