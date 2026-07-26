@@ -1,5 +1,4 @@
 import React from 'react';
-import { render } from 'react-dom';
 import { marked } from 'marked';
 import markedKatex from 'marked-katex-extension';
 

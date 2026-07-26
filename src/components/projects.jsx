@@ -1,5 +1,4 @@
 import React from 'react';
-import { render } from 'react-dom';
 
 const ProjectCard = ({ title, img, description, journal, url }) => (
   <div data-uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 200; repeat: true">
@@ -36,6 +35,7 @@ export default class Projects extends React.Component {
         {this.props.projects.map((project, idx) => {
           return (
             <ProjectCard
+              key={'project-' + idx}
               title={project.title}
               img={project.img}
               description={project.description}

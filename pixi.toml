@@ -1,0 +1,20 @@
+[workspace]
+authors = ["Mai Nishimura <mai.nishimura@sinicx.com>"]
+channels = ["conda-forge"]
+name = "projectpage-template"
+platforms = ["linux-64", "linux-aarch64", "osx-64", "osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+install = "npm install"
+dev = { cmd = "npm run dev", depends-on = "install" }
+build = { cmd = "npm run build", depends-on = "install" }
+preview = { cmd = "npm run preview", depends-on = "build" }
+lint = { cmd = "npm run lint", depends-on = "install" }
+format = { cmd = "npm run format", depends-on = "install" }
+# `typos` is provided directly by the pixi env below; no npm/node_modules needed.
+typos = "typos"
+
+[dependencies]
+nodejs = "==26.4.0"
+typos = "*"

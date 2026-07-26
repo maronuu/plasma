@@ -1,5 +1,4 @@
 import React from 'react';
-import { render } from 'react-dom';
 import Authors from '../components/authors.jsx';
 import CorporateLogo from '../components/logo.jsx';
 import { FaGithub, FaYoutube, FaMedium, FaRegFilePdf } from 'react-icons/fa6';
@@ -18,8 +17,9 @@ const GoogleColab = ({ size }) => (
 class ResourceBtn extends React.Component {
   constructor(props) {
     super(props);
+    // Default for the static build (no `window`); corrected in componentDidMount.
     this.state = {
-      isMobile: typeof window !== 'undefined' ? window.innerWidth < 600 : false,
+      isMobile: false,
     };
     this.icons = {
       paper: FaFilePdf,
@@ -34,20 +34,14 @@ class ResourceBtn extends React.Component {
     this.handleResize = this.handleResize.bind(this);
   }
   componentDidMount() {
-    if (typeof window !== 'undefined') {
-      window.addEventListener('resize', this.handleResize);
-      this.handleResize();
-    }
+    window.addEventListener('resize', this.handleResize);
+    this.handleResize();
   }
   componentWillUnmount() {
-    if (typeof window !== 'undefined') {
-      window.removeEventListener('resize', this.handleResize);
-    }
+    window.removeEventListener('resize', this.handleResize);
   }
   handleResize() {
-    if (typeof window !== 'undefined') {
-      this.setState({ isMobile: window.innerWidth < 600 });
-    }
+    this.setState({ isMobile: window.innerWidth < 600 });
   }
   render() {
     if (!this.props.url) return null;
@@ -72,31 +66,6 @@ class ResourceBtn extends React.Component {
 }
 
 export default class Header extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      isMobile:
-        typeof window !== 'undefined' ? window.innerWidth < 1000 : false,
-    };
-    this.handleResize = this.handleResize.bind(this);
-  }
-  componentDidMount() {
-    if (typeof window !== 'undefined') {
-      window.addEventListener('resize', this.handleResize);
-      this.handleResize();
-    }
-  }
-  componentWillUnmount() {
-    if (typeof window !== 'undefined') {
-      window.removeEventListener('resize', this.handleResize);
-    }
-  }
-  handleResize() {
-    if (typeof window !== 'undefined') {
-      this.setState({ isMobile: window.innerWidth < 960 });
-    }
-  }
-
   render() {
     const titleClass = `uk-${
       this.props.title.length > 15 ? 'h2' : 'h1'
@@ -110,22 +79,24 @@ export default class Header extends React.Component {
           backgroundColor: '#030706',
         }
       : null;
-    const backgroundStyle = this.state.isMobile
-      ? null
-      : {
-          backgroundImage: `url(${this.props.header.bg_curve})`,
-          backgroundSize: 'contain',
-          backgroundRepeat: 'no-repeat',
-          backgroundPosition: 'right',
-          margin: '20px 10px 20px 0px',
-        };
+    // Set the curve as an inline `background-image` so its relative URL
+    // resolves against the document (correct for root and subpath deploys).
+    // Routing it through a CSS custom property instead would resolve the URL
+    // against the extracted /assets/*.css stylesheet in the production build,
+    // pointing at a nonexistent /assets/sinic_curve.png. Whether the curve (and
+    // its side margin) actually render is still decided by a media query in
+    // `_header.scss`, not by JS state — so the SSG markup and the hydrated
+    // client match and the layout never shifts after mount.
+    const curveStyle = this.props.header?.bg_curve
+      ? { backgroundImage: `url(${this.props.header.bg_curve})` }
+      : null;
     return (
       <>
         <div
           className="uk-cover-container uk-background-secondary"
           style={baseStyle}
         >
-          <div style={backgroundStyle}>
+          <div className="header-curve" style={curveStyle}>
             <div className="uk-container uk-container-small uk-section">
               <div className="uk-text-center uk-text-bold">
                 <p className={titleClass}>{this.props.title}</p>

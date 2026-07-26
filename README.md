@@ -16,72 +16,49 @@ theme: default # default || dark
 
 ### 📋 Prerequisites | 🪟WSL 🐧Linux 🍎MacOS
 
-#### 🔧 Node.js Installation
+#### 🔧 Pixi Installation
 
-We recommend using [Volta](https://volta.sh/) for Node.js version management:
-
-```bash
-curl https://get.volta.sh/ | bash
-```
+We use [Pixi](https://pixi.sh/) to manage the toolchain (e.g. `node.js`):
 
 ```bash
-# Restart your shell (The configurations is automatically added to your *shrc || *shenv)
-# export VOLTA_HOME="$HOME/.volta"
-# export PATH="$VOLTA_HOME/bin:$PATH"
-
-volta install node@20.11.0
-volta pin node@20.11.0
+curl -fsSL https://pixi.sh/install.sh | bash
 ```
 
-Verify installation:
-
-```bash
-node --version  # Should show v20.11.0
-npm --version   # Should show 10.2.4+
-```
+Restart your shell so `pixi` is on your `PATH`.
 
 ## 🛠️ Development
 
 ### 📥 Installation
 
 ```sh
-npm install
+pixi install
 ```
 
 ### 💻 Development Mode
 
 ```bash
-npm run dev
+pixi run dev
 ```
 
 ### 🏗️ Production Mode
 
 ```bash
-npm run clean
-npm run build
-npm run preview
+pixi run preview
 ```
 
-#### 🖥️ Puppeteer Dependencies
+#### 🏗️ Static pre-rendering
 
-Required for pre-rendering React apps with react-snap:
-
-```bash
-sudo apt install -y libgtk2.0-0 libgtk-3-0 libnotify-dev libgconf-2-4 libnss3 libxss1 libasound2 libxtst6 xauth xvfb libgbm-dev fonts-ipafont
-```
-
-If the react-snap post-build process completes successfully, you should see a message similar to this:
+`pixi run preview` builds the site with [`vite-react-ssg`](https://github.com/Daydreamer-riri/vite-react-ssg)
+to pre-render the page to static HTML at build time (no headless browser /
+Puppeteer required). This bakes the OGP/Twitter meta tags into `<head>` so
+crawlers can read them without running JavaScript, and links the CSS in
+`<head>` so there is no flash of unstyled content (FOUC). A successful build
+ends with:
 
 ```sh
-✓ built in 5.01s
-> sinicx-template@2.0.0 postbuild
-> react-snap
-
-💬  console.log at /: Unrecognized Content-Security-Policy directive 'require-trusted-types-for'.
-
-💬  console.log at /: SecurityError: Blocked a frame with origin "https://speakerdeck.com" from accessing a cross-origin frame.
-💬  console.log at /: 'window.webkitStorageInfo' is deprecated. Please use 'navigator.webkitTemporaryStorage' or 'navigator.webkitPersistentStorage' instead.
-✅  crawled 1 out of 1 (/)
+[vite-react-ssg] Rendering Pages... (1)
+build/index.html
+[vite-react-ssg] Build finished.
 ```
 
 ### 📋 Template
@@ -159,11 +136,8 @@ Navigate to Settings > Environments > github-pages > 🗑️
 
 ### 🌐 OGP Support
 
-- OGP meta tags are [automatically generated](https://github.com/omron-sinicx/projectpage-template/blob/main/src/pages/index.jsx#L20-L55) from `template.yaml` and correctly rendered when deployed via **GitHub Actions (see above)**.
+- OGP meta tags are [automatically generated](https://github.com/omron-sinicx/projectpage-template/blob/main/src/pages/index.jsx) from `template.yaml` and baked into the static HTML at build time by `vite-react-ssg`, so they render correctly both for local builds (`pixi run preview`) and when deployed via **GitHub Actions (see above)**.
 - Example: [Twitter Card Preview](https://x.com/omron_sinicx/status/1847150071143715312)
-
-> [!CAUTION]
-> For local builds, react-snap must work properly to convert output into static HTML. We recommend building via GitHub Actions for consistent dependency management.
 
 ## 🐶 Husky & Typo Checking
 
