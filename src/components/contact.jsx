@@ -7,6 +7,9 @@ class ContactCard extends React.Component {
     super(props);
   }
   render() {
+    if (!this.props.author) {
+      return null;
+    }
     return (
       <div className="uk-width-1-2@s uk-flex">
         <div className="uk-width-auto uk-margin-right">
@@ -103,6 +106,9 @@ export default class Contact extends React.Component {
   }
 
   render() {
+    if (!this.props.contact_ids || !this.props.authors) {
+      return null;
+    }
     return (
       <div className="uk-section">
         <h2 className="uk-heading-line uk-text-center">Contact</h2>
