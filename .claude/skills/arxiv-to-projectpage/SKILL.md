@@ -152,7 +152,34 @@ the corresponding `P*` image or a larger `--zoom`. If a saved image is very larg
 (say >2 MB), mention it — the user may want to downsize it for page speed — but
 don't block on it.
 
-### 4. Fill in template.yaml
+### 4. Ask the two things the paper cannot tell you
+
+Before writing the YAML, ask the user — **one `AskUserQuestion` call with both
+questions**, so they answer once and you fill everything in a single pass. These
+two are asked *every run*, even when the PDF looks like it answered them:
+
+1. **The repository name**, for `image:` and `url:`. The template ships
+   `https://omron-sinicx.github.io/${your-repository-name}/teaser.png` — a
+   placeholder that is **invisible on the rendered page** and only fails when
+   someone shares the link, at which point the OGP/Twitter card has a broken
+   image and a dead canonical URL. Never guess it from the paper title, the arXiv
+   id, or the method name, and never ship it unresolved. Ask, then substitute the
+   name into **both** fields. Offer the likeliest candidates as options (the
+   method name lower-cased, the repo of `resources.code` if the paper gives one)
+   and let them correct you.
+2. **Who carries which author note** — which authors are interns, which
+   contributed equally, and who are joint last authors. `author_notes` from a PDF
+   only catches footnotes typeset in the front matter, arXiv metadata has none at
+   all, and a mark the paper omitted is exactly the kind of credit error a project
+   page shouldn't introduce. When the PDF *did* give marks, ask them to confirm
+   what you extracted (offer it as the first option, e.g. "Jeremy = intern, Hamaya
+   + Nishimura = joint last authors — as printed in the PDF"); when it gave
+   nothing, ask outright. "No notes" is a legitimate answer — take it and move on.
+
+Only these two block the fill. Everything else you can't determine goes to the
+handover checklist in step 7 instead of a question.
+
+### 5. Fill in template.yaml
 
 Edit `template.yaml` **in place**. Fill what the paper gives you; leave
 repo-specific fields alone.
@@ -165,8 +192,8 @@ repo-specific fields alone.
   result. **It must fit on two rendered lines — keep it under ~140 characters**,
   because it renders as a centred paragraph beside a `TL;DR` label in a narrow
   container. Cut the baseline's full name, cut hedges, keep the number.
-- `image` / `url` — leave the `${your-repository-name}` placeholders unless the
-  user gives the repo name; the teaser _filename_ still goes in `teaser`.
+- `image` / `url` — **ask** for the repository name and substitute it (see below);
+  the teaser _filename_ still goes in `teaser`.
 - `teaser` — the saved teaser filename (`teaser.png` / `teaser.jpg` / `teaser.svg`).
 - `authors` — one entry per author, in order (see note below).
 - `bibtex` — start from the `bibtex` in the JSON, then **fix the venue** (see
@@ -182,11 +209,11 @@ and the footnotes name the institutions, so fill `authors[].affiliation`, the
 `affiliations:` list, `authors[].mark`, and `meta:`. `position` stays human-only;
 never guess a job title.
 
-**Author marks and `meta` notes.** `authors[].marks` in the JSON carries the
-`*`/`†` superscripts the paper put on each name; copy them into
-`authors[].mark` (a string, or a list if an author carries two) so the page
-renders `Mai Nishimura`&nbsp;`1†` the way the paper does. The matching footnotes
-come back in `author_notes` — put them in `meta:`, **one note per list entry**:
+**Author marks and `meta` notes.** Write what the user told you in step 4, using
+`authors[].marks` from the JSON and `author_notes` as the starting point (their
+answer wins over both). A mark goes in `authors[].mark` — a string, or a list if
+an author carries two — and renders as `Mai Nishimura`&nbsp;`1†`. The matching
+footnote goes in `meta:`, **one note per list entry**:
 
 ```yaml
 authors:
@@ -356,11 +383,13 @@ Figures are referenced as `<img src="method.png" />` (files resolve from
 `uk-table` HTML the script produced — paste it verbatim. Keep the `|`
 block-scalar indentation consistent or the YAML won't parse.
 
-### 5. Verify — and let the user see it
+### 6. Verify — and let the user see it
 
 ```bash
 pixi run uv run --with pyyaml python -c "import yaml,sys; yaml.safe_load(open('template.yaml')); print('yaml ok')"
 ls -la public/ | grep -E 'teaser|method'
+grep -o '\$[^$]\{1,40\}\$' build/index.html   # after a build: empty = all math parsed
+grep -rn 'your-repository-name' template.yaml # must print nothing
 ```
 
 Then start the site so the user can look at the page instead of reading YAML.
@@ -376,10 +405,37 @@ instead when you expect to keep editing and want hot reload. Either way, report
 the localhost URL (and don't leave a server running once the user is done with
 it).
 
-Then summarize: what you filled, which images you chose and why, and the fields
-that need a human pass (`resources.paper` if there's no arXiv link yet, code and
-video links, `conference` and the bibtex venue if the paper isn't accepted yet,
-author positions, and any homepage you couldn't confidently identify).
+### 7. Hand over a human checklist
+
+Finish every run with two things: a short note of what you filled and which
+figures you chose (and why), then **a checklist of what a human still has to
+decide or verify**. Print it as real markdown checkboxes so it can be pasted into
+a PR description, and fill in the specifics — say which authors have no homepage,
+which resource fields are empty, not "check the authors":
+
+```markdown
+- [ ] **Author order and affiliation numbers** match the paper
+- [ ] **Author notes** (`meta:`) and the `*`/`†` on each name are right: <what you wrote>
+- [ ] **`position:`** for <authors with none> (never guessed)
+- [ ] **Homepages** — filled for <n> authors, missing for <names>
+- [ ] **OGP** — `image:` / `url:` use `<repo-name>`; share the URL once deployed and
+      confirm the card shows the teaser
+- [ ] **`resources`** — empty: <poster, video, blog, demo, huggingface…>; `code` is
+      <url or "unreleased">
+- [ ] **`conference` and the bibtex venue** — <venue, or "undecided">
+- [ ] **`contact_ids`** — corresponding author is index <n>; change if that's wrong
+- [ ] **Table numbers** read back against the paper (a wrong number here is worse
+      than no table)
+- [ ] **Teaser and method figures** are the ones you'd have picked
+- [ ] **Relevant Projects** — the demo cards at the bottom are still the template's
+      placeholders; replace or delete them
+- [ ] **Draft caveat** — the numbers came from an unpublished draft and may change
+      (drop this line for a camera-ready or an arXiv version)
+```
+
+Drop the lines that don't apply — a checklist of things that are already fine
+teaches the reader to skim it. Anything you *did* resolve stays out of the list
+and goes in the note above it.
 
 ## Table conversion notes
 

@@ -20,12 +20,17 @@ export default class Authors extends React.Component {
           data-uk-grid
         >
           {this.props.authors.map((author, idx) => {
+            // equal contribution / internship / joint last author markers
+            const marks = [].concat(author.mark ?? author.marks ?? []);
             return (
               <span className={authorClass} key={'author-' + idx}>
                 <a target="_blank" className="uk-link-toggle" href={author.url}>
                   {author.name}
                 </a>
-                <sup>{author.affiliation.join(',')}</sup>
+                <sup>
+                  {author.affiliation.join(',')}
+                  {marks.join('')}
+                </sup>
               </span>
             );
           })}
@@ -42,7 +47,12 @@ export default class Authors extends React.Component {
               </span>
             );
           })}
-          <span className="uk-width-1-1">{this.props.meta}</span>
+          {/* one note per line: equal contribution, internship, joint last authors, ... */}
+          {[].concat(this.props.meta ?? []).map((note, idx) => (
+            <span className="uk-width-1-1" key={'meta-' + idx}>
+              {note}
+            </span>
+          ))}
         </div>
       </div>
     );
