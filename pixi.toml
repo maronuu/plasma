@@ -14,7 +14,13 @@ lint = { cmd = "npm run lint", depends-on = "install" }
 format = { cmd = "npm run format", depends-on = "install" }
 # `typos` is provided directly by the pixi env below; no npm/node_modules needed.
 typos = "typos"
+"typos:fix" = "typos --write-changes"
+# git hooks (prek = fast pre-commit reimplementation)
+hooks = "prek install"
+"hooks:all" = { cmd = "prek run --all-files", depends-on = "install" }
 
 [dependencies]
 nodejs = "==26.4.0"
 typos = "*"
+prek = ">=0.4.12,<0.5"
+uv = ">=0.11.29,<0.12"
