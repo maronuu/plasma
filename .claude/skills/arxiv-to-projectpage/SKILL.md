@@ -162,24 +162,86 @@ repo-specific fields alone.
   URL: leave it empty with a `TODO(human)` rather than inventing one.
 - `description` — a **1–2 sentence TL;DR you write** (not the raw abstract). This
   is the OGP/Twitter text and the page's one-line hook: problem, what's new,
-  result. ~30 words, concrete and plain.
+  result. **It must fit on two rendered lines — keep it under ~140 characters**,
+  because it renders as a centred paragraph beside a `TL;DR` label in a narrow
+  container. Cut the baseline's full name, cut hedges, keep the number.
 - `image` / `url` — leave the `${your-repository-name}` placeholders unless the
   user gives the repo name; the teaser _filename_ still goes in `teaser`.
 - `teaser` — the saved teaser filename (`teaser.png` / `teaser.jpg` / `teaser.svg`).
 - `authors` — one entry per author, in order (see note below).
-- `bibtex` — the `bibtex` from the JSON (block scalar with `>`).
+- `bibtex` — start from the `bibtex` in the JSON, then **fix the venue** (see
+  below) before it lands in the YAML (block scalar with `>`).
 - `overview` — the abstract, lightly cleaned (drop a leading "Abstract"). A TL;DR
   sentence up front is fine; stay faithful — don't invent claims.
 - `body` — see structure below.
 
 **Authors.** The arXiv API gives names only: write each as `- name: <full name>`
-with `affiliation: [1]` as a safe default and no `url`/`position`, then flag
-affiliations, positions, and homepages for a human pass. A PDF gives more — the
-superscripts resolve to real `affiliation` indices and the footnotes name the
-institutions, so fill `authors[].affiliation`, the `affiliations:` list, and put
-`author_notes` into `meta:` (that's exactly what `meta` is for: "* work done as
-an intern at OMRON SINIC X."). Positions and homepage URLs are still
-human-only — never guess those.
+with `affiliation: [1]` as a safe default, then flag affiliations for a human
+pass. A PDF gives more — the superscripts resolve to real `affiliation` indices
+and the footnotes name the institutions, so fill `authors[].affiliation`, the
+`affiliations:` list, `authors[].mark`, and `meta:`. `position` stays human-only;
+never guess a job title.
+
+**Author marks and `meta` notes.** `authors[].marks` in the JSON carries the
+`*`/`†` superscripts the paper put on each name; copy them into
+`authors[].mark` (a string, or a list if an author carries two) so the page
+renders `Mai Nishimura`&nbsp;`1†` the way the paper does. The matching footnotes
+come back in `author_notes` — put them in `meta:`, **one note per list entry**:
+
+```yaml
+authors:
+  - name: Jeremy Siburian
+    affiliation: [1, 2]
+    mark: '*'
+  - name: Mai Nishimura
+    affiliation: [1]
+    mark: '†'
+meta:
+  - '* Equal contribution.'
+  - '* Work done during an internship at OMRON SINIC X.'
+  - '† Joint last authors.'
+```
+
+Each entry renders on its own line, so never join two notes into one string.
+Keep the paper's own wording and glyphs, and keep the glyph in the note
+identical to the `mark` on the author it refers to. Include only the notes the
+paper actually makes — the three above are the common ones (equal contribution,
+internship, joint last authors), not a checklist to fill. If the PDF's marks
+came through as Unicode variants (`∗` U+2217 vs `*`), normalize both the note
+and the `mark` to the plain ASCII `*`.
+
+**Homepages.** Search the web for each author's homepage and fill
+`authors[].url` — a personal site (`*.github.io`, a lab-hosted page), the
+institution's researcher page, or Google Scholar, in that order of preference.
+Confirm it's the right person before writing it: the page must match on name
+*and* affiliation or research area, since common names collide. Skip the URL for
+anyone you can't place confidently rather than linking a plausible stranger.
+
+**Venue and bibtex.** The script's bibtex is a stub with a placeholder venue.
+When the venue *is* known — `conference:` is already filled in `template.yaml`,
+or the paper's header says "accepted to …" — **look up the venue's official name
+for that year** and write a real entry instead of leaving a `TODO(human)`:
+
+```yaml
+conference: IROS2026
+bibtex: >
+  @inproceedings{siburian2026phase,
+    title={PHASE: Compliance-Enabled Tactile Phase Retrieval for Few-Shot Insertion Learning},
+    author={Siburian, Jeremy and Beltran-Hernandez, Cristian C. and Matsushima, Tatsuya and Iwasawa, Yusuke and Hamaya, Masashi and Nishimura, Mai},
+    booktitle={2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+    address={Pittsburgh, PA, USA},
+    organization={IEEE},
+    year={2026}
+  }
+```
+
+Rules for that entry: `author` in BibTeX `Last, First` form joined with `and`;
+`booktitle` the year-prefixed proceedings title as the publisher writes it (the
+search that settles it is "<venue> <year> official name", or the conference
+site); `address` the host city if the search gives it; `organization` the sponsor
+(IEEE, ACM, IEEE/RSJ…). Only a genuinely undecided venue (a draft under
+submission) stays `TODO(human): venue` — and say so in your summary. Never invent
+an acceptance the paper doesn't claim.
 
 **Preserve vs. purge — an important distinction.** The template ships pre-filled
 with a _different_ paper's data (the MULTIPOLAR example). Two kinds of fields:
@@ -195,6 +257,48 @@ with a _different_ paper's data (the MULTIPOLAR example). Two kinds of fields:
   the old paper's value — a stale `code: github.com/…/multipolar` on a different
   paper's page is a real bug.
 
+#### Prose rules for every field on the page
+
+**Never use an em dash.** Not in `description`, not in `overview`, not in `body`
+prose, not in a figure caption you shorten — nowhere the page renders. Rewrite as
+two clauses joined by "so"/"and", a colon, a comma, or two sentences:
+
+| don't                                         | do                                             |
+| --------------------------------------------- | ---------------------------------------------- |
+| `dynamics — no phase labels required`          | `dynamics without any phase labels`            |
+| `below $\eta$ — the onset of stable engagement` | `below $\eta$, the onset of stable engagement` |
+| `five geometries — circle and square are seen` | `five geometries: circle and square are seen`   |
+
+Hyphens in compounds (`peg-in-hole`, `phase-consistent`) are fine, and an en dash
+inside a numeric range (`0–1`) is fine. Only the em dash is banned. This applies
+to text you write *and* to text you copy: an abstract or caption that contains one
+gets rewritten, not pasted through.
+
+**Put spaces around inline math.** `body` and `overview` go through
+`marked-katex-extension`, whose inline rule only fires when the opening `$`
+follows whitespace and the closing `$` is followed by whitespace or `,` `.` `:`.
+Glued delimiters silently ship as literal `$…$` on the page:
+
+| markdown                | renders as             |
+| ----------------------- | ---------------------- |
+| `MAT$^3$ encoder`       | literal `MAT$^3$` ✗    |
+| `(MAT $^3$)`            | literal `$^3$` ✗ (`)` immediately after the closing `$`) |
+| `MAT $^3$ encoder`      | KaTeX ✓                |
+| `below $\eta$, the …`   | KaTeX ✓                |
+
+So write `an encoder named MAT $^3$ is trained`, not `an encoder (MAT$^3$)`. When
+a space would read wrong and you can't reword, use the HTML form
+`MAT<sup>3</sup>`, which the markdown passes through untouched. After a build,
+`grep -o '\$[^$]\{1,40\}\$' build/index.html` should come back empty; anything it
+prints is math that failed to parse.
+
+**Centre every image.** Give each `<img>` the classes the template's own image
+renderer uses, or a figure narrower than the container sits flush left:
+
+```html
+<img src="method.png" class="uk-align-center uk-responsive-width" alt="" />
+```
+
 #### Body structure
 
 Replace the demo `body` sections with real content. A paper page typically wants
@@ -208,7 +312,7 @@ body:
     text: |
       <one or two paragraphs summarizing the approach, in your words>
 
-      <img src="method.png" alt="" />
+      <img src="method.png" class="uk-align-center uk-responsive-width" alt="" />
       <span class="uk-text-meta">Figure N: <the figure's caption></span>
   - title: Results
     text: |
@@ -217,6 +321,35 @@ body:
       #### <Table caption, shortened>
       <paste tables[i].html from the JSON here, indented to the block scalar>
 ```
+
+**Show the headline tables, not every table.** A project page is not the paper:
+include the main comparison against baselines and the one table that carries the
+paper's second claim (a generalization or robustness result). Leave out offline
+diagnostics, dataset statistics, and hyperparameter tables, however cleanly the
+script converted them — they cost the reader more than they tell. Two or three
+tables is a full Results section; if a table needs a paragraph of setup to make
+sense, it belongs in the paper.
+
+**Always write tables as HTML, never as a markdown table.** `body[].text` goes
+through `marked`, so a markdown table would render — but it can't carry
+`colspan`, group headers, or the row highlight, and it comes out visually
+unrelated to the rest of the page. Paste the script's `uk-table` markup verbatim,
+and hand-write the same structure for a table the script couldn't read.
+
+**Mark your own row with `class="uk-active"`.** The theme sets
+`$table-row-active-background` for exactly this, so the row the reader should
+land on gets a tinted background:
+
+```html
+<tr class="uk-active"><td><b>PHASE (Ours)</b></td><td>18/20</td>…</tr>
+```
+
+One row per table — your method. Keep the `<b>` bold on the winning numbers
+(that's the paper's own emphasis); the highlight is a separate, additional cue
+saying "this is us". UIkit only styles `tr.uk-active` inside `<tbody>`, so it does
+nothing on a `<thead>` row or an individual `<td>`: when your method is a *column*
+rather than a row (an ablation laid out sideways), leave it bold and skip the
+highlight.
 
 Figures are referenced as `<img src="method.png" />` (files resolve from
 `public/`), captions use `<span class="uk-text-meta">`, and tables use the
@@ -245,7 +378,8 @@ it).
 
 Then summarize: what you filled, which images you chose and why, and the fields
 that need a human pass (`resources.paper` if there's no arXiv link yet, code and
-video links, `conference`, the bibtex venue, author positions and URLs).
+video links, `conference` and the bibtex venue if the paper isn't accepted yet,
+author positions, and any homepage you couldn't confidently identify).
 
 ## Table conversion notes
 
