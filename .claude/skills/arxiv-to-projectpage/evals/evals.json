@@ -58,6 +58,28 @@
         "repo-specific fields (theme, organization, twitter) are preserved unchanged from the original template",
         "a teaser image exists in outputs even though Figure 1 has no inlined image (a fallback figure with an image was used)"
       ]
+    },
+    {
+      "id": 3,
+      "name": "pdf-local-draft",
+      "prompt": "our IROS submission isn't on arxiv yet, the draft is at draft.pdf in the repo root. can you fill in template.yaml from it — teaser + method figures into public/, a TL;DR, and the results tables as proper html tables?",
+      "expected_output": "template.yaml filled from the local PDF: title/authors/affiliations/abstract read from the draft's front matter, teaser and method figures cropped from the pages by caption into public/, the paper's tables converted to uk-table HTML in a Results body section, and every field the PDF can't supply (paper URL, conference, bibtex venue) left empty with a TODO(human) marker instead of the previous example paper's values.",
+      "files": [
+        "draft.pdf"
+      ],
+      "assertions": [
+        "template.yaml parses as valid YAML",
+        "title field contains the paper's real title as printed on page 1",
+        "description is a short TL;DR: non-empty, <= ~60 words, and shorter than the abstract (not a copy of it)",
+        "overview field is non-empty and reflects the paper's abstract, with no words welded together by a dropped hyphen (e.g. 'phasespecific')",
+        "authors list is populated with all six authors in paper order, first author correct",
+        "authors carry the affiliation indices from their superscripts, and the affiliations list names the institutions from the page-1 footnotes",
+        "the teaser field names an image file that actually exists in the saved outputs, and the teaser is a cropped figure (not a whole rendered page)",
+        "at least one body section contains a uk-table HTML table converted from a PDF table, with the right number of columns and correct numbers",
+        "repo-specific fields (theme, organization, twitter, projects) are preserved unchanged from the original template",
+        "no field still holds the previous example paper's data (no 'multipolar' / MULTIPOLAR links or bibtex left anywhere)",
+        "fields the PDF cannot supply (resources.paper, conference, bibtex venue) are empty or marked TODO(human) rather than guessed or left stale"
+      ]
     }
   ]
 }
