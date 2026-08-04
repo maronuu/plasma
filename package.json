@@ -11,8 +11,7 @@
     "format:fix": "prettier -w src/ --check",
     "lint": "eslint src/",
     "typos": "typos",
-    "typos:fix": "typos --write-changes",
-    "prepare": "husky"
+    "typos:fix": "typos --write-changes"
   },
   "author": "Mai Nishimura <mai.nishimura@sinicx.com>",
   "license": "MIT License",
@@ -20,24 +19,11 @@
     "node": ">=26.5.0 <27",
     "npm": ">=11.17.0"
   },
-  "lint-staged": {
-    "src/**/*.{js,jsx}": [
-      "prettier --write"
-    ],
-    "**/*.{json,md,yml,yaml,scss,sass}": [
-      "prettier --write"
-    ],
-    "**/*.{js,jsx,yml,yaml,md}": [
-      "typos"
-    ]
-  },
   "devDependencies": {
     "@rollup/plugin-yaml": "^4.1.2",
     "@vitejs/plugin-react": "^4.3.4",
     "eslint": "^8.56.0",
     "eslint-plugin-react": "^7.33.2",
-    "husky": "^9.1.7",
-    "lint-staged": "^15.4.3",
     "prettier": "^3.2.1",
     "sass": "^1.69.7",
     "vite": "^6.0.11",
@@ -52,8 +38,8 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.0.1",
-    "react-router-dom": "^6.28.0",
     "react-player": "^2.14.1",
+    "react-router-dom": "^6.28.0",
     "sharp": "^0.33.2",
     "swiper": "^11.0.5",
     "uikit": "^3.22.3"

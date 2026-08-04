@@ -139,31 +139,39 @@ Navigate to Settings > Environments > github-pages > 🗑️
 - OGP meta tags are [automatically generated](https://github.com/omron-sinicx/projectpage-template/blob/main/src/pages/index.jsx) from `template.yaml` and baked into the static HTML at build time by `vite-react-ssg`, so they render correctly both for local builds (`pixi run preview`) and when deployed via **GitHub Actions (see above)**.
 - Example: [Twitter Card Preview](https://x.com/omron_sinicx/status/1847150071143715312)
 
-## 🐶 Husky & Typo Checking
+## 🪝 Git Hooks & Typo Checking
 
-### Automatic Typo Checking
+### Automatic Formatting & Typo Checking
 
-This project uses Husky to automatically check for typos during commits. The check is performed using the `typos` tool and only runs on staged files (files that have been `git add`ed).
-
-### Manual Typo Checking
-
-To manually check for typos without committing:
+Git hooks are managed by [prek](https://github.com/j178/prek) (a fast `pre-commit` reimplementation, installed by pixi) and configured in `.pre-commit-config.yaml`. They run `prettier` and `typos` on staged files only. Install the hook once per clone:
 
 ```bash
-npx typos
+pixi run hooks
 ```
 
-This command checks all files in the project, regardless of whether they are staged for commit or not.
+### Manual Checking
+
+```bash
+pixi run hooks:all  # run every hook against all files
+pixi run typos      # typo check only
+pixi run typos:fix  # typo check and apply fixes
+```
 
 ### Disabling Git Hooks
 
-To temporarily disable all git hooks (including lint, format, and typo validation) during commit:
+To skip all hooks for a single commit:
 
 ```bash
-export HUSKY=0
+git commit --no-verify
 ```
 
-You can re-enable hooks by unsetting the variable or starting a new terminal session.
+To skip only some of them, list the hook ids from `.pre-commit-config.yaml`:
+
+```bash
+SKIP=typos,prettier git commit -m "wip"
+```
+
+Note that `.claude/` is excluded from every hook (see `exclude:` in `.pre-commit-config.yaml`).
 
 ## 🤝 Contributing
 
