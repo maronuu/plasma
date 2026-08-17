@@ -1,7 +1,13 @@
 import React from 'react';
 import Authors from '../components/authors.jsx';
 import CorporateLogo from '../components/logo.jsx';
-import { FaGithub, FaYoutube, FaMedium, FaRegFilePdf } from 'react-icons/fa6';
+import {
+  FaGithub,
+  FaYoutube,
+  FaMedium,
+  FaRegFilePdf,
+  FaRankingStar,
+} from 'react-icons/fa6';
 import { FaFilePdf } from 'react-icons/fa';
 import { SiArxiv } from 'react-icons/si';
 import { Icon } from '@iconify/react';
@@ -26,6 +32,7 @@ class ResourceBtn extends React.Component {
       arxiv: SiArxiv,
       poster: FaRegFilePdf,
       code: FaGithub,
+      benchmark: FaRankingStar,
       video: FaYoutube,
       blog: FaMedium,
       demo: GoogleColab,
@@ -52,9 +59,17 @@ class ResourceBtn extends React.Component {
       this.props.title == 'huggingface' && this.state.isMobile
         ? ' hf '
         : this.props.title;
+    // A `#section` resource points at this page, so it scrolls (smoothly, via
+    // UIkit) instead of opening a tab.
+    const isAnchor = this.props.url.startsWith('#');
     return (
       <>
-        <a className={aClass} href={this.props.url} target="_blank">
+        <a
+          className={aClass}
+          href={this.props.url}
+          target={isAnchor ? undefined : '_blank'}
+          data-uk-scroll={isAnchor ? 'offset: 20' : undefined}
+        >
           <FaIcon size="2em" />
           <span className={sClass} style={{ fontFamily: 'Poppins' }}>
             {iTitle}

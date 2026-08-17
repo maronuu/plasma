@@ -7,6 +7,7 @@ resources:
   paper: https://arxiv.org/abs/2508.15436
   poster:
   code: https://github.com/omron-sinicx/plasma
+  benchmark: '#leaderboard' # in-page anchor to the body section titled "📊 Leaderboard"
   video:
   blog:
   demo:

@@ -130,9 +130,6 @@ class Chart extends React.Component {
     });
 
     return {
-      // Six charts all initialise at page load, far below the fold, so the
-      // entrance animation is motion nobody sees and CPU nobody gets back.
-      animation: false,
       tooltip: {
         trigger: 'item',
         formatter: (params) => {
