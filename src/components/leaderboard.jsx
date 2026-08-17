@@ -50,17 +50,10 @@ const INDEX_LABELS = { cagra: 'CAGRA', diskann: 'Vamana', nsg: 'NSG' };
 const INDEX_COLORS = Object.fromEntries(
   INDEX_ORDER.map((key, i) => [key, PALETTE[i]])
 );
-// NSG's swatch is the palest of the three and holds black far better than
-// white, so it is the one that keeps dark text.
-const INDEX_TEXT_COLORS = { cagra: '#fff', diskann: '#fff', nsg: '#000' };
-
 const IndexLabel = ({ index }) => (
   <span
     className="uk-label"
-    style={{
-      backgroundColor: INDEX_COLORS[index],
-      color: INDEX_TEXT_COLORS[index] ?? '#fff',
-    }}
+    style={{ backgroundColor: INDEX_COLORS[index], color: '#fff' }}
   >
     {INDEX_LABELS[index] ?? index}
   </span>
@@ -349,22 +342,6 @@ class GpuPanel extends React.Component {
             <Chart
               gpu={gpu}
               showSpeedup={true}
-              selectedIndex="nsg"
-              dataset="sift-128-euclidean"
-            />
-          </div>
-          <div>
-            <Chart
-              gpu={gpu}
-              showSpeedup={true}
-              selectedIndex="nsg"
-              dataset="deep10m"
-            />
-          </div>
-          <div>
-            <Chart
-              gpu={gpu}
-              showSpeedup={true}
               selectedIndex="diskann"
               dataset="gist-960-euclidean"
             />
@@ -374,6 +351,22 @@ class GpuPanel extends React.Component {
               gpu={gpu}
               showSpeedup={true}
               selectedIndex="diskann"
+              dataset="deep10m"
+            />
+          </div>
+          <div>
+            <Chart
+              gpu={gpu}
+              showSpeedup={true}
+              selectedIndex="nsg"
+              dataset="sift-128-euclidean"
+            />
+          </div>
+          <div>
+            <Chart
+              gpu={gpu}
+              showSpeedup={true}
+              selectedIndex="nsg"
               dataset="deep10m"
             />
           </div>
