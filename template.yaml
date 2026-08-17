@@ -1,264 +1,145 @@
 theme: default # default || dark
 organization: OMRON SINIC X
 twitter: '@omron_sinicx'
-title: 'Multi-Agent Behavior Retrieval: Retrieval-Augmented Policy Training for Cooperative Manipulation by Mobile Robots'
-conference: IROS2024
+title: '🎇 Plasma: A Layout-Aware Benchmark Reveals Memory Layout Matters for Graph-based ANNS on GPU'
+conference: VecDB@VLDB2026
 resources:
-  paper: https://arxiv.org/abs/1909.13111
+  paper: https://arxiv.org/abs/2508.15436
   poster:
-  code: https://github.com/omron-sinicx/multipolar
-  video: https://www.youtube.com/embed/W8nBFKDxsb0
-  blog: https://medium.com/sinicx/multipolar-multi-source-policy-aggregation-for-transfer-reinforcement-learning-between-diverse-bc42a152b0f5
-  demo: https://colab.research.google.com/
-  huggingface: https://huggingface.co/
-description: explore a new challenge in transfer RL, where only a set of source policies collected under unknown diverse dynamics is available for learning a target task efficiently.
-image: https://omron-sinicx.github.io/${your-repository-name}/teaser.png
-url: https://omron-sinicx.github.io/${your-repository-name}
-speakerdeck: b7a0614c24014dcbbb121fbb9ed234cd
+  code: https://github.com/omron-sinicx/plasma
+  video:
+  blog:
+  demo:
+  huggingface:
+description: Decoupling graph topology from memory layout on GPU. Vertex reordering alone yields up to 80% QPS gain at equal recall.
+image: https://omron-sinicx.github.io/plasma/teaser.png
+url: https://omron-sinicx.github.io/plasma
+speakerdeck:
 authors:
-  - name: So Kuroki
+  - name: Yutaro Oguri
     affiliation: [1, 2]
-    url: http://barekatain.me/
-    position: intern
+    url: https://maronuu.github.io/
+    mark: '*'
   - name: Mai Nishimura
-    affiliation: [1]
+    affiliation: [2]
     position: Senior Researcher
     url: https://denkiwakame.github.io
-  - name: Tadashi Kozuno
+  - name: Yusuke Matsui
     affiliation: [1]
-    position: Senior Researcher
-    url: https://sites.google.com/view/masashihamaya/home
-    #  - name: Mai Nishimura
-    #    affiliation: [1]
-    #    url: https://denkiwakame.github.io
-    #  - name: Asako Kanezaki
-    #    affiliation: [2]
-    #    url: https://kanezaki.github.io/
+    url: https://yusukematsui.me/
 contact_ids: ['github', 'omron', 2] #=> github issues, contact@sinicx.com, 2nd author
 affiliations:
-  - OMRON SINIC X Corporation
-  - Technical University of Munich
+  - name: The University of Tokyo
+    icon: university
+  - name: OMRON SINIC X Corporation
+    icon: company
 meta:
-  - '* work done as an intern at OMRON SINIC X.'
+  - '* Work done during an internship at OMRON SINIC X.'
 bibtex: >
-  # arXiv version
-
-  @article{barekatain2019multipolar,
-    title={MULTIPOLAR: Multi-Source Policy Aggregation for Transfer Reinforcement Learning between Diverse Environmental Dynamics},
-    author={Barekatain, Mohammadamin and Yonetani, Ryo and Hamaya, Masashi},
-    journal={arXiv preprint arXiv:1909.13111},
-    year={2019}
-  }
-
-  # IJCAI version
-
-  @inproceedings{barekatain2020multipolar,
-    title={MULTIPOLAR: Multi-Source Policy Aggregation for Transfer Reinforcement Learning between Diverse Environmental Dynamics},
-    author={Barekatain, Mohammadamin and Yonetani, Ryo and Hamaya, Masashi},
-    booktitle={International Joint Conference on Artificial Intelligence (IJCAI)},
-    year={2020}
+  @inproceedings{oguri2026plasma,
+    title={Plasma: A Layout-Aware Benchmark Reveals Memory Layout Matters for Graph-based ANNS on GPU},
+    author={Oguri, Yutaro and Nishimura, Mai and Matsui, Yusuke},
+    booktitle={The 2nd Workshop on Vector Databases (VecDB) at VLDB 2026},
+    address={Boston, MA, USA},
+    year={2026}
   }
 header:
-  bg_curve:
-    sinic_curve.png
-    #  bg_image: https://github.com/omron-sinicx/swarm-body/raw/main/images/teaser.jpg
+  bg_curve: sinic_curve.png
 
 teaser: teaser.png
 overview: |
-  This is a versatile template designed to satisfy your research project page needs, all while harnessing the power of **UIKit** and **React**. Built on the foundations of simplicity and flexibility, this template allows you to focus on expressing your ideas without the hassle of directly handling CSS—thanks to customizable SASS variables.
-  With markdown as your canvas and $\KaTeX$ for precise equations, crafting clear and engaging project page becomes effortless. Whether you're unraveling complex theories or presenting your findings, this template aims to support your scholarly endeavors with grace and ease.
-  *Need to edit HTML directly?* Fear not! In addition to markdown, you can also directly write HTML with ease. Feel empowered to craft your content exactly as you envision it, whether through markdown's simplicity or the precision of HTML.
+  We propose **Plasma**, a Platform for Layout-Aware Search and Memory Arrangement: a unified evaluation framework for graph-based Approximate Nearest Neighbor Search (ANNS) on GPU that isolates the effects of graph index topology and memory layout.
+  Graph-based ANNS is essential in modern AI applications such as RAG, and GPU utilization is attracting attention for datasets of millions or more vectors.
+  Our framework extracts the topology of arbitrary graph-based indices and enables execution under a unified, GPU-optimized search algorithm, specifying the correspondence between vertex IDs and positions on memory to allow arbitrary vertex orderings.
+  Through comprehensive experiments, we demonstrate that vertex reordering yields up to 80% (typically 10–30%) QPS improvement while preserving search accuracy.
 
 body:
-  - title: Media examples
+  - title: Why Memory Layout Matters on GPU
     text: |
-      You can access media files in `public` directly like: `<img src="method.png" />` 
+      GPUs have a hierarchical memory system: global memory (DRAM) provides large capacity but high latency, while L1/L2 caches and shared memory offer low latency with limited capacity.
+      GPUs execute instructions in groups of 32 threads called warps. When threads in a warp access consecutive global-memory addresses, the hardware combines them into fewer transactions, a pattern known as **coalesced access**. Because graph traversal involves irregular access patterns, coalescing efficiency and cache utilization in global memory can dominate overall search throughput.
 
-      <img src="method.png" alt="" />
-      <span class="uk-text-meta">Example figcaption text</span>
-
-      See also [UIKit Video Components Documentation](https://getuikit.com/docs/video) and [Grid system](https://getuikit.com/docs/grid)
-      <div uk-slider>
-        <div class="uk-slider-items uk-child-width-1-1 uk-child-width-1-2@m" uk-grid>
-          <div>
-            <video
-              src="demo.mp4"
-              loop
-              muted
-              uk-video="autoplay:inview"
-              />
-          </div>
-          <div>
-            <video
-              src="demo.mp4"
-              loop
-              muted
-              uk-video="autoplay:inview"
-              />
-          </div>
-          <div>
-            <video
-              src="demo.mp4"
-              loop
-              muted
-              uk-video="autoplay:inview"
-              />
-          </div>
+      <div class="uk-child-width-1-2@m uk-grid-small uk-flex-middle" uk-grid>
+        <div>
+          <img src="method.png" class="uk-align-center uk-responsive-width" alt="GPU memory hierarchy" />
+          <span class="uk-text-meta">Figure 2: GPU Memory Hierarchy. Global memory provides high capacity but low bandwidth. L1 cache and shared memory offer high bandwidth with limited capacity.</span>
         </div>
-        <div class="uk-flex uk-flex-center uk-margin-small">
-          <a class="uk-icon-button" href uk-slidenav-previous uk-slider-item="previous"></a>
-          <a class="uk-icon-button uk-margin-small-left" href uk-slidenav-next uk-slider-item="next"></a>
+        <div>
+          <img src="method2.png" class="uk-align-center uk-responsive-width" alt="Coalesced memory access" />
+          <span class="uk-text-meta">Figure 3: Coalesced Memory Access. (a) The ideal pattern, where threads access consecutive memory addresses. (b) The anti pattern, with scattered memory requests.</span>
         </div>
       </div>
-  - title: Markdown examples
+  - title: 🎇 Plasma
     text: |
-      Here's our demo text showcasing the power of markdown and KaTeX integration!
-      Markdown allows you to easily format text using simple syntax.
-      - **bold**
-      - *italic*
-      - `inline code`.
+      Plasma decouples graph topology from memory layout with three components. The **graph adapter** accepts indices in various formats (Faiss, DiskANN), extracts their topology, and converts it into a common GPU index format, so any single-layer graph index, including one designed for CPU execution, runs on GPU under a shared search algorithm. The **reordering module** applies a permutation $\pi$ to vertex IDs. The **unified traversal engine** runs a single highly optimized beam-search kernel for every condition, with a runtime parameter $L$ controlling candidate set size. Because the kernel never changes, an observed performance difference reflects only graph topology or memory layout, never the search implementation.
 
-      You can also create headings of various levels:
-      # Heading Level 1
-      ## Heading Level 2
-      ### Heading Level 3
-      #### Heading Level 4
-      Markdown allows you to create tables like the following:
-      #### Motion Planning (MP) Dataset
-      markdown version
-      |Method|Opt|Exp|Hmean|
-      |--|--|--|--|
-      |BF| 65.8 (63.8, 68.0)| 44.1 (42.8, 45.5) | 44.8 (43.4, 46.3)|
-      |WA*| 68.4 (66.5, 70.4)| 35.8 (34.5, 37.1) | 40.4 (39.0, 41.8)|
-      |**Neural A*** | **87.7 (86.6, 88.9)**| 40.1 (38.9, 41.3) | 52.0 (50.7, 53.3)|
+      Vertex IDs directly index the underlying arrays, so reordering is what physically moves data. The dataset region stores $N$ vectors in row-major order, each occupying $d + p$ elements where the padding $p$ enforces 16-byte alignment. The graph region stores $N$ neighbor lists, each holding up to $K$ neighbor IDs with a stride of $K$ elements per node.
 
-      Of course, you can also directly write tables in HTML if needed. For more details, refer to the [UIKit Table documentation](https://getuikit.com/docs/table).
-      <h4>Motion Planning (MP) Dataset</h4>
-      <p>HTML version</p>
+      <div class="uk-child-width-1-2@m uk-grid-small uk-flex-middle" uk-grid>
+        <div>
+          <img src="method3.png" class="uk-align-center uk-responsive-width" alt="Dataset memory region" />
+          <span class="uk-text-meta">Figure 4 (a): The dataset memory region consists of vectors, each containing <i>d</i> data elements plus padding <i>p</i> to satisfy 16-byte alignment.</span>
+        </div>
+        <div>
+          <img src="method4.png" class="uk-align-center uk-responsive-width" alt="Graph memory region" />
+          <span class="uk-text-meta">Figure 4 (b): The graph memory region consists of nodes, where each node stores the IDs of up to <i>K</i> neighbor nodes without padding.</span>
+        </div>
+      </div>
+
+      Applying $\pi$ gives vertices that are frequently co-accessed during beam-search traversal consecutive IDs, which promotes coalesced access and boosts cache reuse, thereby reducing DRAM traffic. Plasma supports GOrder, RCM, Degree Sort, and Hub Sort as $\pi$.
+
+      #### Where Plasma sits among ANNS benchmarks
+      Existing ANNS benchmarks compare libraries end to end, so a win can come from the graph, the search algorithm, or the implementation, and none of them can say which. Plasma instead fixes the search kernel and varies exactly two things, topology and layout, which is what makes an architecture-aware claim possible at all. It is also the first benchmark to collect GPU hardware counters (DRAM bandwidth, L1/L2 hit rates) alongside Recall and QPS, so a speedup can be attributed to a hardware cause rather than guessed at.
+
+      Reproducing a GPU ANNS benchmark otherwise means coordinating C++/CUDA compilers, GPU libraries such as cuVS, and BLAS implementations at exact versions. Plasma pins that entire dependency graph, the full CUDA stack included, in a declarative [pixi](https://pixi.sh/) lockfile: `pixi install` followed by `pixi run build` sets up the environment and builds the project with no manual version resolution. Where other benchmarks reach for docker or apptainer, this stays a lightweight virtual environment, which keeps the barrier low for extending Plasma to new indices, new reordering algorithms, or integration with foundation models.
+  - title: Results
+    text: |
+      Plasma is the first ANNS benchmark to take an architecture-aware evaluation perspective, analyzing how memory layout and cache behavior affect graph-based ANNS on GPU.
+
+      #### Comparison with existing ANNS benchmarks
       <div class="uk-overflow-auto">
         <table class="uk-table uk-table-small uk-text-small uk-table-divider">
           <thead>
-            <tr>
-              <th>Method</th>
-              <th>Opt</th>
-              <th>Exp</th>
-              <th>Hmean</th>
-            </tr>
+            <tr><th></th><th>ANN-Benchmarks</th><th>BigANN</th><th>VDBBench</th><th>VIBE</th><th style="background-color:#F0EEE6"><b>Plasma (Ours)</b></th></tr>
           </thead>
           <tbody>
-            <tr>
-              <td>
-                BF
-                <br />
-                WA*
-              </td>
-              <td>
-                65.8 (63.8, 68.0)
-                <br />
-                68.4 (66.5, 70.4)
-              </td>
-              <td>
-                44.1 (42.8, 45.5)
-                <br />
-                35.8 (34.5, 37.1)
-              </td>
-              <td>
-                44.8 (43.4, 46.3)
-                <br />
-                40.4 (39.0, 41.8)
-              </td>
-            </tr>
-            <tr>
-              <td>
-                SAIL
-                <br />
-                SAIL-SL
-                <br />
-                BB-A*
-              </td>
-              <td>
-                5.7 (4.6, 6.8)
-                <br />
-                3.1 (2.3, 3.8)
-                <br />
-                31.2 (28.8, 33.5)
-              </td>
-              <td>
-                58.0 (56.1, 60.0)
-                <br />
-                57.6 (55.7, 59.6)
-                <br />
-                52.0 (50.2, 53.9)
-              </td>
-              <td>
-                7.7 (6.4, 9.0)
-                <br />
-                4.4 (3.5, 5.3)
-                <br />
-                31.1 (29.2, 33.0)
-              </td>
-            </tr>
-            <tr class="uk-active">
-              <td>
-                Neural BF
-                <br />
-                <b>Neural A*</b>
-              </td>
-              <td>
-                75.5 (73.8, 77.1)
-                <br />
-                <b>87.7 (86.6, 88.9)</b>
-              </td>
-              <td>
-                45.9 (44.6, 47.2)
-                <br />
-                40.1 (38.9, 41.3)
-              </td>
-              <td>
-                52.0 (50.7, 53.4)
-                <br />
-                52.0 (50.7, 53.3)
-              </td>
-            </tr>
+            <tr><td>Platform</td><td>CPU</td><td>CPU</td><td>CPU</td><td>CPU+GPU</td><td style="background-color:#F0EEE6"><b>GPU</b></td></tr>
+            <tr><td>Target</td><td>General</td><td>General</td><td>General</td><td>General</td><td style="background-color:#F0EEE6"><b>Graph index</b></td></tr>
+            <tr><td>Modern embeddings</td><td>❌</td><td>partial</td><td>partial</td><td>✅</td><td style="background-color:#F0EEE6"><b>✅</b></td></tr>
+            <tr><td>HW profiling</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td style="background-color:#F0EEE6"><b>✅</b></td></tr>
+            <tr><td>Memory-layout aware</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td style="background-color:#F0EEE6"><b>✅</b></td></tr>
+            <tr><td>Reproducible env.</td><td>docker</td><td>docker</td><td>docker</td><td>apptainer</td><td style="background-color:#F0EEE6"><b>pixi</b></td></tr>
           </tbody>
         </table>
       </div>
-      <h3>Selected Path Planning Results</h3>
-      <img
-        src="assets/result1.png"
-        class="uk-align-center uk-responsive-width"
-        alt=""
-      />
-      <h3>Path Planning Results on SSD Dataset</h3>
-      <img
-        src="assets/result2.png"
-        class="uk-align-center uk-responsive-width"
-        alt=""
-      />
-  - title: KaTeX examples
-    text: >
-      $\KaTeX$ enables you to write mathematical expressions beautifully within your text (e.g. $\alpha$, $\beta$, $\gamma$ ).
-      $$ax^2 + bx + c = 0$$
-      $$ \int \oint \sum \prod $$
-      $$ \begin{CD} A @>a>> B \\ @VbVV @AAcA \\ C @= D \end{CD} $$
-      [KaTeX supports a wide range of mathematical symbols and equations](https://katex.org/docs/support_table.html), ensuring your technical content is both clear and visually appealing.
-      With markdown for text formatting and KaTeX for mathematical expressions, our template empowers you to communicate complex ideas effectively. Whether you're writing a scientific paper or a technical blog post, harnessing these tools will elevate your content and engage your readers.
+      <span class="uk-text-meta">Table 1: HW profiling is built-in hardware-counter collection (DRAM bandwidth, L1/L2 hit rates). Memory-layout aware is varying the physical vertex layout independently of topology under a fixed search engine.</span>
+
+      #### Topology matters less than expected
+      Benchmarking CAGRA, NSG, Vamana, and NN-Descent across 12 datasets on a single NVIDIA A100, all under the same kernel and their original vertex ordering, shows that topology differences are often minor. To the best of our knowledge, this is the first work to run CPU-oriented indices such as NSG, Vamana, and NN-Descent on a GPU, and NSG outperforms the GPU-optimized CAGRA by up to 1.2× on C4 5M. Differences are small on classical datasets such as SIFT and Deep, and more pronounced on modern high-dimensional ones such as Wikipedia 10M and BioASQ 10M.
+
+      #### Reordering alone buys up to 80% QPS
+      Applying reordering to the same four indices yields up to **80% QPS improvement** while preserving search accuracy, with typical gains of 10–30%. C4 5M improves by 60–80% for every index; BioASQ gains less than 10% except for NN-Descent. GOrder is consistently unstable, dropping sharply in the high-recall region, and no single reordering algorithm wins across the board, so the right choice depends on the workload.
+
+      #### The speedup comes from DRAM bandwidth, not caches
+      Profiling with Nsight Compute at $L = 120$ attributes the gain to bandwidth rather than caching. L1 hit rates sit near zero (0.007% to 0.025%) regardless of reordering, and L2 hit rates stay between 8% and 28% and move by less than one percentage point. DRAM bandwidth utilization, in contrast, changes substantially: for NSG on SIFT 1M it rises from 39.4% to 44.2% under Hub Sort, a 4.8 point gain that corresponds to roughly 15% more QPS. The correlation between bandwidth-utilization change and execution-time change is $-0.669$ overall and $-0.965$ for the search kernel alone.
+
+      The effect is architecture-dependent. On the A100 (HBM2e, 2,039 GB/s) improvements reach 80%, whereas on an RTX 6000 Ada (GDDR6, 960 GB/s) they stay below 15%, so reordering pays off most on high-bandwidth-memory GPUs.
 projects:
-  - title: 'maru: a miniature-sized wheeled robot for swarm robotics research'
-    journal: "CHI'24"
-    img: https://getuikit.com/docs/images/light.jpg
+  - title: 'PHASE: Compliance-Enabled Tactile Phase Retrieval for Few-Shot Insertion Learning'
+    journal: "IROS'26"
+    img: https://omron-sinicx.github.io/phase/teaser.png
     description: |
-      "maru" (= miniature assemblage adaptive robot unit) is a custom-made, miniature-sized, two-wheeled robot designed specifically for tabletop swarm robotics research.
-    url: https://github.com/omron-sinicx/swarm-body
-  - title: 'Language-Guided Pattern Formation for Swarm Robotics with Multi-Agent Reinforcement Learning'
+      A compliant wrist reveals insertion phases from touch, so phase-consistent retrieval lifts few-shot peg-in-hole success by 13 points.
+    url: https://omron-sinicx.github.io/phase/
+  - title: 'Tactile Memory with Soft Robot: Robust Object Insertion via Masked Encoding and Soft Wrist'
+    journal: "RA-L'26"
+    img: https://omron-sinicx.github.io/tameso/teaser.png
+    description: |
+      A soft wrist collects safe tactile demos, and masked trajectory encoding retrieves them to insert unseen pegs at 85% success.
+    url: https://omron-sinicx.github.io/tameso/
+  - title: 'Multi-Agent Behavior Retrieval: Retrieval-Augmented Policy Training for Cooperative Manipulation by Mobile Robots'
     journal: "IROS'24"
-    img: https://omron-sinicx.github.io/language-guided-pattern-formation/assets/teaser.png
+    img: https://omron-sinicx.github.io/mabr/assets/teaser.png
     description: |
-      "maru" (= miniature assemblage adaptive robot unit) is a custom-made, miniature-sized, two-wheeled robot designed specifically for tabletop swarm robotics research.
-    url: https://github.com/omron-sinicx/swarm-body
-  - title: 'Language-Guided Pattern Formation for Swarm Robotics with Multi-Agent Reinforcement Learning'
-    journal: "IROS'24"
-    img: method.png
-    description: |
-      "maru" (= miniature assemblage adaptive robot unit) is a custom-made, miniature-sized, two-wheeled robot designed specifically for tabletop swarm robotics research.
-    url: https://github.com/omron-sinicx/swarm-body
+      A multi-agent coordination skill database lets multiple mobile robots reuse past memories to adapt to new cooperative manipulation tasks.
+    url: https://omron-sinicx.github.io/mabr/

@@ -1,4 +1,11 @@
 import React from 'react';
+import { FaBuilding, FaBuildingColumns } from 'react-icons/fa6';
+
+// affiliations may be plain strings, or { name, icon } to prefix an icon
+const AFFILIATION_ICONS = {
+  university: FaBuildingColumns,
+  company: FaBuilding,
+};
 
 export default class Authors extends React.Component {
   constructor(props) {
@@ -40,10 +47,18 @@ export default class Authors extends React.Component {
           data-uk-grid
         >
           {this.props.affiliations.map((affiliation, idx) => {
+            const name = affiliation.name ?? affiliation;
+            const AffiliationIcon = AFFILIATION_ICONS[affiliation.icon];
             return (
               <span className={affiliationClass} key={'affiliation-' + idx}>
                 <sup>{idx + 1}</sup>
-                {affiliation}
+                {AffiliationIcon && (
+                  <AffiliationIcon
+                    className="uk-margin-small-right"
+                    style={{ verticalAlign: 'text-bottom' }}
+                  />
+                )}
+                {name}
               </span>
             );
           })}
