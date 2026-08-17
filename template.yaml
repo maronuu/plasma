@@ -41,10 +41,10 @@ bibtex: >
     author       = {Yutaro Oguri and
                     Mai Nishimura and
                     Yusuke Matsui},
-    title        = {Plasma: {A} Layout-Aware Benchmark Reveals Memory Layout Matters
-                    for Graph-based {ANNS} on {GPU}},
+    title        = {Plasma: A Layout-Aware Benchmark Reveals Memory Layout Matters
+                    for Graph-based ANNS on GPU},
     booktitle    = {Proceedings of Workshops at the 52nd International Conference on Very
-                    Large Data Bases, {VLDB} 2026, Boston, MA, USA},
+                    Large Data Bases, VLDB 2026, Boston, MA, USA},
     publisher    = {VLDB.org},
     year         = {2026},
     url          = {https://vecdb-ws.github.io/vldb2026/}
