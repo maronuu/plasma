@@ -2,6 +2,11 @@
 # Agent/tooling scratch space — not project source.
 extend-exclude = [".claude/"]
 
+[default]
+# An acronym expansion bolds each initial (`**S**earch`), which splits the word
+# in two and leaves typos staring at "earch".
+extend-ignore-re = ['\*\*[A-Za-z]\*\*[A-Za-z-]+']
+
 [default.extend-words]
 
 SINIC = "SINIC"

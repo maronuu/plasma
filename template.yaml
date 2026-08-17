@@ -38,18 +38,23 @@ meta:
   - '* Work done during an internship at OMRON SINIC X.'
 bibtex: >
   @inproceedings{oguri2026plasma,
-    title={Plasma: A Layout-Aware Benchmark Reveals Memory Layout Matters for Graph-based ANNS on GPU},
-    author={Oguri, Yutaro and Nishimura, Mai and Matsui, Yusuke},
-    booktitle={The 2nd Workshop on Vector Databases (VecDB) at VLDB 2026},
-    address={Boston, MA, USA},
-    year={2026}
+    author       = {Yutaro Oguri and
+                    Mai Nishimura and
+                    Yusuke Matsui},
+    title        = {Plasma: {A} Layout-Aware Benchmark Reveals Memory Layout Matters
+                    for Graph-based {ANNS} on {GPU}},
+    booktitle    = {Proceedings of Workshops at the 52nd International Conference on Very
+                    Large Data Bases, {VLDB} 2026, Boston, MA, USA},
+    publisher    = {VLDB.org},
+    year         = {2026},
+    url          = {https://vecdb-ws.github.io/vldb2026/}
   }
 header:
   bg_curve: sinic_curve.png
 
 teaser: teaser.png
 overview: |
-  We propose **Plasma**, a Platform for Layout-Aware Search and Memory Arrangement: a unified evaluation framework for graph-based Approximate Nearest Neighbor Search (ANNS) on GPU that isolates the effects of graph index topology and memory layout.
+  We propose **Plasma**, a **P**latform for **L**ayout-**A**ware **S**earch and **M**emory **A**rrangement: a unified evaluation framework for graph-based Approximate Nearest Neighbor Search (ANNS) on GPU that isolates the effects of graph index topology and memory layout.
   Graph-based ANNS is essential in modern AI applications such as RAG, and GPU utilization is attracting attention for datasets of millions or more vectors.
   Our framework extracts the topology of arbitrary graph-based indices and enables execution under a unified, GPU-optimized search algorithm, specifying the correspondence between vertex IDs and positions on memory to allow arbitrary vertex orderings.
   Through comprehensive experiments, we demonstrate that vertex reordering yields up to 80% (typically 10–30%) QPS improvement while preserving search accuracy.
