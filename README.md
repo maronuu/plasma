@@ -173,6 +173,18 @@ SKIP=typos,prettier git commit -m "wip"
 
 Note that `.claude/` is excluded from every hook (see `exclude:` in `.pre-commit-config.yaml`).
 
+## 📜 License
+
+The source code of this project page is released under the [MIT License](./LICENSE).
+
+> [!IMPORTANT]
+> Logos and other brand assets are **excluded** from the MIT license:
+>
+> - `public/utokyo.svg` — logo of **The University of Tokyo**, a trademark of The University of Tokyo. It is included only to show the authors' institutional affiliation on this page. It is not MIT-licensed and must not be copied, modified, or redistributed on that basis; other uses require permission under [the university's logo usage rules](https://www.u-tokyo.ac.jp/en/).
+> - `src/logo/sinicx.svg` — logo of **OMRON SINIC X Corporation**, likewise not MIT-licensed.
+>
+> If you fork this repository as a template, replace these files with your own affiliation logos rather than reusing them.
+
 ## 🤝 Contributing
 
 Issues and PRs welcome! Feel free to [open an issue](https://github.com/omron-sinicx/projectpage-template/issues)
