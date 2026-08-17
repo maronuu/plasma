@@ -356,6 +356,22 @@ class GpuPanel extends React.Component {
               dataset="deep10m"
             />
           </div>
+          <div>
+            <Chart
+              gpu={gpu}
+              showSpeedup={true}
+              selectedIndex="diskann"
+              dataset="gist-960-euclidean"
+            />
+          </div>
+          <div>
+            <Chart
+              gpu={gpu}
+              showSpeedup={true}
+              selectedIndex="diskann"
+              dataset="deep10m"
+            />
+          </div>
         </div>
         <span className="uk-text-meta">
           All measurements on a single {label}.
