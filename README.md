@@ -18,7 +18,7 @@
 
 <p align="center">
     <a href="https://arxiv.org/abs/2508.15436"><img src="https://img.shields.io/badge/arXiv-2508.15436-orange" alt="arXiv"></a>
-    <a href="https://openreview.net/pdf?id=tF70hyyM6V"><img src="https://img.shields.io/badge/OpenReview-tF70hyyM6V-blue" alt="OpenReview"></a>
+    <a href="https://openreview.net/forum?id=tF70hyyM6V"><img src="https://img.shields.io/badge/OpenReview-tF70hyyM6V-blue" alt="OpenReview"></a>
     <a href="https://omron-sinicx.github.io/plasma"><img src="https://img.shields.io/badge/Project%20Page-plasma-green" alt="Project Page"></a>
 </p>
 
