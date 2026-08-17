@@ -43,7 +43,7 @@ bibtex: >
                     Yusuke Matsui},
     title        = {Plasma: A Layout-Aware Benchmark Reveals Memory Layout Matters
                     for Graph-based ANNS on GPU},
-    booktitle    = {Proceedings of the 2nd Workshop on Vector Databases (VecDB) at
+    booktitle    = {The 2nd Workshop on Vector Databases (VecDB) at
                     Very Large Data Bases (VLDB)},
     year         = {2026},
     url          = {https://vecdb-ws.github.io/vldb2026/}
