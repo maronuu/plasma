@@ -41,6 +41,25 @@ const PALETTE = [
 // Fixed orders so a given index or algorithm keeps its colour across charts,
 // which is the whole point of showing them side by side.
 const INDEX_ORDER = ['cagra', 'diskann', 'nsg'];
+
+// The raw data keys DiskANN's index by its library; the paper calls it Vamana.
+const INDEX_LABELS = { cagra: 'CAGRA', diskann: 'Vamana', nsg: 'NSG' };
+
+// A uk-label next to a chart takes the colour echarts gives that index's line,
+// so the badge and the line read as the same thing. Every one of these clears
+// 7:1 against black, so the text colour is fixed rather than per-colour.
+const INDEX_COLORS = Object.fromEntries(
+  INDEX_ORDER.map((key, i) => [key, PALETTE[i]])
+);
+
+const IndexLabel = ({ index }) => (
+  <span
+    className="uk-label"
+    style={{ backgroundColor: INDEX_COLORS[index], color: '#000' }}
+  >
+    {INDEX_LABELS[index] ?? index}
+  </span>
+);
 const REORDERING_ORDER = [
   'indegree',
   'outdegree',
@@ -140,7 +159,9 @@ class Chart extends React.Component {
         .filter((r) => (showSpeedup ? r.reordering : r.index) === group)
         .sort((a, b) => a.recall - b.recall);
       return {
-        name: showSpeedup ? reorderingLabel(group) : group.toUpperCase(),
+        name: showSpeedup
+          ? reorderingLabel(group)
+          : (INDEX_LABELS[group] ?? group.toUpperCase()),
         type: 'line',
         data: points.map((r) => [
           r.recall,
@@ -226,9 +247,11 @@ class Chart extends React.Component {
           </div>
           <div>
             {showSpeedup ? (
-              <span className="uk-text-meta">
-                {selectedIndex ? selectedIndex.toUpperCase() : 'All indices'}
-              </span>
+              selectedIndex ? (
+                <IndexLabel index={selectedIndex} />
+              ) : (
+                <span className="uk-text-meta">All indices</span>
+              )
             ) : (
               <select
                 className="uk-select uk-form-small"
