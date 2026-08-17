@@ -92,6 +92,8 @@ body:
       Existing ANNS benchmarks compare libraries end to end, so a win can come from the graph, the search algorithm, or the implementation, and none of them can say which. Plasma instead fixes the search kernel and varies exactly two things, topology and layout, which is what makes an architecture-aware claim possible at all. It is also the first benchmark to collect GPU hardware counters (DRAM bandwidth, L1/L2 hit rates) alongside Recall and QPS, so a speedup can be attributed to a hardware cause rather than guessed at.
 
       Reproducing a GPU ANNS benchmark otherwise means coordinating C++/CUDA compilers, GPU libraries such as cuVS, and BLAS implementations at exact versions. Plasma pins that entire dependency graph, the full CUDA stack included, in a declarative [pixi](https://pixi.sh/) lockfile: `pixi install` followed by `pixi run build` sets up the environment and builds the project with no manual version resolution. Where other benchmarks reach for docker or apptainer, this stays a lightweight virtual environment, which keeps the barrier low for extending Plasma to new indices, new reordering algorithms, or integration with foundation models.
+  - title: 📊 Leaderboard
+    component: leaderboard
   - title: Results
     text: |
       Plasma is the first ANNS benchmark to take an architecture-aware evaluation perspective, analyzing how memory layout and cache behavior affect graph-based ANNS on GPU.

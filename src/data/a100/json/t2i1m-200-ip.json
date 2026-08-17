@@ -1,0 +1,3482 @@
+{
+  "dataset_name": "Yandex T2I 1M",
+  "internal_name": "t2i1m-200-ip",
+  "datasets": ["Yandex T2I 1M"],
+  "results": [
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 1289380.0,
+      "recall": 0.652157,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 1272830.0,
+      "recall": 0.701275,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 1096160.0,
+      "recall": 0.738069,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 1006370.0,
+      "recall": 0.769808,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 945778.0,
+      "recall": 0.791874,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 916109.0,
+      "recall": 0.81052,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 839564.0,
+      "recall": 0.825887,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 746807.0,
+      "recall": 0.850208,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 695994.0,
+      "recall": 0.869818,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 625565.0,
+      "recall": 0.884243,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 563666.0,
+      "recall": 0.895707,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 523978.0,
+      "recall": 0.906397,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 453703.0,
+      "recall": 0.921025,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 364797.0,
+      "recall": 0.932676,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 331384.0,
+      "recall": 0.941023,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 287383.0,
+      "recall": 0.948167,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 289271.0,
+      "recall": 0.953437,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 1458780.0,
+      "recall": 0.593036,
+      "speedup_percent": 2.87,
+      "baseline_qps": 1418140.0,
+      "baseline_recall": 0.58388
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 1488040.0,
+      "recall": 0.648782,
+      "speedup_percent": 7.7,
+      "baseline_qps": 1381620.0,
+      "baseline_recall": 0.641568
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 1445420.0,
+      "recall": 0.690364,
+      "speedup_percent": 16.39,
+      "baseline_qps": 1241860.0,
+      "baseline_recall": 0.68514
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 1182840.0,
+      "recall": 0.729254,
+      "speedup_percent": 7.46,
+      "baseline_qps": 1100770.0,
+      "baseline_recall": 0.723411
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 1169400.0,
+      "recall": 0.75434,
+      "speedup_percent": 9.01,
+      "baseline_qps": 1072750.0,
+      "baseline_recall": 0.74947
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 1115460.0,
+      "recall": 0.775036,
+      "speedup_percent": 12.6,
+      "baseline_qps": 990666.0,
+      "baseline_recall": 0.770897
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 1013920.0,
+      "recall": 0.792426,
+      "speedup_percent": 7.0,
+      "baseline_qps": 947575.0,
+      "baseline_recall": 0.788875
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 936018.0,
+      "recall": 0.820075,
+      "speedup_percent": 10.14,
+      "baseline_qps": 849869.0,
+      "baseline_recall": 0.817176
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 789032.0,
+      "recall": 0.842751,
+      "speedup_percent": 4.64,
+      "baseline_qps": 754011.0,
+      "baseline_recall": 0.840296
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 723065.0,
+      "recall": 0.859273,
+      "speedup_percent": 1.85,
+      "baseline_qps": 709950.0,
+      "baseline_recall": 0.856859
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 683795.0,
+      "recall": 0.87257,
+      "speedup_percent": 4.92,
+      "baseline_qps": 651729.0,
+      "baseline_recall": 0.87061
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 677607.0,
+      "recall": 0.88392,
+      "speedup_percent": 14.87,
+      "baseline_qps": 589903.0,
+      "baseline_recall": 0.88302
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 589710.0,
+      "recall": 0.901205,
+      "speedup_percent": 15.5,
+      "baseline_qps": 510557.0,
+      "baseline_recall": 0.900595
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 475188.0,
+      "recall": 0.915229,
+      "speedup_percent": 15.43,
+      "baseline_qps": 411680.0,
+      "baseline_recall": 0.914873
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 430525.0,
+      "recall": 0.925223,
+      "speedup_percent": 15.89,
+      "baseline_qps": 371500.0,
+      "baseline_recall": 0.925034
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 363482.0,
+      "recall": 0.93379,
+      "speedup_percent": 12.55,
+      "baseline_qps": 322965.0,
+      "baseline_recall": 0.933797
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 287951.0,
+      "recall": 0.940774,
+      "speedup_percent": -11.55,
+      "baseline_qps": 325553.0,
+      "baseline_recall": 0.940196
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 1427410.0,
+      "recall": 0.59184,
+      "speedup_percent": 0.65,
+      "baseline_qps": 1418140.0,
+      "baseline_recall": 0.58388
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 1433330.0,
+      "recall": 0.647356,
+      "speedup_percent": 3.74,
+      "baseline_qps": 1381620.0,
+      "baseline_recall": 0.641568
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 1349850.0,
+      "recall": 0.689458,
+      "speedup_percent": 8.7,
+      "baseline_qps": 1241860.0,
+      "baseline_recall": 0.68514
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 1234750.0,
+      "recall": 0.728418,
+      "speedup_percent": 12.17,
+      "baseline_qps": 1100770.0,
+      "baseline_recall": 0.723411
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 1161430.0,
+      "recall": 0.753343,
+      "speedup_percent": 8.27,
+      "baseline_qps": 1072750.0,
+      "baseline_recall": 0.74947
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 1079120.0,
+      "recall": 0.774338,
+      "speedup_percent": 8.93,
+      "baseline_qps": 990666.0,
+      "baseline_recall": 0.770897
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 1043180.0,
+      "recall": 0.792131,
+      "speedup_percent": 10.09,
+      "baseline_qps": 947575.0,
+      "baseline_recall": 0.788875
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 959096.0,
+      "recall": 0.820008,
+      "speedup_percent": 12.85,
+      "baseline_qps": 849869.0,
+      "baseline_recall": 0.817176
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 793574.0,
+      "recall": 0.843237,
+      "speedup_percent": 5.25,
+      "baseline_qps": 754011.0,
+      "baseline_recall": 0.840296
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 747293.0,
+      "recall": 0.85954,
+      "speedup_percent": 5.26,
+      "baseline_qps": 709950.0,
+      "baseline_recall": 0.856859
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 681914.0,
+      "recall": 0.872883,
+      "speedup_percent": 4.63,
+      "baseline_qps": 651729.0,
+      "baseline_recall": 0.87061
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 665970.0,
+      "recall": 0.885015,
+      "speedup_percent": 12.89,
+      "baseline_qps": 589903.0,
+      "baseline_recall": 0.88302
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 585875.0,
+      "recall": 0.902395,
+      "speedup_percent": 14.75,
+      "baseline_qps": 510557.0,
+      "baseline_recall": 0.900595
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 479618.0,
+      "recall": 0.915187,
+      "speedup_percent": 16.5,
+      "baseline_qps": 411680.0,
+      "baseline_recall": 0.914873
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 441829.0,
+      "recall": 0.925134,
+      "speedup_percent": 18.93,
+      "baseline_qps": 371500.0,
+      "baseline_recall": 0.925034
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 382103.0,
+      "recall": 0.934164,
+      "speedup_percent": 18.31,
+      "baseline_qps": 322965.0,
+      "baseline_recall": 0.933797
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 312273.0,
+      "recall": 0.941251,
+      "speedup_percent": -4.08,
+      "baseline_qps": 325553.0,
+      "baseline_recall": 0.940196
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 1323700.0,
+      "recall": 0.654916,
+      "speedup_percent": 2.66,
+      "baseline_qps": 1289380.0,
+      "baseline_recall": 0.652157
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 1331990.0,
+      "recall": 0.702652,
+      "speedup_percent": 4.65,
+      "baseline_qps": 1272830.0,
+      "baseline_recall": 0.701275
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 1268800.0,
+      "recall": 0.738472,
+      "speedup_percent": 15.75,
+      "baseline_qps": 1096160.0,
+      "baseline_recall": 0.738069
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 1088300.0,
+      "recall": 0.767774,
+      "speedup_percent": 8.14,
+      "baseline_qps": 1006370.0,
+      "baseline_recall": 0.769808
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 1026900.0,
+      "recall": 0.789625,
+      "speedup_percent": 8.58,
+      "baseline_qps": 945778.0,
+      "baseline_recall": 0.791874
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 954306.0,
+      "recall": 0.807451,
+      "speedup_percent": 4.17,
+      "baseline_qps": 916109.0,
+      "baseline_recall": 0.81052
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 913774.0,
+      "recall": 0.822725,
+      "speedup_percent": 8.84,
+      "baseline_qps": 839564.0,
+      "baseline_recall": 0.825887
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 808867.0,
+      "recall": 0.847541,
+      "speedup_percent": 8.31,
+      "baseline_qps": 746807.0,
+      "baseline_recall": 0.850208
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 695615.0,
+      "recall": 0.867287,
+      "speedup_percent": -0.05,
+      "baseline_qps": 695994.0,
+      "baseline_recall": 0.869818
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 637183.0,
+      "recall": 0.881887,
+      "speedup_percent": 1.86,
+      "baseline_qps": 625565.0,
+      "baseline_recall": 0.884243
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 584529.0,
+      "recall": 0.893829,
+      "speedup_percent": 3.7,
+      "baseline_qps": 563666.0,
+      "baseline_recall": 0.895707
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 574506.0,
+      "recall": 0.904438,
+      "speedup_percent": 9.64,
+      "baseline_qps": 523978.0,
+      "baseline_recall": 0.906397
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 500647.0,
+      "recall": 0.919441,
+      "speedup_percent": 10.35,
+      "baseline_qps": 453703.0,
+      "baseline_recall": 0.921025
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 407699.0,
+      "recall": 0.931227,
+      "speedup_percent": 11.76,
+      "baseline_qps": 364797.0,
+      "baseline_recall": 0.932676
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 370942.0,
+      "recall": 0.939656,
+      "speedup_percent": 11.94,
+      "baseline_qps": 331384.0,
+      "baseline_recall": 0.941023
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 323399.0,
+      "recall": 0.946797,
+      "speedup_percent": 12.53,
+      "baseline_qps": 287383.0,
+      "baseline_recall": 0.948167
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 272199.0,
+      "recall": 0.953046,
+      "speedup_percent": -5.9,
+      "baseline_qps": 289271.0,
+      "baseline_recall": 0.953437
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 1158380.0,
+      "recall": 0.702921,
+      "speedup_percent": -14.13,
+      "baseline_qps": 1348940.0,
+      "baseline_recall": 0.710603
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 1316550.0,
+      "recall": 0.748915,
+      "speedup_percent": -0.1,
+      "baseline_qps": 1317910.0,
+      "baseline_recall": 0.7565
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 1204140.0,
+      "recall": 0.782642,
+      "speedup_percent": 2.08,
+      "baseline_qps": 1179660.0,
+      "baseline_recall": 0.789605
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 971715.0,
+      "recall": 0.812785,
+      "speedup_percent": -8.77,
+      "baseline_qps": 1065070.0,
+      "baseline_recall": 0.816803
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 972189.0,
+      "recall": 0.832132,
+      "speedup_percent": -6.11,
+      "baseline_qps": 1035480.0,
+      "baseline_recall": 0.835913
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 887961.0,
+      "recall": 0.847989,
+      "speedup_percent": -9.53,
+      "baseline_qps": 981528.0,
+      "baseline_recall": 0.851682
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 846202.0,
+      "recall": 0.861268,
+      "speedup_percent": -6.04,
+      "baseline_qps": 900586.0,
+      "baseline_recall": 0.864527
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 740563.0,
+      "recall": 0.881985,
+      "speedup_percent": -4.75,
+      "baseline_qps": 777533.0,
+      "baseline_recall": 0.884921
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 611640.0,
+      "recall": 0.899531,
+      "speedup_percent": -10.18,
+      "baseline_qps": 680931.0,
+      "baseline_recall": 0.901312
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 554220.0,
+      "recall": 0.911405,
+      "speedup_percent": -9.76,
+      "baseline_qps": 614141.0,
+      "baseline_recall": 0.913087
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 512581.0,
+      "recall": 0.920951,
+      "speedup_percent": -8.42,
+      "baseline_qps": 559731.0,
+      "baseline_recall": 0.922512
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 517923.0,
+      "recall": 0.929415,
+      "speedup_percent": -6.68,
+      "baseline_qps": 555026.0,
+      "baseline_recall": 0.930479
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 455083.0,
+      "recall": 0.941517,
+      "speedup_percent": -5.5,
+      "baseline_qps": 481575.0,
+      "baseline_recall": 0.94201
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 364379.0,
+      "recall": 0.950945,
+      "speedup_percent": -9.16,
+      "baseline_qps": 401112.0,
+      "baseline_recall": 0.951357
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 326380.0,
+      "recall": 0.957209,
+      "speedup_percent": -10.44,
+      "baseline_qps": 364413.0,
+      "baseline_recall": 0.957447
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 264770.0,
+      "recall": 0.962876,
+      "speedup_percent": -17.04,
+      "baseline_qps": 319164.0,
+      "baseline_recall": 0.963099
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 193552.0,
+      "recall": 0.967202,
+      "speedup_percent": -27.86,
+      "baseline_qps": 268319.0,
+      "baseline_recall": 0.967284
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 1580090.0,
+      "recall": 0.594946,
+      "speedup_percent": null,
+      "baseline_qps": null,
+      "baseline_recall": null
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 1446140.0,
+      "recall": 0.650026,
+      "speedup_percent": 4.67,
+      "baseline_qps": 1381620.0,
+      "baseline_recall": 0.641568
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 1402430.0,
+      "recall": 0.691628,
+      "speedup_percent": 12.93,
+      "baseline_qps": 1241860.0,
+      "baseline_recall": 0.68514
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 1253730.0,
+      "recall": 0.73166,
+      "speedup_percent": 13.9,
+      "baseline_qps": 1100770.0,
+      "baseline_recall": 0.723411
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 1238320.0,
+      "recall": 0.756702,
+      "speedup_percent": 15.43,
+      "baseline_qps": 1072750.0,
+      "baseline_recall": 0.74947
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 1126750.0,
+      "recall": 0.777328,
+      "speedup_percent": 13.74,
+      "baseline_qps": 990666.0,
+      "baseline_recall": 0.770897
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 1037850.0,
+      "recall": 0.794555,
+      "speedup_percent": 9.53,
+      "baseline_qps": 947575.0,
+      "baseline_recall": 0.788875
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 938248.0,
+      "recall": 0.822305,
+      "speedup_percent": 10.4,
+      "baseline_qps": 849869.0,
+      "baseline_recall": 0.817176
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 824364.0,
+      "recall": 0.844541,
+      "speedup_percent": 9.33,
+      "baseline_qps": 754011.0,
+      "baseline_recall": 0.840296
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 740480.0,
+      "recall": 0.860618,
+      "speedup_percent": 4.3,
+      "baseline_qps": 709950.0,
+      "baseline_recall": 0.856859
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 692719.0,
+      "recall": 0.873648,
+      "speedup_percent": 6.29,
+      "baseline_qps": 651729.0,
+      "baseline_recall": 0.87061
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 678492.0,
+      "recall": 0.884629,
+      "speedup_percent": 15.02,
+      "baseline_qps": 589903.0,
+      "baseline_recall": 0.88302
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 611778.0,
+      "recall": 0.901908,
+      "speedup_percent": 19.83,
+      "baseline_qps": 510557.0,
+      "baseline_recall": 0.900595
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 491172.0,
+      "recall": 0.915658,
+      "speedup_percent": 19.31,
+      "baseline_qps": 411680.0,
+      "baseline_recall": 0.914873
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 445809.0,
+      "recall": 0.925338,
+      "speedup_percent": 20.0,
+      "baseline_qps": 371500.0,
+      "baseline_recall": 0.925034
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 381886.0,
+      "recall": 0.934008,
+      "speedup_percent": 18.24,
+      "baseline_qps": 322965.0,
+      "baseline_recall": 0.933797
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 313696.0,
+      "recall": 0.940552,
+      "speedup_percent": -3.64,
+      "baseline_qps": 325553.0,
+      "baseline_recall": 0.940196
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 1299810.0,
+      "recall": 0.654491,
+      "speedup_percent": 0.81,
+      "baseline_qps": 1289380.0,
+      "baseline_recall": 0.652157
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 1313030.0,
+      "recall": 0.702977,
+      "speedup_percent": 3.16,
+      "baseline_qps": 1272830.0,
+      "baseline_recall": 0.701275
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 1169530.0,
+      "recall": 0.738613,
+      "speedup_percent": 6.69,
+      "baseline_qps": 1096160.0,
+      "baseline_recall": 0.738069
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 1086190.0,
+      "recall": 0.77317,
+      "speedup_percent": 7.93,
+      "baseline_qps": 1006370.0,
+      "baseline_recall": 0.769808
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 1055890.0,
+      "recall": 0.794834,
+      "speedup_percent": 11.64,
+      "baseline_qps": 945778.0,
+      "baseline_recall": 0.791874
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 924558.0,
+      "recall": 0.812233,
+      "speedup_percent": 0.92,
+      "baseline_qps": 916109.0,
+      "baseline_recall": 0.81052
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 900313.0,
+      "recall": 0.827491,
+      "speedup_percent": 7.24,
+      "baseline_qps": 839564.0,
+      "baseline_recall": 0.825887
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 812897.0,
+      "recall": 0.851313,
+      "speedup_percent": 8.85,
+      "baseline_qps": 746807.0,
+      "baseline_recall": 0.850208
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 699591.0,
+      "recall": 0.871271,
+      "speedup_percent": 0.52,
+      "baseline_qps": 695994.0,
+      "baseline_recall": 0.869818
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 630520.0,
+      "recall": 0.885126,
+      "speedup_percent": 0.79,
+      "baseline_qps": 625565.0,
+      "baseline_recall": 0.884243
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 571717.0,
+      "recall": 0.896754,
+      "speedup_percent": 1.43,
+      "baseline_qps": 563666.0,
+      "baseline_recall": 0.895707
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 568619.0,
+      "recall": 0.907,
+      "speedup_percent": 8.52,
+      "baseline_qps": 523978.0,
+      "baseline_recall": 0.906397
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 495916.0,
+      "recall": 0.921852,
+      "speedup_percent": 9.3,
+      "baseline_qps": 453703.0,
+      "baseline_recall": 0.921025
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 410711.0,
+      "recall": 0.933289,
+      "speedup_percent": 12.59,
+      "baseline_qps": 364797.0,
+      "baseline_recall": 0.932676
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 369769.0,
+      "recall": 0.941486,
+      "speedup_percent": 11.58,
+      "baseline_qps": 331384.0,
+      "baseline_recall": 0.941023
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 326815.0,
+      "recall": 0.94881,
+      "speedup_percent": 13.72,
+      "baseline_qps": 287383.0,
+      "baseline_recall": 0.948167
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 274590.0,
+      "recall": 0.954489,
+      "speedup_percent": -5.08,
+      "baseline_qps": 289271.0,
+      "baseline_recall": 0.953437
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 1255450.0,
+      "recall": 0.657594,
+      "speedup_percent": -2.63,
+      "baseline_qps": 1289380.0,
+      "baseline_recall": 0.652157
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 1306090.0,
+      "recall": 0.705336,
+      "speedup_percent": 2.61,
+      "baseline_qps": 1272830.0,
+      "baseline_recall": 0.701275
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 1213400.0,
+      "recall": 0.740983,
+      "speedup_percent": 10.7,
+      "baseline_qps": 1096160.0,
+      "baseline_recall": 0.738069
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 1051090.0,
+      "recall": 0.775619,
+      "speedup_percent": 4.44,
+      "baseline_qps": 1006370.0,
+      "baseline_recall": 0.769808
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 959066.0,
+      "recall": 0.796572,
+      "speedup_percent": 1.4,
+      "baseline_qps": 945778.0,
+      "baseline_recall": 0.791874
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 915569.0,
+      "recall": 0.814039,
+      "speedup_percent": -0.06,
+      "baseline_qps": 916109.0,
+      "baseline_recall": 0.81052
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 861931.0,
+      "recall": 0.828664,
+      "speedup_percent": 2.66,
+      "baseline_qps": 839564.0,
+      "baseline_recall": 0.825887
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 776675.0,
+      "recall": 0.852156,
+      "speedup_percent": 4.0,
+      "baseline_qps": 746807.0,
+      "baseline_recall": 0.850208
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 618250.0,
+      "recall": 0.87066,
+      "speedup_percent": -11.17,
+      "baseline_qps": 695994.0,
+      "baseline_recall": 0.869818
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 568087.0,
+      "recall": 0.884572,
+      "speedup_percent": -9.19,
+      "baseline_qps": 625565.0,
+      "baseline_recall": 0.884243
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 518716.0,
+      "recall": 0.896314,
+      "speedup_percent": -7.97,
+      "baseline_qps": 563666.0,
+      "baseline_recall": 0.895707
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 519730.0,
+      "recall": 0.907327,
+      "speedup_percent": -0.81,
+      "baseline_qps": 523978.0,
+      "baseline_recall": 0.906397
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 461371.0,
+      "recall": 0.921981,
+      "speedup_percent": 1.69,
+      "baseline_qps": 453703.0,
+      "baseline_recall": 0.921025
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 363551.0,
+      "recall": 0.93271,
+      "speedup_percent": -0.34,
+      "baseline_qps": 364797.0,
+      "baseline_recall": 0.932676
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 330329.0,
+      "recall": 0.940828,
+      "speedup_percent": -0.32,
+      "baseline_qps": 331384.0,
+      "baseline_recall": 0.941023
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 266308.0,
+      "recall": 0.947985,
+      "speedup_percent": -7.33,
+      "baseline_qps": 287383.0,
+      "baseline_recall": 0.948167
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 187255.0,
+      "recall": 0.953715,
+      "speedup_percent": -35.27,
+      "baseline_qps": 289271.0,
+      "baseline_recall": 0.953437
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 1266580.0,
+      "recall": 0.658749,
+      "speedup_percent": -1.77,
+      "baseline_qps": 1289380.0,
+      "baseline_recall": 0.652157
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 1298930.0,
+      "recall": 0.705958,
+      "speedup_percent": 2.05,
+      "baseline_qps": 1272830.0,
+      "baseline_recall": 0.701275
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 1221280.0,
+      "recall": 0.741799,
+      "speedup_percent": 11.41,
+      "baseline_qps": 1096160.0,
+      "baseline_recall": 0.738069
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 1073260.0,
+      "recall": 0.774404,
+      "speedup_percent": 6.65,
+      "baseline_qps": 1006370.0,
+      "baseline_recall": 0.769808
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 1037290.0,
+      "recall": 0.795845,
+      "speedup_percent": 9.68,
+      "baseline_qps": 945778.0,
+      "baseline_recall": 0.791874
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 946658.0,
+      "recall": 0.813798,
+      "speedup_percent": 3.33,
+      "baseline_qps": 916109.0,
+      "baseline_recall": 0.81052
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 895169.0,
+      "recall": 0.828809,
+      "speedup_percent": 6.62,
+      "baseline_qps": 839564.0,
+      "baseline_recall": 0.825887
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 808715.0,
+      "recall": 0.852942,
+      "speedup_percent": 8.29,
+      "baseline_qps": 746807.0,
+      "baseline_recall": 0.850208
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 665018.0,
+      "recall": 0.872823,
+      "speedup_percent": -4.45,
+      "baseline_qps": 695994.0,
+      "baseline_recall": 0.869818
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 615672.0,
+      "recall": 0.886882,
+      "speedup_percent": -1.58,
+      "baseline_qps": 625565.0,
+      "baseline_recall": 0.884243
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 562148.0,
+      "recall": 0.898299,
+      "speedup_percent": -0.27,
+      "baseline_qps": 563666.0,
+      "baseline_recall": 0.895707
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 558701.0,
+      "recall": 0.908461,
+      "speedup_percent": 6.63,
+      "baseline_qps": 523978.0,
+      "baseline_recall": 0.906397
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 483916.0,
+      "recall": 0.922875,
+      "speedup_percent": 6.66,
+      "baseline_qps": 453703.0,
+      "baseline_recall": 0.921025
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 405321.0,
+      "recall": 0.934142,
+      "speedup_percent": 11.11,
+      "baseline_qps": 364797.0,
+      "baseline_recall": 0.932676
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 361145.0,
+      "recall": 0.941797,
+      "speedup_percent": 8.98,
+      "baseline_qps": 331384.0,
+      "baseline_recall": 0.941023
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 305078.0,
+      "recall": 0.948701,
+      "speedup_percent": 6.16,
+      "baseline_qps": 287383.0,
+      "baseline_recall": 0.948167
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 235247.0,
+      "recall": 0.954331,
+      "speedup_percent": -18.68,
+      "baseline_qps": 289271.0,
+      "baseline_recall": 0.953437
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 1425160.0,
+      "recall": 0.715944,
+      "speedup_percent": 5.65,
+      "baseline_qps": 1348940.0,
+      "baseline_recall": 0.710603
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 1342460.0,
+      "recall": 0.76039,
+      "speedup_percent": 1.86,
+      "baseline_qps": 1317910.0,
+      "baseline_recall": 0.7565
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 1228230.0,
+      "recall": 0.79282,
+      "speedup_percent": 4.12,
+      "baseline_qps": 1179660.0,
+      "baseline_recall": 0.789605
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 1074410.0,
+      "recall": 0.818443,
+      "speedup_percent": 0.88,
+      "baseline_qps": 1065070.0,
+      "baseline_recall": 0.816803
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 1002100.0,
+      "recall": 0.837075,
+      "speedup_percent": -3.22,
+      "baseline_qps": 1035480.0,
+      "baseline_recall": 0.835913
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 956403.0,
+      "recall": 0.852367,
+      "speedup_percent": -2.56,
+      "baseline_qps": 981528.0,
+      "baseline_recall": 0.851682
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 825872.0,
+      "recall": 0.864893,
+      "speedup_percent": -8.3,
+      "baseline_qps": 900586.0,
+      "baseline_recall": 0.864527
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 810652.0,
+      "recall": 0.884538,
+      "speedup_percent": 4.26,
+      "baseline_qps": 777533.0,
+      "baseline_recall": 0.884921
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 679607.0,
+      "recall": 0.901283,
+      "speedup_percent": -0.19,
+      "baseline_qps": 680931.0,
+      "baseline_recall": 0.901312
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 617726.0,
+      "recall": 0.912784,
+      "speedup_percent": 0.58,
+      "baseline_qps": 614141.0,
+      "baseline_recall": 0.913087
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 567675.0,
+      "recall": 0.921735,
+      "speedup_percent": 1.42,
+      "baseline_qps": 559731.0,
+      "baseline_recall": 0.922512
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 557760.0,
+      "recall": 0.929821,
+      "speedup_percent": 0.49,
+      "baseline_qps": 555026.0,
+      "baseline_recall": 0.930479
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 496794.0,
+      "recall": 0.941541,
+      "speedup_percent": 3.16,
+      "baseline_qps": 481575.0,
+      "baseline_recall": 0.94201
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 406054.0,
+      "recall": 0.950608,
+      "speedup_percent": 1.23,
+      "baseline_qps": 401112.0,
+      "baseline_recall": 0.951357
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 368864.0,
+      "recall": 0.956882,
+      "speedup_percent": 1.22,
+      "baseline_qps": 364413.0,
+      "baseline_recall": 0.957447
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 318049.0,
+      "recall": 0.962463,
+      "speedup_percent": -0.35,
+      "baseline_qps": 319164.0,
+      "baseline_recall": 0.963099
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 269028.0,
+      "recall": 0.966885,
+      "speedup_percent": 0.26,
+      "baseline_qps": 268319.0,
+      "baseline_recall": 0.967284
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 1285060.0,
+      "recall": 0.659234,
+      "speedup_percent": -0.34,
+      "baseline_qps": 1289380.0,
+      "baseline_recall": 0.652157
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 1360600.0,
+      "recall": 0.706835,
+      "speedup_percent": 6.9,
+      "baseline_qps": 1272830.0,
+      "baseline_recall": 0.701275
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 1174040.0,
+      "recall": 0.742061,
+      "speedup_percent": 7.1,
+      "baseline_qps": 1096160.0,
+      "baseline_recall": 0.738069
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 1114810.0,
+      "recall": 0.77185,
+      "speedup_percent": 10.78,
+      "baseline_qps": 1006370.0,
+      "baseline_recall": 0.769808
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 1036460.0,
+      "recall": 0.79335,
+      "speedup_percent": 9.59,
+      "baseline_qps": 945778.0,
+      "baseline_recall": 0.791874
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 952788.0,
+      "recall": 0.811612,
+      "speedup_percent": 4.0,
+      "baseline_qps": 916109.0,
+      "baseline_recall": 0.81052
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 920774.0,
+      "recall": 0.826793,
+      "speedup_percent": 9.67,
+      "baseline_qps": 839564.0,
+      "baseline_recall": 0.825887
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 813422.0,
+      "recall": 0.851326,
+      "speedup_percent": 8.92,
+      "baseline_qps": 746807.0,
+      "baseline_recall": 0.850208
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 697437.0,
+      "recall": 0.870672,
+      "speedup_percent": 0.21,
+      "baseline_qps": 695994.0,
+      "baseline_recall": 0.869818
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 640407.0,
+      "recall": 0.884857,
+      "speedup_percent": 2.37,
+      "baseline_qps": 625565.0,
+      "baseline_recall": 0.884243
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 584025.0,
+      "recall": 0.896762,
+      "speedup_percent": 3.61,
+      "baseline_qps": 563666.0,
+      "baseline_recall": 0.895707
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 577872.0,
+      "recall": 0.907531,
+      "speedup_percent": 10.29,
+      "baseline_qps": 523978.0,
+      "baseline_recall": 0.906397
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 502835.0,
+      "recall": 0.922315,
+      "speedup_percent": 10.83,
+      "baseline_qps": 453703.0,
+      "baseline_recall": 0.921025
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 412798.0,
+      "recall": 0.93341,
+      "speedup_percent": 13.16,
+      "baseline_qps": 364797.0,
+      "baseline_recall": 0.932676
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 373344.0,
+      "recall": 0.941299,
+      "speedup_percent": 12.66,
+      "baseline_qps": 331384.0,
+      "baseline_recall": 0.941023
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 324679.0,
+      "recall": 0.948614,
+      "speedup_percent": 12.98,
+      "baseline_qps": 287383.0,
+      "baseline_recall": 0.948167
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 273109.0,
+      "recall": 0.954082,
+      "speedup_percent": -5.59,
+      "baseline_qps": 289271.0,
+      "baseline_recall": 0.953437
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 1404660.0,
+      "recall": 0.659252,
+      "speedup_percent": 8.94,
+      "baseline_qps": 1289380.0,
+      "baseline_recall": 0.652157
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 1301450.0,
+      "recall": 0.707208,
+      "speedup_percent": 2.25,
+      "baseline_qps": 1272830.0,
+      "baseline_recall": 0.701275
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 1196970.0,
+      "recall": 0.743043,
+      "speedup_percent": 9.2,
+      "baseline_qps": 1096160.0,
+      "baseline_recall": 0.738069
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 1111140.0,
+      "recall": 0.776491,
+      "speedup_percent": 10.41,
+      "baseline_qps": 1006370.0,
+      "baseline_recall": 0.769808
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 1024140.0,
+      "recall": 0.798089,
+      "speedup_percent": 8.29,
+      "baseline_qps": 945778.0,
+      "baseline_recall": 0.791874
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 933455.0,
+      "recall": 0.815704,
+      "speedup_percent": 1.89,
+      "baseline_qps": 916109.0,
+      "baseline_recall": 0.81052
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 911505.0,
+      "recall": 0.830728,
+      "speedup_percent": 8.57,
+      "baseline_qps": 839564.0,
+      "baseline_recall": 0.825887
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 809697.0,
+      "recall": 0.854194,
+      "speedup_percent": 8.42,
+      "baseline_qps": 746807.0,
+      "baseline_recall": 0.850208
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 694216.0,
+      "recall": 0.874375,
+      "speedup_percent": -0.26,
+      "baseline_qps": 695994.0,
+      "baseline_recall": 0.869818
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 636300.0,
+      "recall": 0.888269,
+      "speedup_percent": 1.72,
+      "baseline_qps": 625565.0,
+      "baseline_recall": 0.884243
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 583548.0,
+      "recall": 0.899435,
+      "speedup_percent": 3.53,
+      "baseline_qps": 563666.0,
+      "baseline_recall": 0.895707
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 567347.0,
+      "recall": 0.909003,
+      "speedup_percent": 8.28,
+      "baseline_qps": 523978.0,
+      "baseline_recall": 0.906397
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 497305.0,
+      "recall": 0.923329,
+      "speedup_percent": 9.61,
+      "baseline_qps": 453703.0,
+      "baseline_recall": 0.921025
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 414987.0,
+      "recall": 0.93413,
+      "speedup_percent": 13.76,
+      "baseline_qps": 364797.0,
+      "baseline_recall": 0.932676
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 370134.0,
+      "recall": 0.942162,
+      "speedup_percent": 11.69,
+      "baseline_qps": 331384.0,
+      "baseline_recall": 0.941023
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 328377.0,
+      "recall": 0.949345,
+      "speedup_percent": 14.26,
+      "baseline_qps": 287383.0,
+      "baseline_recall": 0.948167
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 272590.0,
+      "recall": 0.954399,
+      "speedup_percent": -5.77,
+      "baseline_qps": 289271.0,
+      "baseline_recall": 0.953437
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 1393130.0,
+      "recall": 0.715123,
+      "speedup_percent": 3.28,
+      "baseline_qps": 1348940.0,
+      "baseline_recall": 0.710603
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 1159670.0,
+      "recall": 0.760122,
+      "speedup_percent": -12.01,
+      "baseline_qps": 1317910.0,
+      "baseline_recall": 0.7565
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 1208210.0,
+      "recall": 0.792541,
+      "speedup_percent": 2.42,
+      "baseline_qps": 1179660.0,
+      "baseline_recall": 0.789605
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 1091690.0,
+      "recall": 0.820193,
+      "speedup_percent": 2.5,
+      "baseline_qps": 1065070.0,
+      "baseline_recall": 0.816803
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 1043690.0,
+      "recall": 0.839183,
+      "speedup_percent": 0.79,
+      "baseline_qps": 1035480.0,
+      "baseline_recall": 0.835913
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 942459.0,
+      "recall": 0.854477,
+      "speedup_percent": -3.98,
+      "baseline_qps": 981528.0,
+      "baseline_recall": 0.851682
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 908570.0,
+      "recall": 0.867249,
+      "speedup_percent": 0.89,
+      "baseline_qps": 900586.0,
+      "baseline_recall": 0.864527
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 796400.0,
+      "recall": 0.886946,
+      "speedup_percent": 2.43,
+      "baseline_qps": 777533.0,
+      "baseline_recall": 0.884921
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 684833.0,
+      "recall": 0.903838,
+      "speedup_percent": 0.57,
+      "baseline_qps": 680931.0,
+      "baseline_recall": 0.901312
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 620916.0,
+      "recall": 0.915169,
+      "speedup_percent": 1.1,
+      "baseline_qps": 614141.0,
+      "baseline_recall": 0.913087
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 570276.0,
+      "recall": 0.924352,
+      "speedup_percent": 1.88,
+      "baseline_qps": 559731.0,
+      "baseline_recall": 0.922512
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 556371.0,
+      "recall": 0.93229,
+      "speedup_percent": 0.24,
+      "baseline_qps": 555026.0,
+      "baseline_recall": 0.930479
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 490227.0,
+      "recall": 0.943463,
+      "speedup_percent": 1.8,
+      "baseline_qps": 481575.0,
+      "baseline_recall": 0.94201
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 403819.0,
+      "recall": 0.95221,
+      "speedup_percent": 0.67,
+      "baseline_qps": 401112.0,
+      "baseline_recall": 0.951357
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 362325.0,
+      "recall": 0.958406,
+      "speedup_percent": -0.57,
+      "baseline_qps": 364413.0,
+      "baseline_recall": 0.957447
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 309255.0,
+      "recall": 0.963241,
+      "speedup_percent": -3.1,
+      "baseline_qps": 319164.0,
+      "baseline_recall": 0.963099
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 268338.0,
+      "recall": 0.967749,
+      "speedup_percent": 0.01,
+      "baseline_qps": 268319.0,
+      "baseline_recall": 0.967284
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 1379970.0,
+      "recall": 0.703311,
+      "speedup_percent": 2.3,
+      "baseline_qps": 1348940.0,
+      "baseline_recall": 0.710603
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 1300450.0,
+      "recall": 0.749473,
+      "speedup_percent": -1.32,
+      "baseline_qps": 1317910.0,
+      "baseline_recall": 0.7565
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 1222770.0,
+      "recall": 0.782904,
+      "speedup_percent": 3.65,
+      "baseline_qps": 1179660.0,
+      "baseline_recall": 0.789605
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 1055880.0,
+      "recall": 0.811817,
+      "speedup_percent": -0.86,
+      "baseline_qps": 1065070.0,
+      "baseline_recall": 0.816803
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 1029740.0,
+      "recall": 0.830898,
+      "speedup_percent": -0.55,
+      "baseline_qps": 1035480.0,
+      "baseline_recall": 0.835913
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 950691.0,
+      "recall": 0.846683,
+      "speedup_percent": -3.14,
+      "baseline_qps": 981528.0,
+      "baseline_recall": 0.851682
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 887859.0,
+      "recall": 0.859719,
+      "speedup_percent": -1.41,
+      "baseline_qps": 900586.0,
+      "baseline_recall": 0.864527
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 783129.0,
+      "recall": 0.880606,
+      "speedup_percent": 0.72,
+      "baseline_qps": 777533.0,
+      "baseline_recall": 0.884921
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 672967.0,
+      "recall": 0.898595,
+      "speedup_percent": -1.17,
+      "baseline_qps": 680931.0,
+      "baseline_recall": 0.901312
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 621371.0,
+      "recall": 0.910137,
+      "speedup_percent": 1.18,
+      "baseline_qps": 614141.0,
+      "baseline_recall": 0.913087
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 572539.0,
+      "recall": 0.919608,
+      "speedup_percent": 2.29,
+      "baseline_qps": 559731.0,
+      "baseline_recall": 0.922512
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 556527.0,
+      "recall": 0.929032,
+      "speedup_percent": 0.27,
+      "baseline_qps": 555026.0,
+      "baseline_recall": 0.930479
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 482502.0,
+      "recall": 0.940762,
+      "speedup_percent": 0.19,
+      "baseline_qps": 481575.0,
+      "baseline_recall": 0.94201
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 404292.0,
+      "recall": 0.950187,
+      "speedup_percent": 0.79,
+      "baseline_qps": 401112.0,
+      "baseline_recall": 0.951357
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 365714.0,
+      "recall": 0.956564,
+      "speedup_percent": 0.36,
+      "baseline_qps": 364413.0,
+      "baseline_recall": 0.957447
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 320486.0,
+      "recall": 0.962071,
+      "speedup_percent": 0.41,
+      "baseline_qps": 319164.0,
+      "baseline_recall": 0.963099
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 269262.0,
+      "recall": 0.966452,
+      "speedup_percent": 0.35,
+      "baseline_qps": 268319.0,
+      "baseline_recall": 0.967284
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 1392180.0,
+      "recall": 0.587076,
+      "speedup_percent": -1.83,
+      "baseline_qps": 1418140.0,
+      "baseline_recall": 0.58388
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 1407760.0,
+      "recall": 0.643266,
+      "speedup_percent": 1.89,
+      "baseline_qps": 1381620.0,
+      "baseline_recall": 0.641568
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 1375930.0,
+      "recall": 0.685803,
+      "speedup_percent": 10.8,
+      "baseline_qps": 1241860.0,
+      "baseline_recall": 0.68514
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 1223620.0,
+      "recall": 0.727257,
+      "speedup_percent": 11.16,
+      "baseline_qps": 1100770.0,
+      "baseline_recall": 0.723411
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 1113490.0,
+      "recall": 0.752369,
+      "speedup_percent": 3.8,
+      "baseline_qps": 1072750.0,
+      "baseline_recall": 0.74947
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 1042230.0,
+      "recall": 0.773605,
+      "speedup_percent": 5.2,
+      "baseline_qps": 990666.0,
+      "baseline_recall": 0.770897
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 1021860.0,
+      "recall": 0.791246,
+      "speedup_percent": 7.84,
+      "baseline_qps": 947575.0,
+      "baseline_recall": 0.788875
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 919607.0,
+      "recall": 0.819246,
+      "speedup_percent": 8.21,
+      "baseline_qps": 849869.0,
+      "baseline_recall": 0.817176
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 751917.0,
+      "recall": 0.841891,
+      "speedup_percent": -0.28,
+      "baseline_qps": 754011.0,
+      "baseline_recall": 0.840296
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 675649.0,
+      "recall": 0.858554,
+      "speedup_percent": -4.83,
+      "baseline_qps": 709950.0,
+      "baseline_recall": 0.856859
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 613793.0,
+      "recall": 0.87209,
+      "speedup_percent": -5.82,
+      "baseline_qps": 651729.0,
+      "baseline_recall": 0.87061
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 634456.0,
+      "recall": 0.883939,
+      "speedup_percent": 7.55,
+      "baseline_qps": 589903.0,
+      "baseline_recall": 0.88302
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 570992.0,
+      "recall": 0.901635,
+      "speedup_percent": 11.84,
+      "baseline_qps": 510557.0,
+      "baseline_recall": 0.900595
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 441312.0,
+      "recall": 0.915593,
+      "speedup_percent": 7.2,
+      "baseline_qps": 411680.0,
+      "baseline_recall": 0.914873
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 402805.0,
+      "recall": 0.925595,
+      "speedup_percent": 8.43,
+      "baseline_qps": 371500.0,
+      "baseline_recall": 0.925034
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 320856.0,
+      "recall": 0.934131,
+      "speedup_percent": -0.65,
+      "baseline_qps": 322965.0,
+      "baseline_recall": 0.933797
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 223102.0,
+      "recall": 0.94091,
+      "speedup_percent": -31.47,
+      "baseline_qps": 325553.0,
+      "baseline_recall": 0.940196
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 1312470.0,
+      "recall": 0.708186,
+      "speedup_percent": -2.7,
+      "baseline_qps": 1348940.0,
+      "baseline_recall": 0.710603
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 1263390.0,
+      "recall": 0.753677,
+      "speedup_percent": -4.14,
+      "baseline_qps": 1317910.0,
+      "baseline_recall": 0.7565
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 1191240.0,
+      "recall": 0.787613,
+      "speedup_percent": 0.98,
+      "baseline_qps": 1179660.0,
+      "baseline_recall": 0.789605
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 1066220.0,
+      "recall": 0.819327,
+      "speedup_percent": 0.11,
+      "baseline_qps": 1065070.0,
+      "baseline_recall": 0.816803
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 996163.0,
+      "recall": 0.838406,
+      "speedup_percent": -3.8,
+      "baseline_qps": 1035480.0,
+      "baseline_recall": 0.835913
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 892641.0,
+      "recall": 0.853776,
+      "speedup_percent": -9.06,
+      "baseline_qps": 981528.0,
+      "baseline_recall": 0.851682
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 630888.0,
+      "recall": 0.866671,
+      "speedup_percent": -29.95,
+      "baseline_qps": 900586.0,
+      "baseline_recall": 0.864527
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 543301.0,
+      "recall": 0.886543,
+      "speedup_percent": -30.13,
+      "baseline_qps": 777533.0,
+      "baseline_recall": 0.884921
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 254117.0,
+      "recall": 0.902776,
+      "speedup_percent": -62.68,
+      "baseline_qps": 680931.0,
+      "baseline_recall": 0.901312
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 613144.0,
+      "recall": 0.914572,
+      "speedup_percent": -0.16,
+      "baseline_qps": 614141.0,
+      "baseline_recall": 0.913087
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 565882.0,
+      "recall": 0.923637,
+      "speedup_percent": 1.1,
+      "baseline_qps": 559731.0,
+      "baseline_recall": 0.922512
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 562623.0,
+      "recall": 0.931206,
+      "speedup_percent": 1.37,
+      "baseline_qps": 555026.0,
+      "baseline_recall": 0.930479
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 471457.0,
+      "recall": 0.9428,
+      "speedup_percent": -2.1,
+      "baseline_qps": 481575.0,
+      "baseline_recall": 0.94201
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 394523.0,
+      "recall": 0.951696,
+      "speedup_percent": -1.64,
+      "baseline_qps": 401112.0,
+      "baseline_recall": 0.951357
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 358991.0,
+      "recall": 0.957973,
+      "speedup_percent": -1.49,
+      "baseline_qps": 364413.0,
+      "baseline_recall": 0.957447
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 298974.0,
+      "recall": 0.963145,
+      "speedup_percent": -6.33,
+      "baseline_qps": 319164.0,
+      "baseline_recall": 0.963099
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 238105.0,
+      "recall": 0.967484,
+      "speedup_percent": -11.26,
+      "baseline_qps": 268319.0,
+      "baseline_recall": 0.967284
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 1424840.0,
+      "recall": 0.710884,
+      "speedup_percent": 5.63,
+      "baseline_qps": 1348940.0,
+      "baseline_recall": 0.710603
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 1291280.0,
+      "recall": 0.755854,
+      "speedup_percent": -2.02,
+      "baseline_qps": 1317910.0,
+      "baseline_recall": 0.7565
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 1112600.0,
+      "recall": 0.788964,
+      "speedup_percent": -5.68,
+      "baseline_qps": 1179660.0,
+      "baseline_recall": 0.789605
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 1099780.0,
+      "recall": 0.817506,
+      "speedup_percent": 3.26,
+      "baseline_qps": 1065070.0,
+      "baseline_recall": 0.816803
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 1025740.0,
+      "recall": 0.83654,
+      "speedup_percent": -0.94,
+      "baseline_qps": 1035480.0,
+      "baseline_recall": 0.835913
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 983586.0,
+      "recall": 0.852068,
+      "speedup_percent": 0.21,
+      "baseline_qps": 981528.0,
+      "baseline_recall": 0.851682
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 898968.0,
+      "recall": 0.864865,
+      "speedup_percent": -0.18,
+      "baseline_qps": 900586.0,
+      "baseline_recall": 0.864527
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 788802.0,
+      "recall": 0.885069,
+      "speedup_percent": 1.45,
+      "baseline_qps": 777533.0,
+      "baseline_recall": 0.884921
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 672031.0,
+      "recall": 0.89854,
+      "speedup_percent": -1.31,
+      "baseline_qps": 680931.0,
+      "baseline_recall": 0.901312
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 624514.0,
+      "recall": 0.909974,
+      "speedup_percent": 1.69,
+      "baseline_qps": 614141.0,
+      "baseline_recall": 0.913087
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 569344.0,
+      "recall": 0.919304,
+      "speedup_percent": 1.72,
+      "baseline_qps": 559731.0,
+      "baseline_recall": 0.922512
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 549302.0,
+      "recall": 0.929647,
+      "speedup_percent": -1.03,
+      "baseline_qps": 555026.0,
+      "baseline_recall": 0.930479
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 482726.0,
+      "recall": 0.941539,
+      "speedup_percent": 0.24,
+      "baseline_qps": 481575.0,
+      "baseline_recall": 0.94201
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 406474.0,
+      "recall": 0.950638,
+      "speedup_percent": 1.34,
+      "baseline_qps": 401112.0,
+      "baseline_recall": 0.951357
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 364436.0,
+      "recall": 0.95691,
+      "speedup_percent": 0.01,
+      "baseline_qps": 364413.0,
+      "baseline_recall": 0.957447
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 316941.0,
+      "recall": 0.962916,
+      "speedup_percent": -0.7,
+      "baseline_qps": 319164.0,
+      "baseline_recall": 0.963099
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 265544.0,
+      "recall": 0.966743,
+      "speedup_percent": -1.03,
+      "baseline_qps": 268319.0,
+      "baseline_recall": 0.967284
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 1561270.0,
+      "recall": 0.590657,
+      "speedup_percent": 10.09,
+      "baseline_qps": 1418140.0,
+      "baseline_recall": 0.58388
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 1451970.0,
+      "recall": 0.646077,
+      "speedup_percent": 5.09,
+      "baseline_qps": 1381620.0,
+      "baseline_recall": 0.641568
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 1339730.0,
+      "recall": 0.688073,
+      "speedup_percent": 7.88,
+      "baseline_qps": 1241860.0,
+      "baseline_recall": 0.68514
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 1247640.0,
+      "recall": 0.729565,
+      "speedup_percent": 13.34,
+      "baseline_qps": 1100770.0,
+      "baseline_recall": 0.723411
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 1157410.0,
+      "recall": 0.754329,
+      "speedup_percent": 7.89,
+      "baseline_qps": 1072750.0,
+      "baseline_recall": 0.74947
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 1129260.0,
+      "recall": 0.774975,
+      "speedup_percent": 13.99,
+      "baseline_qps": 990666.0,
+      "baseline_recall": 0.770897
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 1042590.0,
+      "recall": 0.79243,
+      "speedup_percent": 10.03,
+      "baseline_qps": 947575.0,
+      "baseline_recall": 0.788875
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 958789.0,
+      "recall": 0.819875,
+      "speedup_percent": 12.82,
+      "baseline_qps": 849869.0,
+      "baseline_recall": 0.817176
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 792078.0,
+      "recall": 0.842608,
+      "speedup_percent": 5.05,
+      "baseline_qps": 754011.0,
+      "baseline_recall": 0.840296
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 735897.0,
+      "recall": 0.858976,
+      "speedup_percent": 3.65,
+      "baseline_qps": 709950.0,
+      "baseline_recall": 0.856859
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 712045.0,
+      "recall": 0.872422,
+      "speedup_percent": 9.25,
+      "baseline_qps": 651729.0,
+      "baseline_recall": 0.87061
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 669942.0,
+      "recall": 0.884003,
+      "speedup_percent": 13.57,
+      "baseline_qps": 589903.0,
+      "baseline_recall": 0.88302
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 590209.0,
+      "recall": 0.901244,
+      "speedup_percent": 15.6,
+      "baseline_qps": 510557.0,
+      "baseline_recall": 0.900595
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 478687.0,
+      "recall": 0.914716,
+      "speedup_percent": 16.28,
+      "baseline_qps": 411680.0,
+      "baseline_recall": 0.914873
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 441722.0,
+      "recall": 0.924561,
+      "speedup_percent": 18.9,
+      "baseline_qps": 371500.0,
+      "baseline_recall": 0.925034
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 383504.0,
+      "recall": 0.933641,
+      "speedup_percent": 18.74,
+      "baseline_qps": 322965.0,
+      "baseline_recall": 0.933797
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 314556.0,
+      "recall": 0.940553,
+      "speedup_percent": -3.38,
+      "baseline_qps": 325553.0,
+      "baseline_recall": 0.940196
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 1542820.0,
+      "recall": 0.58458,
+      "speedup_percent": 8.79,
+      "baseline_qps": 1418140.0,
+      "baseline_recall": 0.58388
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 1358630.0,
+      "recall": 0.640696,
+      "speedup_percent": -1.66,
+      "baseline_qps": 1381620.0,
+      "baseline_recall": 0.641568
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 1408070.0,
+      "recall": 0.683138,
+      "speedup_percent": 13.38,
+      "baseline_qps": 1241860.0,
+      "baseline_recall": 0.68514
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 1242050.0,
+      "recall": 0.721815,
+      "speedup_percent": 12.83,
+      "baseline_qps": 1100770.0,
+      "baseline_recall": 0.723411
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 1184050.0,
+      "recall": 0.748065,
+      "speedup_percent": 10.38,
+      "baseline_qps": 1072750.0,
+      "baseline_recall": 0.74947
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 1122800.0,
+      "recall": 0.769432,
+      "speedup_percent": 13.34,
+      "baseline_qps": 990666.0,
+      "baseline_recall": 0.770897
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 1078480.0,
+      "recall": 0.78738,
+      "speedup_percent": 13.81,
+      "baseline_qps": 947575.0,
+      "baseline_recall": 0.788875
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 954770.0,
+      "recall": 0.816075,
+      "speedup_percent": 12.34,
+      "baseline_qps": 849869.0,
+      "baseline_recall": 0.817176
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 784513.0,
+      "recall": 0.841229,
+      "speedup_percent": 4.05,
+      "baseline_qps": 754011.0,
+      "baseline_recall": 0.840296
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 742020.0,
+      "recall": 0.858122,
+      "speedup_percent": 4.52,
+      "baseline_qps": 709950.0,
+      "baseline_recall": 0.856859
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 668246.0,
+      "recall": 0.87147,
+      "speedup_percent": 2.53,
+      "baseline_qps": 651729.0,
+      "baseline_recall": 0.87061
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 671038.0,
+      "recall": 0.883276,
+      "speedup_percent": 13.75,
+      "baseline_qps": 589903.0,
+      "baseline_recall": 0.88302
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 589176.0,
+      "recall": 0.901087,
+      "speedup_percent": 15.4,
+      "baseline_qps": 510557.0,
+      "baseline_recall": 0.900595
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 487003.0,
+      "recall": 0.915206,
+      "speedup_percent": 18.3,
+      "baseline_qps": 411680.0,
+      "baseline_recall": 0.914873
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 436749.0,
+      "recall": 0.925143,
+      "speedup_percent": 17.56,
+      "baseline_qps": 371500.0,
+      "baseline_recall": 0.925034
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 382740.0,
+      "recall": 0.934342,
+      "speedup_percent": 18.51,
+      "baseline_qps": 322965.0,
+      "baseline_recall": 0.933797
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 315753.0,
+      "recall": 0.940774,
+      "speedup_percent": -3.01,
+      "baseline_qps": 325553.0,
+      "baseline_recall": 0.940196
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 1348940.0,
+      "recall": 0.710603,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 1317910.0,
+      "recall": 0.7565,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 1179660.0,
+      "recall": 0.789605,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 1065070.0,
+      "recall": 0.816803,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 1035480.0,
+      "recall": 0.835913,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 981528.0,
+      "recall": 0.851682,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 900586.0,
+      "recall": 0.864527,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 777533.0,
+      "recall": 0.884921,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 680931.0,
+      "recall": 0.901312,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 614141.0,
+      "recall": 0.913087,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 559731.0,
+      "recall": 0.922512,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 555026.0,
+      "recall": 0.930479,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 481575.0,
+      "recall": 0.94201,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 401112.0,
+      "recall": 0.951357,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 364413.0,
+      "recall": 0.957447,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 319164.0,
+      "recall": 0.963099,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 268319.0,
+      "recall": 0.967284,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 1418140.0,
+      "recall": 0.58388,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 1381620.0,
+      "recall": 0.641568,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 1241860.0,
+      "recall": 0.68514,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 1100770.0,
+      "recall": 0.723411,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 1072750.0,
+      "recall": 0.74947,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 990666.0,
+      "recall": 0.770897,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 947575.0,
+      "recall": 0.788875,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 849869.0,
+      "recall": 0.817176,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 754011.0,
+      "recall": 0.840296,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 709950.0,
+      "recall": 0.856859,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 651729.0,
+      "recall": 0.87061,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 589903.0,
+      "recall": 0.88302,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 510557.0,
+      "recall": 0.900595,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 411680.0,
+      "recall": 0.914873,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 371500.0,
+      "recall": 0.925034,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 322965.0,
+      "recall": 0.933797,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "t2i1m-200-ip",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 325553.0,
+      "recall": 0.940196,
+      "speedup_percent": 0.0
+    }
+  ],
+  "speedup_metadata": {
+    "description": "speedup_percent: Performance improvement compared to baseline (reordering=none)",
+    "calculation": "((reordered_qps - baseline_qps) / baseline_qps) * 100",
+    "baseline_matching_tolerance": 0.01,
+    "null_values": "speedup_percent is null when no matching baseline found within tolerance",
+    "integrated_at": "2024-12-20"
+  }
+}

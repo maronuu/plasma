@@ -1,0 +1,3482 @@
+{
+  "dataset_name": "SIFT 1M",
+  "internal_name": "sift-128-euclidean",
+  "datasets": ["SIFT 1M"],
+  "results": [
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 1398040.0,
+      "recall": 0.854718,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 1329580.0,
+      "recall": 0.889881,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 1295000.0,
+      "recall": 0.913893,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 1206260.0,
+      "recall": 0.931855,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 1125170.0,
+      "recall": 0.945356,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 1064940.0,
+      "recall": 0.955337,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 1029550.0,
+      "recall": 0.962168,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 938531.0,
+      "recall": 0.972949,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 806141.0,
+      "recall": 0.980239,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 754196.0,
+      "recall": 0.98494,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 708128.0,
+      "recall": 0.98815,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 708374.0,
+      "recall": 0.99063,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 623699.0,
+      "recall": 0.99356,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 516800.0,
+      "recall": 0.99528,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 472619.0,
+      "recall": 0.99623,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 404827.0,
+      "recall": 0.99723,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 326020.0,
+      "recall": 0.99792,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 1797310.0,
+      "recall": 0.817816,
+      "speedup_percent": 30.22,
+      "baseline_qps": 1380180.0,
+      "baseline_recall": 0.809775
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 1825340.0,
+      "recall": 0.859057,
+      "speedup_percent": 47.21,
+      "baseline_qps": 1239950.0,
+      "baseline_recall": 0.852698
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 1855990.0,
+      "recall": 0.886449,
+      "speedup_percent": 46.09,
+      "baseline_qps": 1270420.0,
+      "baseline_recall": 0.883079
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 1603520.0,
+      "recall": 0.907923,
+      "speedup_percent": 32.45,
+      "baseline_qps": 1210630.0,
+      "baseline_recall": 0.904142
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 1473400.0,
+      "recall": 0.922353,
+      "speedup_percent": 30.01,
+      "baseline_qps": 1133260.0,
+      "baseline_recall": 0.920024
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 1385490.0,
+      "recall": 0.934375,
+      "speedup_percent": 28.76,
+      "baseline_qps": 1076060.0,
+      "baseline_recall": 0.932225
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 1321900.0,
+      "recall": 0.943115,
+      "speedup_percent": 29.11,
+      "baseline_qps": 1023830.0,
+      "baseline_recall": 0.941156
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 1269040.0,
+      "recall": 0.956416,
+      "speedup_percent": 30.15,
+      "baseline_qps": 975036.0,
+      "baseline_recall": 0.955336
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 898288.0,
+      "recall": 0.966487,
+      "speedup_percent": 1.61,
+      "baseline_qps": 884059.0,
+      "baseline_recall": 0.965467
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 805122.0,
+      "recall": 0.972748,
+      "speedup_percent": -2.63,
+      "baseline_qps": 826886.0,
+      "baseline_recall": 0.971978
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 728035.0,
+      "recall": 0.977388,
+      "speedup_percent": -5.64,
+      "baseline_qps": 771533.0,
+      "baseline_recall": 0.976818
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 865903.0,
+      "recall": 0.980999,
+      "speedup_percent": 22.55,
+      "baseline_qps": 706568.0,
+      "baseline_recall": 0.980689
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 752216.0,
+      "recall": 0.986229,
+      "speedup_percent": 18.6,
+      "baseline_qps": 634224.0,
+      "baseline_recall": 0.985989
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 565375.0,
+      "recall": 0.989159,
+      "speedup_percent": 14.13,
+      "baseline_qps": 495391.0,
+      "baseline_recall": 0.989039
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 522698.0,
+      "recall": 0.99127,
+      "speedup_percent": 15.44,
+      "baseline_qps": 452791.0,
+      "baseline_recall": 0.99129
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 394541.0,
+      "recall": 0.9932,
+      "speedup_percent": 0.67,
+      "baseline_qps": 391910.0,
+      "baseline_recall": 0.99318
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 255223.0,
+      "recall": 0.99437,
+      "speedup_percent": -38.2,
+      "baseline_qps": 413011.0,
+      "baseline_recall": 0.99429
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 1396010.0,
+      "recall": 0.854168,
+      "speedup_percent": -0.15,
+      "baseline_qps": 1398040.0,
+      "baseline_recall": 0.854718
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 1274650.0,
+      "recall": 0.890661,
+      "speedup_percent": -4.13,
+      "baseline_qps": 1329580.0,
+      "baseline_recall": 0.889881
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 1300260.0,
+      "recall": 0.913793,
+      "speedup_percent": 0.41,
+      "baseline_qps": 1295000.0,
+      "baseline_recall": 0.913893
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 1181190.0,
+      "recall": 0.933035,
+      "speedup_percent": -2.08,
+      "baseline_qps": 1206260.0,
+      "baseline_recall": 0.931855
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 1133310.0,
+      "recall": 0.945486,
+      "speedup_percent": 0.72,
+      "baseline_qps": 1125170.0,
+      "baseline_recall": 0.945356
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 1063640.0,
+      "recall": 0.955217,
+      "speedup_percent": -0.12,
+      "baseline_qps": 1064940.0,
+      "baseline_recall": 0.955337
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 1064410.0,
+      "recall": 0.962278,
+      "speedup_percent": 3.39,
+      "baseline_qps": 1029550.0,
+      "baseline_recall": 0.962168
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 937297.0,
+      "recall": 0.97275,
+      "speedup_percent": -0.13,
+      "baseline_qps": 938531.0,
+      "baseline_recall": 0.972949
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 811100.0,
+      "recall": 0.980439,
+      "speedup_percent": 0.62,
+      "baseline_qps": 806141.0,
+      "baseline_recall": 0.980239
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 775496.0,
+      "recall": 0.98494,
+      "speedup_percent": 2.82,
+      "baseline_qps": 754196.0,
+      "baseline_recall": 0.98494
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 713598.0,
+      "recall": 0.98831,
+      "speedup_percent": 0.77,
+      "baseline_qps": 708128.0,
+      "baseline_recall": 0.98815
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 699172.0,
+      "recall": 0.99056,
+      "speedup_percent": -1.3,
+      "baseline_qps": 708374.0,
+      "baseline_recall": 0.99063
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 628104.0,
+      "recall": 0.99341,
+      "speedup_percent": 0.71,
+      "baseline_qps": 623699.0,
+      "baseline_recall": 0.99356
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 515611.0,
+      "recall": 0.99524,
+      "speedup_percent": -0.23,
+      "baseline_qps": 516800.0,
+      "baseline_recall": 0.99528
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 473291.0,
+      "recall": 0.99625,
+      "speedup_percent": 0.14,
+      "baseline_qps": 472619.0,
+      "baseline_recall": 0.99623
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 407645.0,
+      "recall": 0.99719,
+      "speedup_percent": 0.7,
+      "baseline_qps": 404827.0,
+      "baseline_recall": 0.99723
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 331209.0,
+      "recall": 0.9978,
+      "speedup_percent": 1.59,
+      "baseline_qps": 326020.0,
+      "baseline_recall": 0.99792
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 1753140.0,
+      "recall": 0.862819,
+      "speedup_percent": 0.99,
+      "baseline_qps": 1735910.0,
+      "baseline_recall": 0.854508
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 1753220.0,
+      "recall": 0.894722,
+      "speedup_percent": 3.02,
+      "baseline_qps": 1701860.0,
+      "baseline_recall": 0.889742
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 1261770.0,
+      "recall": 0.916703,
+      "speedup_percent": -25.06,
+      "baseline_qps": 1683770.0,
+      "baseline_recall": 0.913043
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 1654380.0,
+      "recall": 0.933044,
+      "speedup_percent": 10.23,
+      "baseline_qps": 1500890.0,
+      "baseline_recall": 0.930055
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 1634180.0,
+      "recall": 0.944275,
+      "speedup_percent": 16.7,
+      "baseline_qps": 1400310.0,
+      "baseline_recall": 0.942766
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 1408290.0,
+      "recall": 0.953256,
+      "speedup_percent": 6.72,
+      "baseline_qps": 1319580.0,
+      "baseline_recall": 0.951975
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 1288830.0,
+      "recall": 0.960096,
+      "speedup_percent": 4.64,
+      "baseline_qps": 1231730.0,
+      "baseline_recall": 0.958826
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 1203370.0,
+      "recall": 0.970898,
+      "speedup_percent": 7.94,
+      "baseline_qps": 1114860.0,
+      "baseline_recall": 0.969838
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 967148.0,
+      "recall": 0.977428,
+      "speedup_percent": -6.11,
+      "baseline_qps": 1030130.0,
+      "baseline_recall": 0.977039
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 918631.0,
+      "recall": 0.982139,
+      "speedup_percent": -3.4,
+      "baseline_qps": 951010.0,
+      "baseline_recall": 0.981799
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 843558.0,
+      "recall": 0.985229,
+      "speedup_percent": -4.47,
+      "baseline_qps": 883066.0,
+      "baseline_recall": 0.985039
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 860983.0,
+      "recall": 0.98752,
+      "speedup_percent": 10.37,
+      "baseline_qps": 780098.0,
+      "baseline_recall": 0.98744
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 730584.0,
+      "recall": 0.99094,
+      "speedup_percent": 6.27,
+      "baseline_qps": 687459.0,
+      "baseline_recall": 0.99095
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 590652.0,
+      "recall": 0.9931,
+      "speedup_percent": 13.53,
+      "baseline_qps": 520240.0,
+      "baseline_recall": 0.99307
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 533383.0,
+      "recall": 0.99448,
+      "speedup_percent": 13.16,
+      "baseline_qps": 471367.0,
+      "baseline_recall": 0.99454
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 452491.0,
+      "recall": 0.99551,
+      "speedup_percent": 12.7,
+      "baseline_qps": 401512.0,
+      "baseline_recall": 0.99548
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 364216.0,
+      "recall": 0.99614,
+      "speedup_percent": -14.67,
+      "baseline_qps": 426845.0,
+      "baseline_recall": 0.99615
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 1370850.0,
+      "recall": 0.855039,
+      "speedup_percent": -1.94,
+      "baseline_qps": 1398040.0,
+      "baseline_recall": 0.854718
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 1332530.0,
+      "recall": 0.890381,
+      "speedup_percent": 0.22,
+      "baseline_qps": 1329580.0,
+      "baseline_recall": 0.889881
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 1308570.0,
+      "recall": 0.914513,
+      "speedup_percent": 1.05,
+      "baseline_qps": 1295000.0,
+      "baseline_recall": 0.913893
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 1207670.0,
+      "recall": 0.932465,
+      "speedup_percent": 0.12,
+      "baseline_qps": 1206260.0,
+      "baseline_recall": 0.931855
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 1088230.0,
+      "recall": 0.944887,
+      "speedup_percent": -3.28,
+      "baseline_qps": 1125170.0,
+      "baseline_recall": 0.945356
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 1069820.0,
+      "recall": 0.954247,
+      "speedup_percent": 0.46,
+      "baseline_qps": 1064940.0,
+      "baseline_recall": 0.955337
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 1021450.0,
+      "recall": 0.961698,
+      "speedup_percent": -0.79,
+      "baseline_qps": 1029550.0,
+      "baseline_recall": 0.962168
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 919778.0,
+      "recall": 0.972649,
+      "speedup_percent": -2.0,
+      "baseline_qps": 938531.0,
+      "baseline_recall": 0.972949
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 804083.0,
+      "recall": 0.97985,
+      "speedup_percent": -0.26,
+      "baseline_qps": 806141.0,
+      "baseline_recall": 0.980239
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 739559.0,
+      "recall": 0.9849,
+      "speedup_percent": -1.94,
+      "baseline_qps": 754196.0,
+      "baseline_recall": 0.98494
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 687307.0,
+      "recall": 0.98789,
+      "speedup_percent": -2.94,
+      "baseline_qps": 708128.0,
+      "baseline_recall": 0.98815
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 696457.0,
+      "recall": 0.99033,
+      "speedup_percent": -1.68,
+      "baseline_qps": 708374.0,
+      "baseline_recall": 0.99063
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 617541.0,
+      "recall": 0.99318,
+      "speedup_percent": -0.99,
+      "baseline_qps": 623699.0,
+      "baseline_recall": 0.99356
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 512820.0,
+      "recall": 0.99508,
+      "speedup_percent": -0.77,
+      "baseline_qps": 516800.0,
+      "baseline_recall": 0.99528
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 466877.0,
+      "recall": 0.99608,
+      "speedup_percent": -1.21,
+      "baseline_qps": 472619.0,
+      "baseline_recall": 0.99623
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 405846.0,
+      "recall": 0.99704,
+      "speedup_percent": 0.25,
+      "baseline_qps": 404827.0,
+      "baseline_recall": 0.99723
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 328850.0,
+      "recall": 0.99772,
+      "speedup_percent": 0.87,
+      "baseline_qps": 326020.0,
+      "baseline_recall": 0.99792
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 1702650.0,
+      "recall": 0.862279,
+      "speedup_percent": -1.92,
+      "baseline_qps": 1735910.0,
+      "baseline_recall": 0.854508
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 1610380.0,
+      "recall": 0.894072,
+      "speedup_percent": -5.38,
+      "baseline_qps": 1701860.0,
+      "baseline_recall": 0.889742
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 1560550.0,
+      "recall": 0.915773,
+      "speedup_percent": -7.32,
+      "baseline_qps": 1683770.0,
+      "baseline_recall": 0.913043
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 1530880.0,
+      "recall": 0.932955,
+      "speedup_percent": 2.0,
+      "baseline_qps": 1500890.0,
+      "baseline_recall": 0.930055
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 1544440.0,
+      "recall": 0.944656,
+      "speedup_percent": 10.29,
+      "baseline_qps": 1400310.0,
+      "baseline_recall": 0.942766
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 1308810.0,
+      "recall": 0.953586,
+      "speedup_percent": -0.82,
+      "baseline_qps": 1319580.0,
+      "baseline_recall": 0.951975
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 1275690.0,
+      "recall": 0.960416,
+      "speedup_percent": 3.57,
+      "baseline_qps": 1231730.0,
+      "baseline_recall": 0.958826
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 1191310.0,
+      "recall": 0.970998,
+      "speedup_percent": 6.86,
+      "baseline_qps": 1114860.0,
+      "baseline_recall": 0.969838
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 947200.0,
+      "recall": 0.977638,
+      "speedup_percent": -8.05,
+      "baseline_qps": 1030130.0,
+      "baseline_recall": 0.977039
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 868198.0,
+      "recall": 0.982169,
+      "speedup_percent": -8.71,
+      "baseline_qps": 951010.0,
+      "baseline_recall": 0.981799
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 815566.0,
+      "recall": 0.98521,
+      "speedup_percent": -7.64,
+      "baseline_qps": 883066.0,
+      "baseline_recall": 0.985039
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 822637.0,
+      "recall": 0.98765,
+      "speedup_percent": 5.45,
+      "baseline_qps": 780098.0,
+      "baseline_recall": 0.98744
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 719853.0,
+      "recall": 0.99106,
+      "speedup_percent": 4.71,
+      "baseline_qps": 687459.0,
+      "baseline_recall": 0.99095
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 560808.0,
+      "recall": 0.99316,
+      "speedup_percent": 7.8,
+      "baseline_qps": 520240.0,
+      "baseline_recall": 0.99307
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 518565.0,
+      "recall": 0.99459,
+      "speedup_percent": 10.01,
+      "baseline_qps": 471367.0,
+      "baseline_recall": 0.99454
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 427028.0,
+      "recall": 0.99552,
+      "speedup_percent": 6.35,
+      "baseline_qps": 401512.0,
+      "baseline_recall": 0.99548
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 302791.0,
+      "recall": 0.99621,
+      "speedup_percent": -29.06,
+      "baseline_qps": 426845.0,
+      "baseline_recall": 0.99615
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 1395920.0,
+      "recall": 0.861579,
+      "speedup_percent": -19.59,
+      "baseline_qps": 1735910.0,
+      "baseline_recall": 0.854508
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 1160380.0,
+      "recall": 0.894031,
+      "speedup_percent": -31.82,
+      "baseline_qps": 1701860.0,
+      "baseline_recall": 0.889742
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 1294830.0,
+      "recall": 0.916544,
+      "speedup_percent": -23.1,
+      "baseline_qps": 1683770.0,
+      "baseline_recall": 0.913043
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 1190310.0,
+      "recall": 0.933205,
+      "speedup_percent": -20.69,
+      "baseline_qps": 1500890.0,
+      "baseline_recall": 0.930055
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 1135670.0,
+      "recall": 0.944946,
+      "speedup_percent": -18.9,
+      "baseline_qps": 1400310.0,
+      "baseline_recall": 0.942766
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 1075150.0,
+      "recall": 0.953266,
+      "speedup_percent": -18.52,
+      "baseline_qps": 1319580.0,
+      "baseline_recall": 0.951975
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 1068790.0,
+      "recall": 0.960106,
+      "speedup_percent": -13.23,
+      "baseline_qps": 1231730.0,
+      "baseline_recall": 0.958826
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 964882.0,
+      "recall": 0.971028,
+      "speedup_percent": -13.45,
+      "baseline_qps": 1114860.0,
+      "baseline_recall": 0.969838
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 830647.0,
+      "recall": 0.977629,
+      "speedup_percent": -19.36,
+      "baseline_qps": 1030130.0,
+      "baseline_recall": 0.977039
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 762326.0,
+      "recall": 0.982089,
+      "speedup_percent": -19.84,
+      "baseline_qps": 951010.0,
+      "baseline_recall": 0.981799
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 712922.0,
+      "recall": 0.98529,
+      "speedup_percent": -19.27,
+      "baseline_qps": 883066.0,
+      "baseline_recall": 0.985039
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 716411.0,
+      "recall": 0.98771,
+      "speedup_percent": -8.16,
+      "baseline_qps": 780098.0,
+      "baseline_recall": 0.98744
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 636052.0,
+      "recall": 0.9911,
+      "speedup_percent": -7.48,
+      "baseline_qps": 687459.0,
+      "baseline_recall": 0.99095
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 524261.0,
+      "recall": 0.99322,
+      "speedup_percent": 0.77,
+      "baseline_qps": 520240.0,
+      "baseline_recall": 0.99307
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 478172.0,
+      "recall": 0.9946,
+      "speedup_percent": 1.44,
+      "baseline_qps": 471367.0,
+      "baseline_recall": 0.99454
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 409649.0,
+      "recall": 0.99552,
+      "speedup_percent": 2.03,
+      "baseline_qps": 401512.0,
+      "baseline_recall": 0.99548
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 336391.0,
+      "recall": 0.9962,
+      "speedup_percent": -21.19,
+      "baseline_qps": 426845.0,
+      "baseline_recall": 0.99615
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 1583550.0,
+      "recall": 0.854489,
+      "speedup_percent": 13.27,
+      "baseline_qps": 1398040.0,
+      "baseline_recall": 0.854718
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 1462340.0,
+      "recall": 0.889811,
+      "speedup_percent": 9.99,
+      "baseline_qps": 1329580.0,
+      "baseline_recall": 0.889881
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 1433050.0,
+      "recall": 0.913973,
+      "speedup_percent": 10.66,
+      "baseline_qps": 1295000.0,
+      "baseline_recall": 0.913893
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 1269810.0,
+      "recall": 0.931875,
+      "speedup_percent": 5.27,
+      "baseline_qps": 1206260.0,
+      "baseline_recall": 0.931855
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 1207790.0,
+      "recall": 0.945206,
+      "speedup_percent": 7.34,
+      "baseline_qps": 1125170.0,
+      "baseline_recall": 0.945356
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 1167470.0,
+      "recall": 0.954827,
+      "speedup_percent": 9.63,
+      "baseline_qps": 1064940.0,
+      "baseline_recall": 0.955337
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 1089330.0,
+      "recall": 0.962159,
+      "speedup_percent": 5.81,
+      "baseline_qps": 1029550.0,
+      "baseline_recall": 0.962168
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 987545.0,
+      "recall": 0.972719,
+      "speedup_percent": 5.22,
+      "baseline_qps": 938531.0,
+      "baseline_recall": 0.972949
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 750565.0,
+      "recall": 0.980229,
+      "speedup_percent": -6.89,
+      "baseline_qps": 806141.0,
+      "baseline_recall": 0.980239
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 692707.0,
+      "recall": 0.98486,
+      "speedup_percent": -8.15,
+      "baseline_qps": 754196.0,
+      "baseline_recall": 0.98494
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 644074.0,
+      "recall": 0.9882,
+      "speedup_percent": -9.05,
+      "baseline_qps": 708128.0,
+      "baseline_recall": 0.98815
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 654023.0,
+      "recall": 0.99065,
+      "speedup_percent": -7.67,
+      "baseline_qps": 708374.0,
+      "baseline_recall": 0.99063
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 581986.0,
+      "recall": 0.99349,
+      "speedup_percent": -6.69,
+      "baseline_qps": 623699.0,
+      "baseline_recall": 0.99356
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 451644.0,
+      "recall": 0.99522,
+      "speedup_percent": -12.61,
+      "baseline_qps": 516800.0,
+      "baseline_recall": 0.99528
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 409564.0,
+      "recall": 0.996189,
+      "speedup_percent": -13.34,
+      "baseline_qps": 472619.0,
+      "baseline_recall": 0.99623
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 320040.0,
+      "recall": 0.99713,
+      "speedup_percent": -20.94,
+      "baseline_qps": 404827.0,
+      "baseline_recall": 0.99723
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 213360.0,
+      "recall": 0.99775,
+      "speedup_percent": -34.56,
+      "baseline_qps": 326020.0,
+      "baseline_recall": 0.99792
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 1813500.0,
+      "recall": 0.861218,
+      "speedup_percent": 4.47,
+      "baseline_qps": 1735910.0,
+      "baseline_recall": 0.854508
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 1759910.0,
+      "recall": 0.894622,
+      "speedup_percent": 3.41,
+      "baseline_qps": 1701860.0,
+      "baseline_recall": 0.889742
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 1672850.0,
+      "recall": 0.915972,
+      "speedup_percent": -0.65,
+      "baseline_qps": 1683770.0,
+      "baseline_recall": 0.913043
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 1530920.0,
+      "recall": 0.933124,
+      "speedup_percent": 2.0,
+      "baseline_qps": 1500890.0,
+      "baseline_recall": 0.930055
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 1454050.0,
+      "recall": 0.944805,
+      "speedup_percent": 3.84,
+      "baseline_qps": 1400310.0,
+      "baseline_recall": 0.942766
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 1381240.0,
+      "recall": 0.953405,
+      "speedup_percent": 4.67,
+      "baseline_qps": 1319580.0,
+      "baseline_recall": 0.951975
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 1298510.0,
+      "recall": 0.960236,
+      "speedup_percent": 5.42,
+      "baseline_qps": 1231730.0,
+      "baseline_recall": 0.958826
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 1122740.0,
+      "recall": 0.970888,
+      "speedup_percent": 0.71,
+      "baseline_qps": 1114860.0,
+      "baseline_recall": 0.969838
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 781916.0,
+      "recall": 0.977549,
+      "speedup_percent": -24.1,
+      "baseline_qps": 1030130.0,
+      "baseline_recall": 0.977039
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 780868.0,
+      "recall": 0.982119,
+      "speedup_percent": -17.89,
+      "baseline_qps": 951010.0,
+      "baseline_recall": 0.981799
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 730723.0,
+      "recall": 0.985269,
+      "speedup_percent": -17.25,
+      "baseline_qps": 883066.0,
+      "baseline_recall": 0.985039
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 763050.0,
+      "recall": 0.9875,
+      "speedup_percent": -2.19,
+      "baseline_qps": 780098.0,
+      "baseline_recall": 0.98744
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 660487.0,
+      "recall": 0.99091,
+      "speedup_percent": -3.92,
+      "baseline_qps": 687459.0,
+      "baseline_recall": 0.99095
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 507516.0,
+      "recall": 0.99312,
+      "speedup_percent": -2.45,
+      "baseline_qps": 520240.0,
+      "baseline_recall": 0.99307
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 426690.0,
+      "recall": 0.99449,
+      "speedup_percent": -9.48,
+      "baseline_qps": 471367.0,
+      "baseline_recall": 0.99454
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 356608.0,
+      "recall": 0.99551,
+      "speedup_percent": -11.18,
+      "baseline_qps": 401512.0,
+      "baseline_recall": 0.99548
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 232851.0,
+      "recall": 0.99625,
+      "speedup_percent": -45.45,
+      "baseline_qps": 426845.0,
+      "baseline_recall": 0.99615
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 1551030.0,
+      "recall": 0.818875,
+      "speedup_percent": 12.38,
+      "baseline_qps": 1380180.0,
+      "baseline_recall": 0.809775
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 1818920.0,
+      "recall": 0.858737,
+      "speedup_percent": 46.69,
+      "baseline_qps": 1239950.0,
+      "baseline_recall": 0.852698
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 1622660.0,
+      "recall": 0.88612,
+      "speedup_percent": 27.73,
+      "baseline_qps": 1270420.0,
+      "baseline_recall": 0.883079
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 1627550.0,
+      "recall": 0.906942,
+      "speedup_percent": 34.44,
+      "baseline_qps": 1210630.0,
+      "baseline_recall": 0.904142
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 1521410.0,
+      "recall": 0.922133,
+      "speedup_percent": 34.25,
+      "baseline_qps": 1133260.0,
+      "baseline_recall": 0.920024
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 1520430.0,
+      "recall": 0.933695,
+      "speedup_percent": 41.3,
+      "baseline_qps": 1076060.0,
+      "baseline_recall": 0.932225
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 1426140.0,
+      "recall": 0.942565,
+      "speedup_percent": 39.29,
+      "baseline_qps": 1023830.0,
+      "baseline_recall": 0.941156
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 1294820.0,
+      "recall": 0.956507,
+      "speedup_percent": 32.8,
+      "baseline_qps": 975036.0,
+      "baseline_recall": 0.955336
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 1019650.0,
+      "recall": 0.966408,
+      "speedup_percent": 15.34,
+      "baseline_qps": 884059.0,
+      "baseline_recall": 0.965467
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 915505.0,
+      "recall": 0.972688,
+      "speedup_percent": 10.72,
+      "baseline_qps": 826886.0,
+      "baseline_recall": 0.971978
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 762591.0,
+      "recall": 0.977329,
+      "speedup_percent": -1.16,
+      "baseline_qps": 771533.0,
+      "baseline_recall": 0.976818
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 890119.0,
+      "recall": 0.980959,
+      "speedup_percent": 25.98,
+      "baseline_qps": 706568.0,
+      "baseline_recall": 0.980689
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 779192.0,
+      "recall": 0.986129,
+      "speedup_percent": 22.86,
+      "baseline_qps": 634224.0,
+      "baseline_recall": 0.985989
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 595973.0,
+      "recall": 0.98912,
+      "speedup_percent": 20.3,
+      "baseline_qps": 495391.0,
+      "baseline_recall": 0.989039
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 549536.0,
+      "recall": 0.99131,
+      "speedup_percent": 21.37,
+      "baseline_qps": 452791.0,
+      "baseline_recall": 0.99129
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 458908.0,
+      "recall": 0.99318,
+      "speedup_percent": 17.1,
+      "baseline_qps": 391910.0,
+      "baseline_recall": 0.99318
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 332226.0,
+      "recall": 0.99439,
+      "speedup_percent": -19.56,
+      "baseline_qps": 413011.0,
+      "baseline_recall": 0.99429
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 1863910.0,
+      "recall": 0.817625,
+      "speedup_percent": 35.05,
+      "baseline_qps": 1380180.0,
+      "baseline_recall": 0.809775
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 1944270.0,
+      "recall": 0.858468,
+      "speedup_percent": 56.8,
+      "baseline_qps": 1239950.0,
+      "baseline_recall": 0.852698
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 1830550.0,
+      "recall": 0.886459,
+      "speedup_percent": 44.09,
+      "baseline_qps": 1270420.0,
+      "baseline_recall": 0.883079
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 1705090.0,
+      "recall": 0.906833,
+      "speedup_percent": 40.84,
+      "baseline_qps": 1210630.0,
+      "baseline_recall": 0.904142
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 1232670.0,
+      "recall": 0.921544,
+      "speedup_percent": 8.77,
+      "baseline_qps": 1133260.0,
+      "baseline_recall": 0.920024
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 1496120.0,
+      "recall": 0.933114,
+      "speedup_percent": 39.04,
+      "baseline_qps": 1076060.0,
+      "baseline_recall": 0.932225
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 1118310.0,
+      "recall": 0.941964,
+      "speedup_percent": 9.23,
+      "baseline_qps": 1023830.0,
+      "baseline_recall": 0.941156
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 1294980.0,
+      "recall": 0.955705,
+      "speedup_percent": 32.81,
+      "baseline_qps": 975036.0,
+      "baseline_recall": 0.955336
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 914471.0,
+      "recall": 0.965997,
+      "speedup_percent": 3.44,
+      "baseline_qps": 884059.0,
+      "baseline_recall": 0.965467
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 996348.0,
+      "recall": 0.972478,
+      "speedup_percent": 20.49,
+      "baseline_qps": 826886.0,
+      "baseline_recall": 0.971978
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 766231.0,
+      "recall": 0.977348,
+      "speedup_percent": -0.69,
+      "baseline_qps": 771533.0,
+      "baseline_recall": 0.976818
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 922243.0,
+      "recall": 0.981018,
+      "speedup_percent": 30.52,
+      "baseline_qps": 706568.0,
+      "baseline_recall": 0.980689
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 800641.0,
+      "recall": 0.986219,
+      "speedup_percent": 26.24,
+      "baseline_qps": 634224.0,
+      "baseline_recall": 0.985989
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 626990.0,
+      "recall": 0.989129,
+      "speedup_percent": 26.56,
+      "baseline_qps": 495391.0,
+      "baseline_recall": 0.989039
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 583084.0,
+      "recall": 0.99135,
+      "speedup_percent": 28.78,
+      "baseline_qps": 452791.0,
+      "baseline_recall": 0.99129
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 485253.0,
+      "recall": 0.99318,
+      "speedup_percent": 23.82,
+      "baseline_qps": 391910.0,
+      "baseline_recall": 0.99318
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 378701.0,
+      "recall": 0.99438,
+      "speedup_percent": -8.31,
+      "baseline_qps": 413011.0,
+      "baseline_recall": 0.99429
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 1797230.0,
+      "recall": 0.86221,
+      "speedup_percent": 3.53,
+      "baseline_qps": 1735910.0,
+      "baseline_recall": 0.854508
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 1940930.0,
+      "recall": 0.894662,
+      "speedup_percent": 14.05,
+      "baseline_qps": 1701860.0,
+      "baseline_recall": 0.889742
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 1693290.0,
+      "recall": 0.916454,
+      "speedup_percent": 0.57,
+      "baseline_qps": 1683770.0,
+      "baseline_recall": 0.913043
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 1602390.0,
+      "recall": 0.933786,
+      "speedup_percent": 6.76,
+      "baseline_qps": 1500890.0,
+      "baseline_recall": 0.930055
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 1330450.0,
+      "recall": 0.945227,
+      "speedup_percent": -4.99,
+      "baseline_qps": 1400310.0,
+      "baseline_recall": 0.942766
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 1329250.0,
+      "recall": 0.953106,
+      "speedup_percent": 0.73,
+      "baseline_qps": 1319580.0,
+      "baseline_recall": 0.951975
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 1339110.0,
+      "recall": 0.960106,
+      "speedup_percent": 8.72,
+      "baseline_qps": 1231730.0,
+      "baseline_recall": 0.958826
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 1166100.0,
+      "recall": 0.970908,
+      "speedup_percent": 4.6,
+      "baseline_qps": 1114860.0,
+      "baseline_recall": 0.969838
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 951825.0,
+      "recall": 0.977408,
+      "speedup_percent": -7.6,
+      "baseline_qps": 1030130.0,
+      "baseline_recall": 0.977039
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 911813.0,
+      "recall": 0.982199,
+      "speedup_percent": -4.12,
+      "baseline_qps": 951010.0,
+      "baseline_recall": 0.981799
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 841822.0,
+      "recall": 0.985259,
+      "speedup_percent": -4.67,
+      "baseline_qps": 883066.0,
+      "baseline_recall": 0.985039
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 853925.0,
+      "recall": 0.98747,
+      "speedup_percent": 9.46,
+      "baseline_qps": 780098.0,
+      "baseline_recall": 0.98744
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 724848.0,
+      "recall": 0.99094,
+      "speedup_percent": 5.44,
+      "baseline_qps": 687459.0,
+      "baseline_recall": 0.99095
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 578323.0,
+      "recall": 0.99313,
+      "speedup_percent": 11.16,
+      "baseline_qps": 520240.0,
+      "baseline_recall": 0.99307
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 525932.0,
+      "recall": 0.99456,
+      "speedup_percent": 11.58,
+      "baseline_qps": 471367.0,
+      "baseline_recall": 0.99454
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 458829.0,
+      "recall": 0.99552,
+      "speedup_percent": 14.28,
+      "baseline_qps": 401512.0,
+      "baseline_recall": 0.99548
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 358756.0,
+      "recall": 0.99622,
+      "speedup_percent": -15.95,
+      "baseline_qps": 426845.0,
+      "baseline_recall": 0.99615
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 1380180.0,
+      "recall": 0.809775,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 1239950.0,
+      "recall": 0.852698,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 1270420.0,
+      "recall": 0.883079,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 1210630.0,
+      "recall": 0.904142,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 1133260.0,
+      "recall": 0.920024,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 1076060.0,
+      "recall": 0.932225,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 1023830.0,
+      "recall": 0.941156,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 975036.0,
+      "recall": 0.955336,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 884059.0,
+      "recall": 0.965467,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 826886.0,
+      "recall": 0.971978,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 771533.0,
+      "recall": 0.976818,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 706568.0,
+      "recall": 0.980689,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 634224.0,
+      "recall": 0.985989,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 495391.0,
+      "recall": 0.989039,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 452791.0,
+      "recall": 0.99129,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 391910.0,
+      "recall": 0.99318,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 413011.0,
+      "recall": 0.99429,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 1818860.0,
+      "recall": 0.818557,
+      "speedup_percent": 31.78,
+      "baseline_qps": 1380180.0,
+      "baseline_recall": 0.809775
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 1855730.0,
+      "recall": 0.858908,
+      "speedup_percent": 49.66,
+      "baseline_qps": 1239950.0,
+      "baseline_recall": 0.852698
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 1661690.0,
+      "recall": 0.886599,
+      "speedup_percent": 30.8,
+      "baseline_qps": 1270420.0,
+      "baseline_recall": 0.883079
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 1661860.0,
+      "recall": 0.907662,
+      "speedup_percent": 37.27,
+      "baseline_qps": 1210630.0,
+      "baseline_recall": 0.904142
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 1521950.0,
+      "recall": 0.922863,
+      "speedup_percent": 34.3,
+      "baseline_qps": 1133260.0,
+      "baseline_recall": 0.920024
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 1470810.0,
+      "recall": 0.934345,
+      "speedup_percent": 36.68,
+      "baseline_qps": 1076060.0,
+      "baseline_recall": 0.932225
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 1426130.0,
+      "recall": 0.942765,
+      "speedup_percent": 39.29,
+      "baseline_qps": 1023830.0,
+      "baseline_recall": 0.941156
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 1322690.0,
+      "recall": 0.956966,
+      "speedup_percent": 35.66,
+      "baseline_qps": 975036.0,
+      "baseline_recall": 0.955336
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 1058580.0,
+      "recall": 0.966597,
+      "speedup_percent": 19.74,
+      "baseline_qps": 884059.0,
+      "baseline_recall": 0.965467
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 893206.0,
+      "recall": 0.972988,
+      "speedup_percent": 8.02,
+      "baseline_qps": 826886.0,
+      "baseline_recall": 0.971978
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 899344.0,
+      "recall": 0.977408,
+      "speedup_percent": 16.57,
+      "baseline_qps": 771533.0,
+      "baseline_recall": 0.976818
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 909897.0,
+      "recall": 0.981229,
+      "speedup_percent": 28.78,
+      "baseline_qps": 706568.0,
+      "baseline_recall": 0.980689
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 791038.0,
+      "recall": 0.986329,
+      "speedup_percent": 24.73,
+      "baseline_qps": 634224.0,
+      "baseline_recall": 0.985989
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 625397.0,
+      "recall": 0.989149,
+      "speedup_percent": 26.24,
+      "baseline_qps": 495391.0,
+      "baseline_recall": 0.989039
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 572758.0,
+      "recall": 0.99136,
+      "speedup_percent": 26.5,
+      "baseline_qps": 452791.0,
+      "baseline_recall": 0.99129
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 488884.0,
+      "recall": 0.99325,
+      "speedup_percent": 24.74,
+      "baseline_qps": 391910.0,
+      "baseline_recall": 0.99318
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 371196.0,
+      "recall": 0.99442,
+      "speedup_percent": -10.12,
+      "baseline_qps": 413011.0,
+      "baseline_recall": 0.99429
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 1633160.0,
+      "recall": 0.855789,
+      "speedup_percent": 16.82,
+      "baseline_qps": 1398040.0,
+      "baseline_recall": 0.854718
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 1450040.0,
+      "recall": 0.889843,
+      "speedup_percent": 9.06,
+      "baseline_qps": 1329580.0,
+      "baseline_recall": 0.889881
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 1435870.0,
+      "recall": 0.913923,
+      "speedup_percent": 10.88,
+      "baseline_qps": 1295000.0,
+      "baseline_recall": 0.913893
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 1432190.0,
+      "recall": 0.933006,
+      "speedup_percent": 18.73,
+      "baseline_qps": 1206260.0,
+      "baseline_recall": 0.931855
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 1336360.0,
+      "recall": 0.945517,
+      "speedup_percent": 18.77,
+      "baseline_qps": 1125170.0,
+      "baseline_recall": 0.945356
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 1190260.0,
+      "recall": 0.955097,
+      "speedup_percent": 11.77,
+      "baseline_qps": 1064940.0,
+      "baseline_recall": 0.955337
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 1113550.0,
+      "recall": 0.962279,
+      "speedup_percent": 8.16,
+      "baseline_qps": 1029550.0,
+      "baseline_recall": 0.962168
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 1037400.0,
+      "recall": 0.973069,
+      "speedup_percent": 10.53,
+      "baseline_qps": 938531.0,
+      "baseline_recall": 0.972949
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 838281.0,
+      "recall": 0.98024,
+      "speedup_percent": 3.99,
+      "baseline_qps": 806141.0,
+      "baseline_recall": 0.980239
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 771275.0,
+      "recall": 0.98479,
+      "speedup_percent": 2.26,
+      "baseline_qps": 754196.0,
+      "baseline_recall": 0.98494
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 725831.0,
+      "recall": 0.98784,
+      "speedup_percent": 2.5,
+      "baseline_qps": 708128.0,
+      "baseline_recall": 0.98815
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 723134.0,
+      "recall": 0.99055,
+      "speedup_percent": 2.08,
+      "baseline_qps": 708374.0,
+      "baseline_recall": 0.99063
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 663148.0,
+      "recall": 0.99327,
+      "speedup_percent": 6.33,
+      "baseline_qps": 623699.0,
+      "baseline_recall": 0.99356
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 502096.0,
+      "recall": 0.99522,
+      "speedup_percent": -2.85,
+      "baseline_qps": 516800.0,
+      "baseline_recall": 0.99528
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 469735.0,
+      "recall": 0.99622,
+      "speedup_percent": -0.61,
+      "baseline_qps": 472619.0,
+      "baseline_recall": 0.99623
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 393432.0,
+      "recall": 0.99714,
+      "speedup_percent": -2.81,
+      "baseline_qps": 404827.0,
+      "baseline_recall": 0.99723
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 285791.0,
+      "recall": 0.99781,
+      "speedup_percent": -12.34,
+      "baseline_qps": 326020.0,
+      "baseline_recall": 0.99792
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 1866160.0,
+      "recall": 0.818435,
+      "speedup_percent": 35.21,
+      "baseline_qps": 1380180.0,
+      "baseline_recall": 0.809775
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 1926720.0,
+      "recall": 0.859637,
+      "speedup_percent": 55.39,
+      "baseline_qps": 1239950.0,
+      "baseline_recall": 0.852698
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 1764910.0,
+      "recall": 0.88702,
+      "speedup_percent": 38.92,
+      "baseline_qps": 1270420.0,
+      "baseline_recall": 0.883079
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 1749600.0,
+      "recall": 0.906962,
+      "speedup_percent": 44.52,
+      "baseline_qps": 1210630.0,
+      "baseline_recall": 0.904142
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 1521420.0,
+      "recall": 0.921473,
+      "speedup_percent": 34.25,
+      "baseline_qps": 1133260.0,
+      "baseline_recall": 0.920024
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 1496620.0,
+      "recall": 0.933815,
+      "speedup_percent": 39.08,
+      "baseline_qps": 1076060.0,
+      "baseline_recall": 0.932225
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 1424240.0,
+      "recall": 0.942325,
+      "speedup_percent": 39.11,
+      "baseline_qps": 1023830.0,
+      "baseline_recall": 0.941156
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 1331660.0,
+      "recall": 0.955946,
+      "speedup_percent": 36.58,
+      "baseline_qps": 975036.0,
+      "baseline_recall": 0.955336
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 1076180.0,
+      "recall": 0.966287,
+      "speedup_percent": 21.73,
+      "baseline_qps": 884059.0,
+      "baseline_recall": 0.965467
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 973107.0,
+      "recall": 0.972908,
+      "speedup_percent": 17.68,
+      "baseline_qps": 826886.0,
+      "baseline_recall": 0.971978
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 905163.0,
+      "recall": 0.977448,
+      "speedup_percent": 17.32,
+      "baseline_qps": 771533.0,
+      "baseline_recall": 0.976818
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 912930.0,
+      "recall": 0.981079,
+      "speedup_percent": 29.21,
+      "baseline_qps": 706568.0,
+      "baseline_recall": 0.980689
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 797633.0,
+      "recall": 0.986269,
+      "speedup_percent": 25.77,
+      "baseline_qps": 634224.0,
+      "baseline_recall": 0.985989
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 631916.0,
+      "recall": 0.989179,
+      "speedup_percent": 27.56,
+      "baseline_qps": 495391.0,
+      "baseline_recall": 0.989039
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 551686.0,
+      "recall": 0.99127,
+      "speedup_percent": 21.84,
+      "baseline_qps": 452791.0,
+      "baseline_recall": 0.99129
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 488779.0,
+      "recall": 0.99327,
+      "speedup_percent": 24.72,
+      "baseline_qps": 391910.0,
+      "baseline_recall": 0.99318
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 386365.0,
+      "recall": 0.99443,
+      "speedup_percent": -6.45,
+      "baseline_qps": 413011.0,
+      "baseline_recall": 0.99429
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 1533220.0,
+      "recall": 0.855058,
+      "speedup_percent": 9.67,
+      "baseline_qps": 1398040.0,
+      "baseline_recall": 0.854718
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 1503700.0,
+      "recall": 0.891553,
+      "speedup_percent": 13.1,
+      "baseline_qps": 1329580.0,
+      "baseline_recall": 0.889881
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 1547820.0,
+      "recall": 0.914894,
+      "speedup_percent": 19.52,
+      "baseline_qps": 1295000.0,
+      "baseline_recall": 0.913893
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 1356460.0,
+      "recall": 0.932206,
+      "speedup_percent": 12.45,
+      "baseline_qps": 1206260.0,
+      "baseline_recall": 0.931855
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 1294600.0,
+      "recall": 0.944887,
+      "speedup_percent": 15.06,
+      "baseline_qps": 1125170.0,
+      "baseline_recall": 0.945356
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 1204420.0,
+      "recall": 0.955067,
+      "speedup_percent": 13.1,
+      "baseline_qps": 1064940.0,
+      "baseline_recall": 0.955337
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 1145390.0,
+      "recall": 0.962319,
+      "speedup_percent": 11.25,
+      "baseline_qps": 1029550.0,
+      "baseline_recall": 0.962168
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 1093300.0,
+      "recall": 0.97297,
+      "speedup_percent": 16.49,
+      "baseline_qps": 938531.0,
+      "baseline_recall": 0.972949
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 924419.0,
+      "recall": 0.98033,
+      "speedup_percent": 14.67,
+      "baseline_qps": 806141.0,
+      "baseline_recall": 0.980239
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 799496.0,
+      "recall": 0.9848,
+      "speedup_percent": 6.01,
+      "baseline_qps": 754196.0,
+      "baseline_recall": 0.98494
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 754903.0,
+      "recall": 0.988031,
+      "speedup_percent": 6.61,
+      "baseline_qps": 708128.0,
+      "baseline_recall": 0.98815
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 756462.0,
+      "recall": 0.99043,
+      "speedup_percent": 6.79,
+      "baseline_qps": 708374.0,
+      "baseline_recall": 0.99063
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 670759.0,
+      "recall": 0.99333,
+      "speedup_percent": 7.55,
+      "baseline_qps": 623699.0,
+      "baseline_recall": 0.99356
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 544272.0,
+      "recall": 0.99516,
+      "speedup_percent": 5.32,
+      "baseline_qps": 516800.0,
+      "baseline_recall": 0.99528
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 482283.0,
+      "recall": 0.99621,
+      "speedup_percent": 2.04,
+      "baseline_qps": 472619.0,
+      "baseline_recall": 0.99623
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 427207.0,
+      "recall": 0.99713,
+      "speedup_percent": 5.53,
+      "baseline_qps": 404827.0,
+      "baseline_recall": 0.99723
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 344415.0,
+      "recall": 0.99782,
+      "speedup_percent": 5.64,
+      "baseline_qps": 326020.0,
+      "baseline_recall": 0.99792
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 1459560.0,
+      "recall": 0.817015,
+      "speedup_percent": 5.75,
+      "baseline_qps": 1380180.0,
+      "baseline_recall": 0.809775
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 1396320.0,
+      "recall": 0.857457,
+      "speedup_percent": 12.61,
+      "baseline_qps": 1239950.0,
+      "baseline_recall": 0.852698
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 1338270.0,
+      "recall": 0.885729,
+      "speedup_percent": 5.34,
+      "baseline_qps": 1270420.0,
+      "baseline_recall": 0.883079
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 1292350.0,
+      "recall": 0.906272,
+      "speedup_percent": 6.75,
+      "baseline_qps": 1210630.0,
+      "baseline_recall": 0.904142
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 1244620.0,
+      "recall": 0.921994,
+      "speedup_percent": 9.83,
+      "baseline_qps": 1133260.0,
+      "baseline_recall": 0.920024
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 1155540.0,
+      "recall": 0.933384,
+      "speedup_percent": 7.39,
+      "baseline_qps": 1076060.0,
+      "baseline_recall": 0.932225
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 1181400.0,
+      "recall": 0.942325,
+      "speedup_percent": 15.39,
+      "baseline_qps": 1023830.0,
+      "baseline_recall": 0.941156
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 1083780.0,
+      "recall": 0.956076,
+      "speedup_percent": 11.15,
+      "baseline_qps": 975036.0,
+      "baseline_recall": 0.955336
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 882171.0,
+      "recall": 0.966397,
+      "speedup_percent": -0.21,
+      "baseline_qps": 884059.0,
+      "baseline_recall": 0.965467
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 840617.0,
+      "recall": 0.972668,
+      "speedup_percent": 1.66,
+      "baseline_qps": 826886.0,
+      "baseline_recall": 0.971978
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 802568.0,
+      "recall": 0.977398,
+      "speedup_percent": 4.02,
+      "baseline_qps": 771533.0,
+      "baseline_recall": 0.976818
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 801964.0,
+      "recall": 0.981159,
+      "speedup_percent": 13.5,
+      "baseline_qps": 706568.0,
+      "baseline_recall": 0.980689
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 697667.0,
+      "recall": 0.986279,
+      "speedup_percent": 10.0,
+      "baseline_qps": 634224.0,
+      "baseline_recall": 0.985989
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 556194.0,
+      "recall": 0.989119,
+      "speedup_percent": 12.27,
+      "baseline_qps": 495391.0,
+      "baseline_recall": 0.989039
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 520609.0,
+      "recall": 0.991379,
+      "speedup_percent": 14.98,
+      "baseline_qps": 452791.0,
+      "baseline_recall": 0.99129
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 445667.0,
+      "recall": 0.99319,
+      "speedup_percent": 13.72,
+      "baseline_qps": 391910.0,
+      "baseline_recall": 0.99318
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 360725.0,
+      "recall": 0.99442,
+      "speedup_percent": -12.66,
+      "baseline_qps": 413011.0,
+      "baseline_recall": 0.99429
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 1735910.0,
+      "recall": 0.854508,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 1701860.0,
+      "recall": 0.889742,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 1683770.0,
+      "recall": 0.913043,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 1500890.0,
+      "recall": 0.930055,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 1400310.0,
+      "recall": 0.942766,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 1319580.0,
+      "recall": 0.951975,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 1231730.0,
+      "recall": 0.958826,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 1114860.0,
+      "recall": 0.969838,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 1030130.0,
+      "recall": 0.977039,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 951010.0,
+      "recall": 0.981799,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 883066.0,
+      "recall": 0.985039,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 780098.0,
+      "recall": 0.98744,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 687459.0,
+      "recall": 0.99095,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 520240.0,
+      "recall": 0.99307,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 471367.0,
+      "recall": 0.99454,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 401512.0,
+      "recall": 0.99548,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 426845.0,
+      "recall": 0.99615,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 1733740.0,
+      "recall": 0.8634,
+      "speedup_percent": -0.13,
+      "baseline_qps": 1735910.0,
+      "baseline_recall": 0.854508
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 1745770.0,
+      "recall": 0.895242,
+      "speedup_percent": 2.58,
+      "baseline_qps": 1701860.0,
+      "baseline_recall": 0.889742
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 1570380.0,
+      "recall": 0.916972,
+      "speedup_percent": -6.73,
+      "baseline_qps": 1683770.0,
+      "baseline_recall": 0.913043
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 1453380.0,
+      "recall": 0.933055,
+      "speedup_percent": -3.17,
+      "baseline_qps": 1500890.0,
+      "baseline_recall": 0.930055
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 1472110.0,
+      "recall": 0.944435,
+      "speedup_percent": 5.13,
+      "baseline_qps": 1400310.0,
+      "baseline_recall": 0.942766
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 1417400.0,
+      "recall": 0.953286,
+      "speedup_percent": 7.41,
+      "baseline_qps": 1319580.0,
+      "baseline_recall": 0.951975
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 1060980.0,
+      "recall": 0.960266,
+      "speedup_percent": -13.86,
+      "baseline_qps": 1231730.0,
+      "baseline_recall": 0.958826
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 1225290.0,
+      "recall": 0.970868,
+      "speedup_percent": 9.91,
+      "baseline_qps": 1114860.0,
+      "baseline_recall": 0.969838
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 1013840.0,
+      "recall": 0.977528,
+      "speedup_percent": -1.58,
+      "baseline_qps": 1030130.0,
+      "baseline_recall": 0.977039
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 882696.0,
+      "recall": 0.981989,
+      "speedup_percent": -7.18,
+      "baseline_qps": 951010.0,
+      "baseline_recall": 0.981799
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 768682.0,
+      "recall": 0.985259,
+      "speedup_percent": -12.95,
+      "baseline_qps": 883066.0,
+      "baseline_recall": 0.985039
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 830358.0,
+      "recall": 0.987599,
+      "speedup_percent": 6.44,
+      "baseline_qps": 780098.0,
+      "baseline_recall": 0.98744
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 746951.0,
+      "recall": 0.99095,
+      "speedup_percent": 8.65,
+      "baseline_qps": 687459.0,
+      "baseline_recall": 0.99095
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 545777.0,
+      "recall": 0.99311,
+      "speedup_percent": 4.91,
+      "baseline_qps": 520240.0,
+      "baseline_recall": 0.99307
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 532547.0,
+      "recall": 0.99455,
+      "speedup_percent": 12.98,
+      "baseline_qps": 471367.0,
+      "baseline_recall": 0.99454
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 451402.0,
+      "recall": 0.99549,
+      "speedup_percent": 12.43,
+      "baseline_qps": 401512.0,
+      "baseline_recall": 0.99548
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 362185.0,
+      "recall": 0.99618,
+      "speedup_percent": -15.15,
+      "baseline_qps": 426845.0,
+      "baseline_recall": 0.99615
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 1372610.0,
+      "recall": 0.855379,
+      "speedup_percent": -1.82,
+      "baseline_qps": 1398040.0,
+      "baseline_recall": 0.854718
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 1264020.0,
+      "recall": 0.890833,
+      "speedup_percent": -4.93,
+      "baseline_qps": 1329580.0,
+      "baseline_recall": 0.889881
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 1349120.0,
+      "recall": 0.914543,
+      "speedup_percent": 4.18,
+      "baseline_qps": 1295000.0,
+      "baseline_recall": 0.913893
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 1192970.0,
+      "recall": 0.932584,
+      "speedup_percent": -1.1,
+      "baseline_qps": 1206260.0,
+      "baseline_recall": 0.931855
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 1152110.0,
+      "recall": 0.945836,
+      "speedup_percent": 2.39,
+      "baseline_qps": 1125170.0,
+      "baseline_recall": 0.945356
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 1064800.0,
+      "recall": 0.955347,
+      "speedup_percent": -0.01,
+      "baseline_qps": 1064940.0,
+      "baseline_recall": 0.955337
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 1019910.0,
+      "recall": 0.962278,
+      "speedup_percent": -0.94,
+      "baseline_qps": 1029550.0,
+      "baseline_recall": 0.962168
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 947053.0,
+      "recall": 0.972729,
+      "speedup_percent": 0.91,
+      "baseline_qps": 938531.0,
+      "baseline_recall": 0.972949
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 810126.0,
+      "recall": 0.98036,
+      "speedup_percent": 0.49,
+      "baseline_qps": 806141.0,
+      "baseline_recall": 0.980239
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 753523.0,
+      "recall": 0.98508,
+      "speedup_percent": -0.09,
+      "baseline_qps": 754196.0,
+      "baseline_recall": 0.98494
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 704531.0,
+      "recall": 0.98821,
+      "speedup_percent": -0.51,
+      "baseline_qps": 708128.0,
+      "baseline_recall": 0.98815
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 699897.0,
+      "recall": 0.99058,
+      "speedup_percent": -1.2,
+      "baseline_qps": 708374.0,
+      "baseline_recall": 0.99063
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 642713.0,
+      "recall": 0.99337,
+      "speedup_percent": 3.05,
+      "baseline_qps": 623699.0,
+      "baseline_recall": 0.99356
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 511748.0,
+      "recall": 0.9952,
+      "speedup_percent": -0.98,
+      "baseline_qps": 516800.0,
+      "baseline_recall": 0.99528
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 472702.0,
+      "recall": 0.99619,
+      "speedup_percent": 0.02,
+      "baseline_qps": 472619.0,
+      "baseline_recall": 0.99623
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 410917.0,
+      "recall": 0.99708,
+      "speedup_percent": 1.5,
+      "baseline_qps": 404827.0,
+      "baseline_recall": 0.99723
+    },
+    {
+      "dataset": "sift-128-euclidean",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 332989.0,
+      "recall": 0.99775,
+      "speedup_percent": 2.14,
+      "baseline_qps": 326020.0,
+      "baseline_recall": 0.99792
+    }
+  ],
+  "speedup_metadata": {
+    "description": "speedup_percent: Performance improvement compared to baseline (reordering=none)",
+    "calculation": "((reordered_qps - baseline_qps) / baseline_qps) * 100",
+    "baseline_matching_tolerance": 0.01,
+    "null_values": "speedup_percent is null when no matching baseline found within tolerance",
+    "integrated_at": "2024-12-20"
+  }
+}

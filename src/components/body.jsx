@@ -1,6 +1,13 @@
 import React from 'react';
 import { marked } from 'marked';
 import markedKatex from 'marked-katex-extension';
+import Leaderboard from '@/components/leaderboard.jsx';
+
+// `body[].text` is markdown, so a section that needs real interactivity names a
+// React component instead: `component: leaderboard`.
+const COMPONENTS = {
+  leaderboard: Leaderboard,
+};
 
 const renderer = new marked.Renderer();
 renderer.table = (header, body) => {
@@ -35,6 +42,10 @@ class Content extends React.Component {
           alt=""
         />
       );
+    if (this.props.component) {
+      const Component = COMPONENTS[this.props.component];
+      return Component ? <Component /> : null;
+    }
     return null;
   }
 }
@@ -53,6 +64,7 @@ export default class Body extends React.Component {
               <Content title={subsection.title} />
               <Content image={subsection.image} />
               <Content text={subsection.text} />
+              <Content component={subsection.component} />
             </div>
           );
         })}

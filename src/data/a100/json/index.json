@@ -1,0 +1,104 @@
+{
+  "datasets": [
+    {
+      "internal_name": "wikipedia10m-768-ip",
+      "display_name": "Wikipedia 10M",
+      "file_path": "a100/json/wikipedia10m-768-ip.json",
+      "result_count": 357,
+      "baseline_count": 51,
+      "reordered_count": 306
+    },
+    {
+      "internal_name": "wikipedia1m-768-ip",
+      "display_name": "Wikipedia 1M",
+      "file_path": "a100/json/wikipedia1m-768-ip.json",
+      "result_count": 357,
+      "baseline_count": 51,
+      "reordered_count": 306
+    },
+    {
+      "internal_name": "sift-128-euclidean",
+      "display_name": "SIFT 1M",
+      "file_path": "a100/json/sift-128-euclidean.json",
+      "result_count": 357,
+      "baseline_count": 51,
+      "reordered_count": 306
+    },
+    {
+      "internal_name": "deep40m-96-euclidean",
+      "display_name": "Deep 40M",
+      "file_path": "a100/json/deep40m-96-euclidean.json",
+      "result_count": 357,
+      "baseline_count": 51,
+      "reordered_count": 306
+    },
+    {
+      "internal_name": "bioasq1m-1024-ip",
+      "display_name": "BioASQ 1M",
+      "file_path": "a100/json/bioasq1m-1024-ip.json",
+      "result_count": 357,
+      "baseline_count": 51,
+      "reordered_count": 306
+    },
+    {
+      "internal_name": "bioasq10m-1024-ip",
+      "display_name": "BioASQ 10M",
+      "file_path": "a100/json/bioasq10m-1024-ip.json",
+      "result_count": 357,
+      "baseline_count": 51,
+      "reordered_count": 306
+    },
+    {
+      "internal_name": "c45m-1536-ip",
+      "display_name": "C4 5M",
+      "file_path": "a100/json/c45m-1536-ip.json",
+      "result_count": 357,
+      "baseline_count": 51,
+      "reordered_count": 306
+    },
+    {
+      "internal_name": "openai1m-1536-euclidean",
+      "display_name": "OpenAI Embed. 1M",
+      "file_path": "a100/json/openai1m-1536-euclidean.json",
+      "result_count": 357,
+      "baseline_count": 51,
+      "reordered_count": 306
+    },
+    {
+      "internal_name": "deep10m",
+      "display_name": "Deep 10M",
+      "file_path": "a100/json/deep10m.json",
+      "result_count": 357,
+      "baseline_count": 51,
+      "reordered_count": 306
+    },
+    {
+      "internal_name": "deep1m-96-euclidean",
+      "display_name": "Deep 1M",
+      "file_path": "a100/json/deep1m-96-euclidean.json",
+      "result_count": 357,
+      "baseline_count": 51,
+      "reordered_count": 306
+    },
+    {
+      "internal_name": "gist-960-euclidean",
+      "display_name": "GIST 1M",
+      "file_path": "a100/json/gist-960-euclidean.json",
+      "result_count": 357,
+      "baseline_count": 51,
+      "reordered_count": 306
+    },
+    {
+      "internal_name": "t2i1m-200-ip",
+      "display_name": "Yandex T2I 1M",
+      "file_path": "a100/json/t2i1m-200-ip.json",
+      "result_count": 357,
+      "baseline_count": 51,
+      "reordered_count": 306
+    }
+  ],
+  "total_datasets": 12,
+  "total_results": 4284,
+  "total_baseline": 612,
+  "total_reordered": 3672
+}
