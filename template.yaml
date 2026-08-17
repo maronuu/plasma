@@ -126,6 +126,12 @@ body:
 
       The effect is architecture-dependent. On the A100 (HBM2e, 2,039 GB/s) improvements reach 80%, whereas on an RTX 6000 Ada (GDDR6, 960 GB/s) they stay below 15%, so reordering pays off most on high-bandwidth-memory GPUs.
 projects:
+  - title: 'Can Compact Language Models Search Like Agents? Distillation-Guided Policy Optimization for Preserving Agentic RAG Capability'
+    journal: "ACL'26"
+    img: https://omron-sinicx.github.io/dgpo/acl26_fig2_v3.png
+    description: |
+      Propose Distillation-Guided Policy Optimization (DGPO), a two-phase training framework combining cold-start knowledge distillation and selective teacher-guided reinforcement learning
+    url: https://omron-sinicx.github.io/dgpo/
   - title: 'PHASE: Compliance-Enabled Tactile Phase Retrieval for Few-Shot Insertion Learning'
     journal: "IROS'26"
     img: https://omron-sinicx.github.io/phase/teaser.png
