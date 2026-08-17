@@ -1,11 +1,28 @@
 import React from 'react';
-import datasetIndex from '@/data/a100/json/index.json';
 
-// Vite splits these into one chunk per dataset, so a page load only fetches the
-// ~85KB the reader actually selected.
-const DATASETS = import.meta.glob('../data/a100/json/*.json');
-const datasetLoader = (internalName) =>
-  DATASETS[`../data/a100/json/${internalName}.json`];
+// One tab per GPU. Adding a GPU is: drop `src/data/<key>/json/` in place (an
+// index.json plus one file per dataset) and add its label here.
+const GPU_LABELS = {
+  a100: 'NVIDIA A100 80GB',
+  rtx6000ada: 'NVIDIA RTX 6000 Ada 48GB',
+};
+
+// The per-GPU dataset lists are a couple of KB, so they load with the page.
+const INDEXES = import.meta.glob('../data/*/json/index.json', { eager: true });
+// The results are not: Vite splits them into one chunk per dataset, so a page
+// load only fetches the ~85KB the reader actually selected.
+const DATASETS = import.meta.glob('../data/*/json/*.json');
+
+const datasetIndexFor = (gpu) =>
+  INDEXES[`../data/${gpu}/json/index.json`]?.default;
+const datasetLoader = (gpu, internalName) =>
+  DATASETS[`../data/${gpu}/json/${internalName}.json`];
+
+const GPUS = Object.entries(GPU_LABELS).map(([key, label]) => ({
+  key,
+  label,
+  datasets: datasetIndexFor(key)?.datasets ?? [],
+}));
 
 // Same palette as the standalone leaderboard site (echarts' "vintage").
 const PALETTE = [
@@ -56,6 +73,7 @@ const formatQps = (v) => {
  * Recall-QPS leaderboard chart.
  *
  * @param {Object} props
+ * @param {string} props.gpu GPU key, one of GPU_LABELS
  * @param {boolean} [props.showSpeedup=false] plot QPS improvement instead of QPS
  * @param {string} [props.selectedIndex] restrict to one graph index (cagra|diskann|nsg)
  * @param {string} [props.dataset] initial dataset (defaults to the first one)
@@ -64,10 +82,17 @@ const formatQps = (v) => {
 class Chart extends React.Component {
   constructor(props) {
     super(props);
+    const available = datasetIndexFor(props.gpu)?.datasets ?? [];
+    // A GPU need not carry every dataset, so an initial pick that this one
+    // lacks falls back to whatever it does have.
+    const wanted = available.some((d) => d.internal_name === props.dataset)
+      ? props.dataset
+      : available[0]?.internal_name;
     this.state = {
       // echarts touches `window`, so it must stay out of the SSG pass.
       ReactECharts: null,
-      dataset: props.dataset ?? datasetIndex.datasets[0]?.internal_name ?? '',
+      datasets: available,
+      dataset: wanted ?? '',
       data: null,
       reordering: 'none',
     };
@@ -88,7 +113,7 @@ class Chart extends React.Component {
   }
 
   async loadDataset(internalName) {
-    const load = datasetLoader(internalName);
+    const load = datasetLoader(this.props.gpu, internalName);
     if (!load) return;
     const mod = await load();
     this.setState({ dataset: internalName, data: mod.default ?? mod });
@@ -192,7 +217,7 @@ class Chart extends React.Component {
               onChange={(e) => this.loadDataset(e.target.value)}
               aria-label="Dataset"
             >
-              {datasetIndex.datasets.map((d) => (
+              {this.state.datasets.map((d) => (
                 <option key={d.internal_name} value={d.internal_name}>
                   {d.display_name}
                 </option>
@@ -243,8 +268,16 @@ class Chart extends React.Component {
   }
 }
 
-export default class Leaderboard extends React.Component {
+class GpuPanel extends React.Component {
   render() {
+    const { gpu, label, datasets } = this.props;
+    if (!datasets.length) {
+      return (
+        <p className="uk-text-meta uk-margin-top">
+          Results for {label} are not published yet.
+        </p>
+      );
+    }
     return (
       <div>
         <h4>Recall vs. QPS</h4>
@@ -255,10 +288,10 @@ export default class Leaderboard extends React.Component {
         </p>
         <div className="uk-child-width-1-2@m uk-grid-small" data-uk-grid>
           <div>
-            <Chart dataset="sift-128-euclidean" />
+            <Chart gpu={gpu} dataset="sift-128-euclidean" />
           </div>
           <div>
-            <Chart dataset="c45m-1536-ip" />
+            <Chart gpu={gpu} dataset="c45m-1536-ip" />
           </div>
         </div>
 
@@ -269,10 +302,16 @@ export default class Leaderboard extends React.Component {
         </p>
         <div className="uk-child-width-1-2@m uk-grid-small" data-uk-grid>
           <div>
-            <Chart showSpeedup={true} selectedIndex="cagra" dataset="deep10m" />
+            <Chart
+              gpu={gpu}
+              showSpeedup={true}
+              selectedIndex="cagra"
+              dataset="deep10m"
+            />
           </div>
           <div>
             <Chart
+              gpu={gpu}
               showSpeedup={true}
               selectedIndex="cagra"
               dataset="c45m-1536-ip"
@@ -280,18 +319,67 @@ export default class Leaderboard extends React.Component {
           </div>
           <div>
             <Chart
+              gpu={gpu}
               showSpeedup={true}
               selectedIndex="nsg"
               dataset="sift-128-euclidean"
             />
           </div>
           <div>
-            <Chart showSpeedup={true} selectedIndex="nsg" dataset="deep10m" />
+            <Chart
+              gpu={gpu}
+              showSpeedup={true}
+              selectedIndex="nsg"
+              dataset="deep10m"
+            />
           </div>
         </div>
         <span className="uk-text-meta">
-          All measurements on a single NVIDIA A100 80GB.
+          All measurements on a single {label}.
         </span>
+      </div>
+    );
+  }
+}
+
+export default class Leaderboard extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { active: 0 };
+  }
+
+  render() {
+    const active = GPUS[this.state.active];
+    // UIkit's own tab component would keep the inactive panels in the DOM, and
+    // echarts sizes itself to a container that is display:none at init, so the
+    // hidden tab's charts come back 200px wide. React owns the switching
+    // instead and only the visible panel is mounted; `uk-tab` here is styling.
+    return (
+      <div>
+        <ul className="uk-tab">
+          {GPUS.map((g, idx) => (
+            <li
+              key={'tab-' + g.key}
+              className={idx === this.state.active ? 'uk-active' : undefined}
+            >
+              <a
+                href={`#${g.key}`}
+                onClick={(e) => {
+                  e.preventDefault();
+                  this.setState({ active: idx });
+                }}
+              >
+                {g.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+        <GpuPanel
+          key={active.key}
+          gpu={active.key}
+          label={active.label}
+          datasets={active.datasets}
+        />
       </div>
     );
   }

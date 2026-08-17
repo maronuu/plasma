@@ -87,9 +87,9 @@ body:
         </div>
       </div>
 
+      #### Comparison with existing ANNS benchmarks
       Other ANNS benchmarks compare libraries end to end, so a win can come from the graph, the search algorithm, or the implementation, and none of them can say which. Plasma fixes the kernel and varies only topology and layout, reads GPU hardware counters alongside Recall and QPS, and pins the whole CUDA stack in a [pixi](https://pixi.sh/) lockfile, so `pixi install` reproduces the environment exactly.
 
-      #### Comparison with existing ANNS benchmarks
       <div class="uk-overflow-auto">
         <table class="uk-table uk-table-small uk-text-small uk-table-divider">
           <thead>
@@ -108,7 +108,7 @@ body:
       <span class="uk-text-meta">Table 1: HW profiling is built-in hardware-counter collection (DRAM bandwidth, L1/L2 hit rates). Memory-layout aware is varying the physical vertex layout independently of topology under a fixed search engine.</span>
   - title: 📊 Benchmark
     component: leaderboard
-  - title: Lessons learned
+  - title: Lessons Learned
     text: |
       #### Topology matters less than expected
       Benchmarking CAGRA, NSG, Vamana, and NN-Descent across 12 datasets on a single NVIDIA A100, all under the same kernel and their original vertex ordering, shows that topology differences are often minor. To the best of our knowledge, this is the first work to run CPU-oriented indices such as NSG, Vamana, and NN-Descent on a GPU, and NSG outperforms the GPU-optimized CAGRA by up to 1.2× on C4 5M. Differences are small on classical datasets such as SIFT and Deep, and more pronounced on modern high-dimensional ones such as Wikipedia 10M and BioASQ 10M.
