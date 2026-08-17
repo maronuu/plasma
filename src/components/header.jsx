@@ -1,6 +1,5 @@
 import React from 'react';
 import Authors from '../components/authors.jsx';
-import CorporateLogo from '../components/logo.jsx';
 import {
   FaGithub,
   FaYoutube,
@@ -127,14 +126,6 @@ export default class Header extends React.Component {
                 affiliations={this.props.affiliations}
                 meta={this.props.meta}
               />
-              <div className="uk-text-center uk-margin-top">
-                <a href="https://www.omron.com/sinicx" target="_blank">
-                  <CorporateLogo
-                    size="lg"
-                    inverted={this.props.theme == 'dark' ? true : false}
-                  />
-                </a>
-              </div>
               <div className="uk-flex uk-flex-center uk-margin-top">
                 {Object.keys(this.props.resources).map((key) => (
                   <ResourceBtn

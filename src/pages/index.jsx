@@ -3,6 +3,7 @@ import { ViteReactSSG } from 'vite-react-ssg/single-page';
 import { Head } from 'vite-react-ssg';
 
 import Header from '@/components/header.jsx';
+import AffiliationLogos from '@/components/logos.jsx';
 import Overview from '@/components/overview.jsx';
 import Video from '@/components/video.jsx';
 import Body from '@/components/body.jsx';
@@ -58,6 +59,7 @@ class Template extends React.Component {
           header={data.header}
         />
         <div className="uk-container uk-container-small">
+          <AffiliationLogos />
           <Overview
             overview={data.overview}
             teaser={data.teaser}

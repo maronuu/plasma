@@ -9,6 +9,7 @@ export default class CorporateLogo extends React.Component {
       sm: { height: '14px', margin: '7px' },
       lg: { height: '20px', margin: '10px' },
       xl: { height: '24px', margin: '12px' },
+      xxl: { height: '25px', margin: '13px' },
     };
   }
 
