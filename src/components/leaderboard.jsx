@@ -46,16 +46,21 @@ const INDEX_ORDER = ['cagra', 'diskann', 'nsg'];
 const INDEX_LABELS = { cagra: 'CAGRA', diskann: 'Vamana', nsg: 'NSG' };
 
 // A uk-label next to a chart takes the colour echarts gives that index's line,
-// so the badge and the line read as the same thing. Every one of these clears
-// 7:1 against black, so the text colour is fixed rather than per-colour.
+// so the badge and the line read as the same thing.
 const INDEX_COLORS = Object.fromEntries(
   INDEX_ORDER.map((key, i) => [key, PALETTE[i]])
 );
+// NSG's swatch is the palest of the three and holds black far better than
+// white, so it is the one that keeps dark text.
+const INDEX_TEXT_COLORS = { cagra: '#fff', diskann: '#fff', nsg: '#000' };
 
 const IndexLabel = ({ index }) => (
   <span
     className="uk-label"
-    style={{ backgroundColor: INDEX_COLORS[index], color: '#000' }}
+    style={{
+      backgroundColor: INDEX_COLORS[index],
+      color: INDEX_TEXT_COLORS[index] ?? '#fff',
+    }}
   >
     {INDEX_LABELS[index] ?? index}
   </span>

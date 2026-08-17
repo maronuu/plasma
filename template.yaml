@@ -106,7 +106,7 @@ body:
             <tr><td>Modern embeddings</td><td>❌</td><td>partial</td><td>partial</td><td>✅</td><td style="background-color:#F0EEE6"><b>✅</b></td></tr>
             <tr><td>HW profiling</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td style="background-color:#F0EEE6"><b>✅</b></td></tr>
             <tr><td>Memory-layout aware</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td style="background-color:#F0EEE6"><b>✅</b></td></tr>
-            <tr><td>Reproducible env.</td><td>docker</td><td>docker</td><td>docker</td><td>apptainer</td><td style="background-color:#F0EEE6"><b>pixi</b></td></tr>
+            <tr><td>Reproducible env.</td><td>🐳 docker</td><td>🐳 docker</td><td>🐳 docker</td><td>📦 apptainer</td><td style="background-color:#F0EEE6"><b>🪄 pixi</b></td></tr>
           </tbody>
         </table>
       </div>
