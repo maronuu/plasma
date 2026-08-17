@@ -4,7 +4,7 @@ twitter: '@omron_sinicx'
 title: '🎇 Plasma: A Layout-Aware Benchmark Reveals Memory Layout Matters for Graph-based ANNS on GPU'
 conference: VecDB@VLDB2026
 resources:
-  paper: https://openreview.net/pdf?id=tF70hyyM6V
+  paper: https://openreview.net/forum?id=tF70hyyM6V
   poster:
   code: https://github.com/omron-sinicx/plasma
   benchmark: '#benchmark' # in-page anchor to the body section titled "📊 Benchmark"
