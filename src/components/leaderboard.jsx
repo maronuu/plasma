@@ -67,6 +67,10 @@ const REORDERING_ORDER = [
   'random',
 ];
 
+// Random is a sanity check, not a reordering anyone would ship, so the
+// improvement charts leave it out; it stays selectable on the recall-QPS ones.
+const SPEEDUP_REORDERING_ORDER = REORDERING_ORDER.filter((r) => r !== 'random');
+
 // The paper's own spelling, which the raw data flattens.
 const REORDERING_LABELS = {
   indegree: 'Indegree Sort',
@@ -142,13 +146,17 @@ class Chart extends React.Component {
 
     let rows = showSpeedup
       ? results.filter(
-          (r) => r.reordering !== 'none' && r.speedup_percent !== null
+          (r) =>
+            SPEEDUP_REORDERING_ORDER.includes(r.reordering) &&
+            r.speedup_percent !== null
         )
       : results.filter((r) => r.reordering === this.state.reordering);
     if (selectedIndex) rows = rows.filter((r) => r.index === selectedIndex);
 
     // In speedup mode one line per reordering algorithm, otherwise one per index.
-    const groups = (showSpeedup ? REORDERING_ORDER : INDEX_ORDER).filter((g) =>
+    const groups = (
+      showSpeedup ? SPEEDUP_REORDERING_ORDER : INDEX_ORDER
+    ).filter((g) =>
       rows.some((r) => (showSpeedup ? r.reordering : r.index) === g)
     );
 
