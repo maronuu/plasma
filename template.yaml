@@ -66,7 +66,7 @@ body:
 
       <div class="uk-child-width-1-2@m uk-grid-small uk-flex-middle" uk-grid>
         <div>
-          <img src="method.png" class="uk-align-center" style="max-width: 85%" alt="GPU memory hierarchy" />
+          <img src="method.png" class="uk-align-center" style="max-width: 70%" alt="GPU memory hierarchy" />
           <span class="uk-text-meta">Figure 2: GPU Memory Hierarchy. Global memory provides high capacity but low bandwidth. L1 cache and shared memory offer high bandwidth with limited capacity.</span>
         </div>
         <div>
@@ -102,14 +102,14 @@ body:
           <tbody>
             <tr><td>Platform</td><td>CPU</td><td>CPU</td><td>CPU</td><td>CPU+GPU</td><td style="background-color:#F0EEE6"><b>GPU</b></td></tr>
             <tr><td>Target</td><td>General</td><td>General</td><td>General</td><td>General</td><td style="background-color:#F0EEE6"><b>Graph index</b></td></tr>
-            <tr><td>Modern embeddings</td><td>❌</td><td>partial</td><td>partial</td><td>✅</td><td style="background-color:#F0EEE6"><b>✅</b></td></tr>
-            <tr><td>HW profiling</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td style="background-color:#F0EEE6"><b>✅</b></td></tr>
-            <tr><td>Memory-layout aware</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td style="background-color:#F0EEE6"><b>✅</b></td></tr>
+            <tr><td>Modern embeddings</td><td class="uk-text-muted">—</td><td>partial</td><td>partial</td><td>✅</td><td style="background-color:#F0EEE6"><b>✅</b></td></tr>
+            <tr><td>HW profiling</td><td class="uk-text-muted">—</td><td class="uk-text-muted">—</td><td class="uk-text-muted">—</td><td class="uk-text-muted">—</td><td style="background-color:#F0EEE6"><b>✅</b></td></tr>
+            <tr><td>Memory-layout aware</td><td class="uk-text-muted">—</td><td class="uk-text-muted">—</td><td class="uk-text-muted">—</td><td class="uk-text-muted">—</td><td style="background-color:#F0EEE6"><b>✅</b></td></tr>
             <tr><td>Reproducible env.</td><td>🐳 docker</td><td>🐳 docker</td><td>🐳 docker</td><td>📦 apptainer</td><td style="background-color:#F0EEE6"><b>🪄 pixi</b></td></tr>
           </tbody>
         </table>
       </div>
-      <span class="uk-text-meta">Table 1: HW profiling is built-in hardware-counter collection (DRAM bandwidth, L1/L2 hit rates). Memory-layout aware is varying the physical vertex layout independently of topology under a fixed search engine.</span>
+      <span class="uk-text-meta">Table 1: A dash marks an axis the benchmark does not target. HW profiling is built-in hardware-counter collection (DRAM bandwidth, L1/L2 hit rates). Memory-layout aware is varying the physical vertex layout independently of topology under a fixed search engine.</span>
   - title: 📊 Benchmark
     component: leaderboard
   - title: Lessons Learned
