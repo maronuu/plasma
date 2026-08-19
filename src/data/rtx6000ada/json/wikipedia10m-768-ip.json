@@ -1,0 +1,3481 @@
+{
+  "dataset_name": "Wikipedia 10M",
+  "internal_name": "wikipedia10m-768-ip",
+  "datasets": ["Wikipedia 10M"],
+  "results": [
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 209996.0,
+      "recall": 0.744301,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 189524.0,
+      "recall": 0.798101,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 172764.0,
+      "recall": 0.833301,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 159047.0,
+      "recall": 0.866501,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 147637.0,
+      "recall": 0.884,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 137138.0,
+      "recall": 0.8977,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 128099.0,
+      "recall": 0.9099,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 112991.0,
+      "recall": 0.929101,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 101931.0,
+      "recall": 0.939201,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 92090.5,
+      "recall": 0.944801,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 83844.3,
+      "recall": 0.9521,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 77582.0,
+      "recall": 0.957901,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 66630.9,
+      "recall": 0.9663,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 58675.7,
+      "recall": 0.9724,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 52709.5,
+      "recall": 0.9764,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 47762.8,
+      "recall": 0.9804,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 43884.8,
+      "recall": 0.983,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 209942.0,
+      "recall": 0.7448,
+      "speedup_percent": -0.03,
+      "baseline_qps": 209996.0,
+      "baseline_recall": 0.744301
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 189476.0,
+      "recall": 0.795901,
+      "speedup_percent": -0.03,
+      "baseline_qps": 189524.0,
+      "baseline_recall": 0.798101
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 172858.0,
+      "recall": 0.831201,
+      "speedup_percent": 0.05,
+      "baseline_qps": 172764.0,
+      "baseline_recall": 0.833301
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 160382.0,
+      "recall": 0.856601,
+      "speedup_percent": 0.84,
+      "baseline_qps": 159047.0,
+      "baseline_recall": 0.866501
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 148355.0,
+      "recall": 0.878701,
+      "speedup_percent": 0.49,
+      "baseline_qps": 147637.0,
+      "baseline_recall": 0.884
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 137645.0,
+      "recall": 0.894301,
+      "speedup_percent": 0.37,
+      "baseline_qps": 137138.0,
+      "baseline_recall": 0.8977
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 127834.0,
+      "recall": 0.906401,
+      "speedup_percent": -0.21,
+      "baseline_qps": 128099.0,
+      "baseline_recall": 0.9099
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 113240.0,
+      "recall": 0.924,
+      "speedup_percent": 0.22,
+      "baseline_qps": 112991.0,
+      "baseline_recall": 0.929101
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 102344.0,
+      "recall": 0.9385,
+      "speedup_percent": 0.41,
+      "baseline_qps": 101931.0,
+      "baseline_recall": 0.939201
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 92456.3,
+      "recall": 0.9455,
+      "speedup_percent": 0.4,
+      "baseline_qps": 92090.5,
+      "baseline_recall": 0.944801
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 84274.4,
+      "recall": 0.9541,
+      "speedup_percent": 0.51,
+      "baseline_qps": 83844.3,
+      "baseline_recall": 0.9521
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 77556.7,
+      "recall": 0.9578,
+      "speedup_percent": -0.03,
+      "baseline_qps": 77582.0,
+      "baseline_recall": 0.957901
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 66592.5,
+      "recall": 0.967,
+      "speedup_percent": -0.06,
+      "baseline_qps": 66630.9,
+      "baseline_recall": 0.9663
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 58736.1,
+      "recall": 0.9722,
+      "speedup_percent": 0.1,
+      "baseline_qps": 58675.7,
+      "baseline_recall": 0.9724
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 52651.1,
+      "recall": 0.9758,
+      "speedup_percent": -0.11,
+      "baseline_qps": 52709.5,
+      "baseline_recall": 0.9764
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 47624.3,
+      "recall": 0.9799,
+      "speedup_percent": -0.29,
+      "baseline_qps": 47762.8,
+      "baseline_recall": 0.9804
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 42625.1,
+      "recall": 0.9832,
+      "speedup_percent": -2.87,
+      "baseline_qps": 43884.8,
+      "baseline_recall": 0.983
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 209864.0,
+      "recall": 0.738401,
+      "speedup_percent": -0.06,
+      "baseline_qps": 209996.0,
+      "baseline_recall": 0.744301
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 190276.0,
+      "recall": 0.788901,
+      "speedup_percent": 0.4,
+      "baseline_qps": 189524.0,
+      "baseline_recall": 0.798101
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 173212.0,
+      "recall": 0.820701,
+      "speedup_percent": null,
+      "baseline_qps": null,
+      "baseline_recall": null
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 159792.0,
+      "recall": 0.854701,
+      "speedup_percent": null,
+      "baseline_qps": null,
+      "baseline_recall": null
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 148166.0,
+      "recall": 0.872701,
+      "speedup_percent": -6.84,
+      "baseline_qps": 159047.0,
+      "baseline_recall": 0.866501
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 137756.0,
+      "recall": 0.887401,
+      "speedup_percent": -6.69,
+      "baseline_qps": 147637.0,
+      "baseline_recall": 0.884
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 128502.0,
+      "recall": 0.903301,
+      "speedup_percent": -6.3,
+      "baseline_qps": 137138.0,
+      "baseline_recall": 0.8977
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 113122.0,
+      "recall": 0.92,
+      "speedup_percent": 0.12,
+      "baseline_qps": 112991.0,
+      "baseline_recall": 0.929101
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 102205.0,
+      "recall": 0.9347,
+      "speedup_percent": 0.27,
+      "baseline_qps": 101931.0,
+      "baseline_recall": 0.939201
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 92428.9,
+      "recall": 0.9425,
+      "speedup_percent": 0.37,
+      "baseline_qps": 92090.5,
+      "baseline_recall": 0.944801
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 84107.9,
+      "recall": 0.950701,
+      "speedup_percent": 0.31,
+      "baseline_qps": 83844.3,
+      "baseline_recall": 0.9521
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 77474.2,
+      "recall": 0.956201,
+      "speedup_percent": -0.14,
+      "baseline_qps": 77582.0,
+      "baseline_recall": 0.957901
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 66532.2,
+      "recall": 0.9671,
+      "speedup_percent": -0.15,
+      "baseline_qps": 66630.9,
+      "baseline_recall": 0.9663
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 58704.7,
+      "recall": 0.972901,
+      "speedup_percent": 0.05,
+      "baseline_qps": 58675.7,
+      "baseline_recall": 0.9724
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 52695.0,
+      "recall": 0.9761,
+      "speedup_percent": -0.03,
+      "baseline_qps": 52709.5,
+      "baseline_recall": 0.9764
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 47827.2,
+      "recall": 0.9802,
+      "speedup_percent": 0.13,
+      "baseline_qps": 47762.8,
+      "baseline_recall": 0.9804
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 43913.4,
+      "recall": 0.9833,
+      "speedup_percent": 0.07,
+      "baseline_qps": 43884.8,
+      "baseline_recall": 0.983
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 209905.0,
+      "recall": 0.741201,
+      "speedup_percent": -0.04,
+      "baseline_qps": 209996.0,
+      "baseline_recall": 0.744301
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 189862.0,
+      "recall": 0.7956,
+      "speedup_percent": 0.18,
+      "baseline_qps": 189524.0,
+      "baseline_recall": 0.798101
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 172496.0,
+      "recall": 0.829901,
+      "speedup_percent": -0.16,
+      "baseline_qps": 172764.0,
+      "baseline_recall": 0.833301
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 160233.0,
+      "recall": 0.8631,
+      "speedup_percent": 0.75,
+      "baseline_qps": 159047.0,
+      "baseline_recall": 0.866501
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 147182.0,
+      "recall": 0.8844,
+      "speedup_percent": -0.31,
+      "baseline_qps": 147637.0,
+      "baseline_recall": 0.884
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 137424.0,
+      "recall": 0.8976,
+      "speedup_percent": 0.21,
+      "baseline_qps": 137138.0,
+      "baseline_recall": 0.8977
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 128563.0,
+      "recall": 0.9092,
+      "speedup_percent": 0.36,
+      "baseline_qps": 128099.0,
+      "baseline_recall": 0.9099
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 113332.0,
+      "recall": 0.9239,
+      "speedup_percent": 0.3,
+      "baseline_qps": 112991.0,
+      "baseline_recall": 0.929101
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 102402.0,
+      "recall": 0.9369,
+      "speedup_percent": 0.46,
+      "baseline_qps": 101931.0,
+      "baseline_recall": 0.939201
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 92399.5,
+      "recall": 0.9445,
+      "speedup_percent": 0.34,
+      "baseline_qps": 92090.5,
+      "baseline_recall": 0.944801
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 84210.2,
+      "recall": 0.951901,
+      "speedup_percent": 0.44,
+      "baseline_qps": 83844.3,
+      "baseline_recall": 0.9521
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 77639.0,
+      "recall": 0.9572,
+      "speedup_percent": 0.07,
+      "baseline_qps": 77582.0,
+      "baseline_recall": 0.957901
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 66690.7,
+      "recall": 0.967,
+      "speedup_percent": 0.09,
+      "baseline_qps": 66630.9,
+      "baseline_recall": 0.9663
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 58750.2,
+      "recall": 0.9732,
+      "speedup_percent": 0.13,
+      "baseline_qps": 58675.7,
+      "baseline_recall": 0.9724
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 52714.4,
+      "recall": 0.9772,
+      "speedup_percent": 0.01,
+      "baseline_qps": 52709.5,
+      "baseline_recall": 0.9764
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 47854.5,
+      "recall": 0.9812,
+      "speedup_percent": 0.19,
+      "baseline_qps": 47762.8,
+      "baseline_recall": 0.9804
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 43924.2,
+      "recall": 0.9838,
+      "speedup_percent": 0.09,
+      "baseline_qps": 43884.8,
+      "baseline_recall": 0.983
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 210448.0,
+      "recall": 0.7359,
+      "speedup_percent": 0.22,
+      "baseline_qps": 209996.0,
+      "baseline_recall": 0.744301
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 189782.0,
+      "recall": 0.793301,
+      "speedup_percent": 0.14,
+      "baseline_qps": 189524.0,
+      "baseline_recall": 0.798101
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 172865.0,
+      "recall": 0.834301,
+      "speedup_percent": 0.06,
+      "baseline_qps": 172764.0,
+      "baseline_recall": 0.833301
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 160622.0,
+      "recall": 0.863301,
+      "speedup_percent": 0.99,
+      "baseline_qps": 159047.0,
+      "baseline_recall": 0.866501
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 148606.0,
+      "recall": 0.885401,
+      "speedup_percent": 0.66,
+      "baseline_qps": 147637.0,
+      "baseline_recall": 0.884
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 137900.0,
+      "recall": 0.8965,
+      "speedup_percent": 0.56,
+      "baseline_qps": 137138.0,
+      "baseline_recall": 0.8977
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 128721.0,
+      "recall": 0.907,
+      "speedup_percent": 0.49,
+      "baseline_qps": 128099.0,
+      "baseline_recall": 0.9099
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 113326.0,
+      "recall": 0.9253,
+      "speedup_percent": 0.3,
+      "baseline_qps": 112991.0,
+      "baseline_recall": 0.929101
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 102153.0,
+      "recall": 0.936,
+      "speedup_percent": 0.22,
+      "baseline_qps": 101931.0,
+      "baseline_recall": 0.939201
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 92544.3,
+      "recall": 0.9428,
+      "speedup_percent": 0.49,
+      "baseline_qps": 92090.5,
+      "baseline_recall": 0.944801
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 84088.3,
+      "recall": 0.9514,
+      "speedup_percent": 0.29,
+      "baseline_qps": 83844.3,
+      "baseline_recall": 0.9521
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 77841.5,
+      "recall": 0.9558,
+      "speedup_percent": 0.33,
+      "baseline_qps": 77582.0,
+      "baseline_recall": 0.957901
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 66721.4,
+      "recall": 0.965701,
+      "speedup_percent": 0.14,
+      "baseline_qps": 66630.9,
+      "baseline_recall": 0.9663
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 58842.1,
+      "recall": 0.972,
+      "speedup_percent": 0.28,
+      "baseline_qps": 58675.7,
+      "baseline_recall": 0.9724
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 52713.0,
+      "recall": 0.9761,
+      "speedup_percent": 0.01,
+      "baseline_qps": 52709.5,
+      "baseline_recall": 0.9764
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 47828.9,
+      "recall": 0.9805,
+      "speedup_percent": 0.14,
+      "baseline_qps": 47762.8,
+      "baseline_recall": 0.9804
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 43913.0,
+      "recall": 0.9829,
+      "speedup_percent": 0.06,
+      "baseline_qps": 43884.8,
+      "baseline_recall": 0.983
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 209228.0,
+      "recall": 0.7512,
+      "speedup_percent": -0.37,
+      "baseline_qps": 209996.0,
+      "baseline_recall": 0.744301
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 189600.0,
+      "recall": 0.805701,
+      "speedup_percent": 0.04,
+      "baseline_qps": 189524.0,
+      "baseline_recall": 0.798101
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 172448.0,
+      "recall": 0.843601,
+      "speedup_percent": null,
+      "baseline_qps": null,
+      "baseline_recall": null
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 159940.0,
+      "recall": 0.869801,
+      "speedup_percent": 0.56,
+      "baseline_qps": 159047.0,
+      "baseline_recall": 0.866501
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 147332.0,
+      "recall": 0.886901,
+      "speedup_percent": -0.21,
+      "baseline_qps": 147637.0,
+      "baseline_recall": 0.884
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 137462.0,
+      "recall": 0.901801,
+      "speedup_percent": 0.24,
+      "baseline_qps": 137138.0,
+      "baseline_recall": 0.8977
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 128427.0,
+      "recall": 0.9121,
+      "speedup_percent": 0.26,
+      "baseline_qps": 128099.0,
+      "baseline_recall": 0.9099
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 113174.0,
+      "recall": 0.928201,
+      "speedup_percent": 0.16,
+      "baseline_qps": 112991.0,
+      "baseline_recall": 0.929101
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 102022.0,
+      "recall": 0.9396,
+      "speedup_percent": 0.09,
+      "baseline_qps": 101931.0,
+      "baseline_recall": 0.939201
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 92158.7,
+      "recall": 0.9469,
+      "speedup_percent": 0.07,
+      "baseline_qps": 92090.5,
+      "baseline_recall": 0.944801
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 83918.4,
+      "recall": 0.9539,
+      "speedup_percent": 0.09,
+      "baseline_qps": 83844.3,
+      "baseline_recall": 0.9521
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 77498.6,
+      "recall": 0.958201,
+      "speedup_percent": -0.11,
+      "baseline_qps": 77582.0,
+      "baseline_recall": 0.957901
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 66581.9,
+      "recall": 0.9658,
+      "speedup_percent": -0.07,
+      "baseline_qps": 66630.9,
+      "baseline_recall": 0.9663
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 58647.8,
+      "recall": 0.973,
+      "speedup_percent": -0.05,
+      "baseline_qps": 58675.7,
+      "baseline_recall": 0.9724
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 52649.7,
+      "recall": 0.9771,
+      "speedup_percent": -0.11,
+      "baseline_qps": 52709.5,
+      "baseline_recall": 0.9764
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 47651.6,
+      "recall": 0.9809,
+      "speedup_percent": -0.23,
+      "baseline_qps": 47762.8,
+      "baseline_recall": 0.9804
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 43897.1,
+      "recall": 0.9839,
+      "speedup_percent": 0.03,
+      "baseline_qps": 43884.8,
+      "baseline_recall": 0.983
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 209523.0,
+      "recall": 0.745101,
+      "speedup_percent": -0.23,
+      "baseline_qps": 209996.0,
+      "baseline_recall": 0.744301
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 190342.0,
+      "recall": 0.797001,
+      "speedup_percent": 0.43,
+      "baseline_qps": 189524.0,
+      "baseline_recall": 0.798101
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 173099.0,
+      "recall": 0.832601,
+      "speedup_percent": 0.19,
+      "baseline_qps": 172764.0,
+      "baseline_recall": 0.833301
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 159926.0,
+      "recall": 0.859801,
+      "speedup_percent": 0.55,
+      "baseline_qps": 159047.0,
+      "baseline_recall": 0.866501
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 147757.0,
+      "recall": 0.876901,
+      "speedup_percent": 0.08,
+      "baseline_qps": 147637.0,
+      "baseline_recall": 0.884
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 137777.0,
+      "recall": 0.891101,
+      "speedup_percent": 0.47,
+      "baseline_qps": 137138.0,
+      "baseline_recall": 0.8977
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 128579.0,
+      "recall": 0.901301,
+      "speedup_percent": -6.24,
+      "baseline_qps": 137138.0,
+      "baseline_recall": 0.8977
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 113384.0,
+      "recall": 0.921001,
+      "speedup_percent": 0.35,
+      "baseline_qps": 112991.0,
+      "baseline_recall": 0.929101
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 102162.0,
+      "recall": 0.9363,
+      "speedup_percent": 0.23,
+      "baseline_qps": 101931.0,
+      "baseline_recall": 0.939201
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 92144.8,
+      "recall": 0.9423,
+      "speedup_percent": 0.06,
+      "baseline_qps": 92090.5,
+      "baseline_recall": 0.944801
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 84046.5,
+      "recall": 0.9505,
+      "speedup_percent": 0.24,
+      "baseline_qps": 83844.3,
+      "baseline_recall": 0.9521
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 77692.7,
+      "recall": 0.9562,
+      "speedup_percent": 0.14,
+      "baseline_qps": 77582.0,
+      "baseline_recall": 0.957901
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 66631.0,
+      "recall": 0.9674,
+      "speedup_percent": 0.0,
+      "baseline_qps": 66630.9,
+      "baseline_recall": 0.9663
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 58757.3,
+      "recall": 0.9738,
+      "speedup_percent": 0.14,
+      "baseline_qps": 58675.7,
+      "baseline_recall": 0.9724
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 52763.4,
+      "recall": 0.977,
+      "speedup_percent": 0.1,
+      "baseline_qps": 52709.5,
+      "baseline_recall": 0.9764
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 47811.6,
+      "recall": 0.9808,
+      "speedup_percent": 0.1,
+      "baseline_qps": 47762.8,
+      "baseline_recall": 0.9804
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 43929.5,
+      "recall": 0.9838,
+      "speedup_percent": 0.1,
+      "baseline_qps": 43884.8,
+      "baseline_recall": 0.983
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 223239.0,
+      "recall": 0.7562,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 201908.0,
+      "recall": 0.8048,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 185114.0,
+      "recall": 0.833,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 175564.0,
+      "recall": 0.8579,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 162833.0,
+      "recall": 0.8763,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 152197.0,
+      "recall": 0.8915,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 141600.0,
+      "recall": 0.9013,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 125230.0,
+      "recall": 0.918201,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 115086.0,
+      "recall": 0.925901,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 103752.0,
+      "recall": 0.933001,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 94552.6,
+      "recall": 0.941701,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 88514.4,
+      "recall": 0.9447,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 75679.1,
+      "recall": 0.954301,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 66949.6,
+      "recall": 0.958401,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 59385.9,
+      "recall": 0.960101,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 53862.3,
+      "recall": 0.963601,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 50051.5,
+      "recall": 0.967301,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 222836.0,
+      "recall": 0.7538,
+      "speedup_percent": -0.18,
+      "baseline_qps": 223239.0,
+      "baseline_recall": 0.7562
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 202651.0,
+      "recall": 0.8105,
+      "speedup_percent": 0.37,
+      "baseline_qps": 201908.0,
+      "baseline_recall": 0.8048
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 185700.0,
+      "recall": 0.8409,
+      "speedup_percent": 0.32,
+      "baseline_qps": 185114.0,
+      "baseline_recall": 0.833
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 175397.0,
+      "recall": 0.866901,
+      "speedup_percent": -0.1,
+      "baseline_qps": 175564.0,
+      "baseline_recall": 0.8579
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 162836.0,
+      "recall": 0.884101,
+      "speedup_percent": 6.99,
+      "baseline_qps": 152197.0,
+      "baseline_recall": 0.8915
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 151916.0,
+      "recall": 0.895401,
+      "speedup_percent": -0.18,
+      "baseline_qps": 152197.0,
+      "baseline_recall": 0.8915
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 141783.0,
+      "recall": 0.904301,
+      "speedup_percent": 0.13,
+      "baseline_qps": 141600.0,
+      "baseline_recall": 0.9013
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 125520.0,
+      "recall": 0.916901,
+      "speedup_percent": 0.23,
+      "baseline_qps": 125230.0,
+      "baseline_recall": 0.918201
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 114686.0,
+      "recall": 0.927101,
+      "speedup_percent": -0.35,
+      "baseline_qps": 115086.0,
+      "baseline_recall": 0.925901
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 103631.0,
+      "recall": 0.937901,
+      "speedup_percent": 9.6,
+      "baseline_qps": 94552.6,
+      "baseline_recall": 0.941701
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 94276.2,
+      "recall": 0.944001,
+      "speedup_percent": 6.51,
+      "baseline_qps": 88514.4,
+      "baseline_recall": 0.9447
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 88272.5,
+      "recall": 0.947801,
+      "speedup_percent": -0.27,
+      "baseline_qps": 88514.4,
+      "baseline_recall": 0.9447
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 75318.5,
+      "recall": 0.955301,
+      "speedup_percent": -0.48,
+      "baseline_qps": 75679.1,
+      "baseline_recall": 0.954301
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 66845.3,
+      "recall": 0.959101,
+      "speedup_percent": -0.16,
+      "baseline_qps": 66949.6,
+      "baseline_recall": 0.958401
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 59341.1,
+      "recall": 0.960701,
+      "speedup_percent": -0.08,
+      "baseline_qps": 59385.9,
+      "baseline_recall": 0.960101
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 53829.2,
+      "recall": 0.963901,
+      "speedup_percent": -0.06,
+      "baseline_qps": 53862.3,
+      "baseline_recall": 0.963601
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 47775.1,
+      "recall": 0.967701,
+      "speedup_percent": -4.55,
+      "baseline_qps": 50051.5,
+      "baseline_recall": 0.967301
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 223667.0,
+      "recall": 0.7487,
+      "speedup_percent": 0.19,
+      "baseline_qps": 223239.0,
+      "baseline_recall": 0.7562
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 202669.0,
+      "recall": 0.8052,
+      "speedup_percent": 0.38,
+      "baseline_qps": 201908.0,
+      "baseline_recall": 0.8048
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 185494.0,
+      "recall": 0.835,
+      "speedup_percent": 0.21,
+      "baseline_qps": 185114.0,
+      "baseline_recall": 0.833
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 174138.0,
+      "recall": 0.861501,
+      "speedup_percent": -0.81,
+      "baseline_qps": 175564.0,
+      "baseline_recall": 0.8579
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 161979.0,
+      "recall": 0.8754,
+      "speedup_percent": -0.52,
+      "baseline_qps": 162833.0,
+      "baseline_recall": 0.8763
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 151177.0,
+      "recall": 0.888201,
+      "speedup_percent": -0.67,
+      "baseline_qps": 152197.0,
+      "baseline_recall": 0.8915
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 141444.0,
+      "recall": 0.898501,
+      "speedup_percent": -0.11,
+      "baseline_qps": 141600.0,
+      "baseline_recall": 0.9013
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 124770.0,
+      "recall": 0.918501,
+      "speedup_percent": -0.37,
+      "baseline_qps": 125230.0,
+      "baseline_recall": 0.918201
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 114263.0,
+      "recall": 0.930101,
+      "speedup_percent": 10.13,
+      "baseline_qps": 103752.0,
+      "baseline_recall": 0.933001
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 103061.0,
+      "recall": 0.937501,
+      "speedup_percent": 9.0,
+      "baseline_qps": 94552.6,
+      "baseline_recall": 0.941701
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 93960.3,
+      "recall": 0.942701,
+      "speedup_percent": -0.63,
+      "baseline_qps": 94552.6,
+      "baseline_recall": 0.941701
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 88117.5,
+      "recall": 0.948301,
+      "speedup_percent": -0.45,
+      "baseline_qps": 88514.4,
+      "baseline_recall": 0.9447
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 75457.0,
+      "recall": 0.955601,
+      "speedup_percent": -0.29,
+      "baseline_qps": 75679.1,
+      "baseline_recall": 0.954301
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 66860.2,
+      "recall": 0.961401,
+      "speedup_percent": 12.59,
+      "baseline_qps": 59385.9,
+      "baseline_recall": 0.960101
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 59365.8,
+      "recall": 0.963901,
+      "speedup_percent": 10.22,
+      "baseline_qps": 53862.3,
+      "baseline_recall": 0.963601
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 53865.7,
+      "recall": 0.965401,
+      "speedup_percent": 0.01,
+      "baseline_qps": 53862.3,
+      "baseline_recall": 0.963601
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 49481.5,
+      "recall": 0.968701,
+      "speedup_percent": -1.14,
+      "baseline_qps": 50051.5,
+      "baseline_recall": 0.967301
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 221574.0,
+      "recall": 0.74,
+      "speedup_percent": null,
+      "baseline_qps": null,
+      "baseline_recall": null
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 202004.0,
+      "recall": 0.7916,
+      "speedup_percent": null,
+      "baseline_qps": null,
+      "baseline_recall": null
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 185226.0,
+      "recall": 0.8279,
+      "speedup_percent": 0.06,
+      "baseline_qps": 185114.0,
+      "baseline_recall": 0.833
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 174672.0,
+      "recall": 0.855,
+      "speedup_percent": -0.51,
+      "baseline_qps": 175564.0,
+      "baseline_recall": 0.8579
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 161977.0,
+      "recall": 0.87,
+      "speedup_percent": -0.53,
+      "baseline_qps": 162833.0,
+      "baseline_recall": 0.8763
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 151257.0,
+      "recall": 0.883101,
+      "speedup_percent": -7.11,
+      "baseline_qps": 162833.0,
+      "baseline_recall": 0.8763
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 141427.0,
+      "recall": 0.894401,
+      "speedup_percent": -7.08,
+      "baseline_qps": 152197.0,
+      "baseline_recall": 0.8915
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 125019.0,
+      "recall": 0.911001,
+      "speedup_percent": -0.17,
+      "baseline_qps": 125230.0,
+      "baseline_recall": 0.918201
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 114757.0,
+      "recall": 0.927101,
+      "speedup_percent": -0.29,
+      "baseline_qps": 115086.0,
+      "baseline_recall": 0.925901
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 103595.0,
+      "recall": 0.9344,
+      "speedup_percent": -0.15,
+      "baseline_qps": 103752.0,
+      "baseline_recall": 0.933001
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 94102.0,
+      "recall": 0.9422,
+      "speedup_percent": -0.48,
+      "baseline_qps": 94552.6,
+      "baseline_recall": 0.941701
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 88529.5,
+      "recall": 0.945601,
+      "speedup_percent": 0.02,
+      "baseline_qps": 88514.4,
+      "baseline_recall": 0.9447
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 75600.3,
+      "recall": 0.953901,
+      "speedup_percent": -0.1,
+      "baseline_qps": 75679.1,
+      "baseline_recall": 0.954301
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 66906.3,
+      "recall": 0.961101,
+      "speedup_percent": 12.66,
+      "baseline_qps": 59385.9,
+      "baseline_recall": 0.960101
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 59374.9,
+      "recall": 0.963701,
+      "speedup_percent": 10.23,
+      "baseline_qps": 53862.3,
+      "baseline_recall": 0.963601
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 53589.0,
+      "recall": 0.967201,
+      "speedup_percent": 7.07,
+      "baseline_qps": 50051.5,
+      "baseline_recall": 0.967301
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 49029.9,
+      "recall": 0.968101,
+      "speedup_percent": -2.04,
+      "baseline_qps": 50051.5,
+      "baseline_recall": 0.967301
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 222670.0,
+      "recall": 0.7424,
+      "speedup_percent": null,
+      "baseline_qps": null,
+      "baseline_recall": null
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 202961.0,
+      "recall": 0.7915,
+      "speedup_percent": null,
+      "baseline_qps": null,
+      "baseline_recall": null
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 185271.0,
+      "recall": 0.825501,
+      "speedup_percent": 0.08,
+      "baseline_qps": 185114.0,
+      "baseline_recall": 0.833
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 174378.0,
+      "recall": 0.851901,
+      "speedup_percent": -0.68,
+      "baseline_qps": 175564.0,
+      "baseline_recall": 0.8579
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 161963.0,
+      "recall": 0.875701,
+      "speedup_percent": -0.53,
+      "baseline_qps": 162833.0,
+      "baseline_recall": 0.8763
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 151004.0,
+      "recall": 0.886601,
+      "speedup_percent": -0.78,
+      "baseline_qps": 152197.0,
+      "baseline_recall": 0.8915
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 141258.0,
+      "recall": 0.898301,
+      "speedup_percent": -0.24,
+      "baseline_qps": 141600.0,
+      "baseline_recall": 0.9013
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 125125.0,
+      "recall": 0.913401,
+      "speedup_percent": -0.08,
+      "baseline_qps": 125230.0,
+      "baseline_recall": 0.918201
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 114017.0,
+      "recall": 0.926801,
+      "speedup_percent": -0.93,
+      "baseline_qps": 115086.0,
+      "baseline_recall": 0.925901
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 103270.0,
+      "recall": 0.935301,
+      "speedup_percent": -0.46,
+      "baseline_qps": 103752.0,
+      "baseline_recall": 0.933001
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 93922.7,
+      "recall": 0.940301,
+      "speedup_percent": -0.67,
+      "baseline_qps": 94552.6,
+      "baseline_recall": 0.941701
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 88088.0,
+      "recall": 0.949501,
+      "speedup_percent": 16.4,
+      "baseline_qps": 75679.1,
+      "baseline_recall": 0.954301
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 75542.2,
+      "recall": 0.955801,
+      "speedup_percent": -0.18,
+      "baseline_qps": 75679.1,
+      "baseline_recall": 0.954301
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 66873.3,
+      "recall": 0.961401,
+      "speedup_percent": 12.61,
+      "baseline_qps": 59385.9,
+      "baseline_recall": 0.960101
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 59427.5,
+      "recall": 0.963801,
+      "speedup_percent": 10.33,
+      "baseline_qps": 53862.3,
+      "baseline_recall": 0.963601
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 53804.5,
+      "recall": 0.966901,
+      "speedup_percent": 7.5,
+      "baseline_qps": 50051.5,
+      "baseline_recall": 0.967301
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 49444.7,
+      "recall": 0.969201,
+      "speedup_percent": -1.21,
+      "baseline_qps": 50051.5,
+      "baseline_recall": 0.967301
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 222272.0,
+      "recall": 0.744101,
+      "speedup_percent": null,
+      "baseline_qps": null,
+      "baseline_recall": null
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 201853.0,
+      "recall": 0.7953,
+      "speedup_percent": -0.03,
+      "baseline_qps": 201908.0,
+      "baseline_recall": 0.8048
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 185815.0,
+      "recall": 0.836001,
+      "speedup_percent": 0.38,
+      "baseline_qps": 185114.0,
+      "baseline_recall": 0.833
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 175039.0,
+      "recall": 0.860501,
+      "speedup_percent": -0.3,
+      "baseline_qps": 175564.0,
+      "baseline_recall": 0.8579
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 162398.0,
+      "recall": 0.876301,
+      "speedup_percent": -0.27,
+      "baseline_qps": 162833.0,
+      "baseline_recall": 0.8763
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 151358.0,
+      "recall": 0.8876,
+      "speedup_percent": -0.55,
+      "baseline_qps": 152197.0,
+      "baseline_recall": 0.8915
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 141781.0,
+      "recall": 0.8984,
+      "speedup_percent": 0.13,
+      "baseline_qps": 141600.0,
+      "baseline_recall": 0.9013
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 125061.0,
+      "recall": 0.912101,
+      "speedup_percent": -0.13,
+      "baseline_qps": 125230.0,
+      "baseline_recall": 0.918201
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 114657.0,
+      "recall": 0.924601,
+      "speedup_percent": -0.37,
+      "baseline_qps": 115086.0,
+      "baseline_recall": 0.925901
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 103422.0,
+      "recall": 0.932401,
+      "speedup_percent": -0.32,
+      "baseline_qps": 103752.0,
+      "baseline_recall": 0.933001
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 94124.8,
+      "recall": 0.940801,
+      "speedup_percent": -0.45,
+      "baseline_qps": 94552.6,
+      "baseline_recall": 0.941701
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 88239.4,
+      "recall": 0.947501,
+      "speedup_percent": -0.31,
+      "baseline_qps": 88514.4,
+      "baseline_recall": 0.9447
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 75474.3,
+      "recall": 0.954801,
+      "speedup_percent": -0.27,
+      "baseline_qps": 75679.1,
+      "baseline_recall": 0.954301
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 66628.8,
+      "recall": 0.959701,
+      "speedup_percent": 12.2,
+      "baseline_qps": 59385.9,
+      "baseline_recall": 0.960101
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 59338.0,
+      "recall": 0.963401,
+      "speedup_percent": 10.17,
+      "baseline_qps": 53862.3,
+      "baseline_recall": 0.963601
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 53552.7,
+      "recall": 0.966601,
+      "speedup_percent": 7.0,
+      "baseline_qps": 50051.5,
+      "baseline_recall": 0.967301
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 49222.6,
+      "recall": 0.969001,
+      "speedup_percent": -1.66,
+      "baseline_qps": 50051.5,
+      "baseline_recall": 0.967301
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 222533.0,
+      "recall": 0.7483,
+      "speedup_percent": -0.32,
+      "baseline_qps": 223239.0,
+      "baseline_recall": 0.7562
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 202554.0,
+      "recall": 0.7941,
+      "speedup_percent": null,
+      "baseline_qps": null,
+      "baseline_recall": null
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 185665.0,
+      "recall": 0.828301,
+      "speedup_percent": 0.3,
+      "baseline_qps": 185114.0,
+      "baseline_recall": 0.833
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 174766.0,
+      "recall": 0.857801,
+      "speedup_percent": -0.45,
+      "baseline_qps": 175564.0,
+      "baseline_recall": 0.8579
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 162204.0,
+      "recall": 0.880001,
+      "speedup_percent": -0.39,
+      "baseline_qps": 162833.0,
+      "baseline_recall": 0.8763
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 151249.0,
+      "recall": 0.891701,
+      "speedup_percent": -0.62,
+      "baseline_qps": 152197.0,
+      "baseline_recall": 0.8915
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 141493.0,
+      "recall": 0.899701,
+      "speedup_percent": -0.08,
+      "baseline_qps": 141600.0,
+      "baseline_recall": 0.9013
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 124972.0,
+      "recall": 0.911001,
+      "speedup_percent": -0.21,
+      "baseline_qps": 125230.0,
+      "baseline_recall": 0.918201
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 114580.0,
+      "recall": 0.924401,
+      "speedup_percent": -0.44,
+      "baseline_qps": 115086.0,
+      "baseline_recall": 0.925901
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 103276.0,
+      "recall": 0.9338,
+      "speedup_percent": -0.46,
+      "baseline_qps": 103752.0,
+      "baseline_recall": 0.933001
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 93938.2,
+      "recall": 0.940201,
+      "speedup_percent": -0.65,
+      "baseline_qps": 94552.6,
+      "baseline_recall": 0.941701
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 88148.7,
+      "recall": 0.946401,
+      "speedup_percent": -0.41,
+      "baseline_qps": 88514.4,
+      "baseline_recall": 0.9447
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 75386.3,
+      "recall": 0.953801,
+      "speedup_percent": -0.39,
+      "baseline_qps": 75679.1,
+      "baseline_recall": 0.954301
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 66728.6,
+      "recall": 0.958701,
+      "speedup_percent": -0.33,
+      "baseline_qps": 66949.6,
+      "baseline_recall": 0.958401
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 59310.1,
+      "recall": 0.961101,
+      "speedup_percent": -0.13,
+      "baseline_qps": 59385.9,
+      "baseline_recall": 0.960101
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 53530.4,
+      "recall": 0.965201,
+      "speedup_percent": -0.62,
+      "baseline_qps": 53862.3,
+      "baseline_recall": 0.963601
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 49146.1,
+      "recall": 0.967801,
+      "speedup_percent": -1.81,
+      "baseline_qps": 50051.5,
+      "baseline_recall": 0.967301
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 242478.0,
+      "recall": 0.705,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 224595.0,
+      "recall": 0.7647,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 208097.0,
+      "recall": 0.8082,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 195135.0,
+      "recall": 0.8433,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 182881.0,
+      "recall": 0.8603,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 172236.0,
+      "recall": 0.8747,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 162355.0,
+      "recall": 0.8876,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 145734.0,
+      "recall": 0.909801,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 133518.0,
+      "recall": 0.9217,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 121831.0,
+      "recall": 0.9299,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 111977.0,
+      "recall": 0.9363,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 104707.0,
+      "recall": 0.9414,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 91404.1,
+      "recall": 0.9534,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 79897.7,
+      "recall": 0.959501,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 73135.0,
+      "recall": 0.962901,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 66481.9,
+      "recall": 0.966801,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 61227.3,
+      "recall": 0.970301,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 244241.0,
+      "recall": 0.7165,
+      "speedup_percent": null,
+      "baseline_qps": null,
+      "baseline_recall": null
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 225684.0,
+      "recall": 0.7688,
+      "speedup_percent": 0.48,
+      "baseline_qps": 224595.0,
+      "baseline_recall": 0.7647
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 208446.0,
+      "recall": 0.8085,
+      "speedup_percent": 0.17,
+      "baseline_qps": 208097.0,
+      "baseline_recall": 0.8082
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 194887.0,
+      "recall": 0.849201,
+      "speedup_percent": -0.13,
+      "baseline_qps": 195135.0,
+      "baseline_recall": 0.8433
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 183039.0,
+      "recall": 0.8703,
+      "speedup_percent": 6.27,
+      "baseline_qps": 172236.0,
+      "baseline_recall": 0.8747
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 172160.0,
+      "recall": 0.8847,
+      "speedup_percent": 6.04,
+      "baseline_qps": 162355.0,
+      "baseline_recall": 0.8876
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 162502.0,
+      "recall": 0.8945,
+      "speedup_percent": 0.09,
+      "baseline_qps": 162355.0,
+      "baseline_recall": 0.8876
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 145642.0,
+      "recall": 0.9105,
+      "speedup_percent": -0.06,
+      "baseline_qps": 145734.0,
+      "baseline_recall": 0.909801
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 132501.0,
+      "recall": 0.9256,
+      "speedup_percent": -0.76,
+      "baseline_qps": 133518.0,
+      "baseline_recall": 0.9217
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 121059.0,
+      "recall": 0.9353,
+      "speedup_percent": 8.11,
+      "baseline_qps": 111977.0,
+      "baseline_recall": 0.9363
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 111454.0,
+      "recall": 0.9408,
+      "speedup_percent": 6.44,
+      "baseline_qps": 104707.0,
+      "baseline_recall": 0.9414
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 104476.0,
+      "recall": 0.9463,
+      "speedup_percent": -0.22,
+      "baseline_qps": 104707.0,
+      "baseline_recall": 0.9414
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 90872.7,
+      "recall": 0.9537,
+      "speedup_percent": -0.58,
+      "baseline_qps": 91404.1,
+      "baseline_recall": 0.9534
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 80670.3,
+      "recall": 0.9609,
+      "speedup_percent": 0.97,
+      "baseline_qps": 79897.7,
+      "baseline_recall": 0.959501
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 72646.1,
+      "recall": 0.964401,
+      "speedup_percent": -0.67,
+      "baseline_qps": 73135.0,
+      "baseline_recall": 0.962901
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 65880.0,
+      "recall": 0.967701,
+      "speedup_percent": -0.91,
+      "baseline_qps": 66481.9,
+      "baseline_recall": 0.966801
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 57713.4,
+      "recall": 0.970901,
+      "speedup_percent": -5.74,
+      "baseline_qps": 61227.3,
+      "baseline_recall": 0.970301
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 244597.0,
+      "recall": 0.7149,
+      "speedup_percent": 0.87,
+      "baseline_qps": 242478.0,
+      "baseline_recall": 0.705
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 224739.0,
+      "recall": 0.7707,
+      "speedup_percent": 0.06,
+      "baseline_qps": 224595.0,
+      "baseline_recall": 0.7647
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 208393.0,
+      "recall": 0.8116,
+      "speedup_percent": 0.14,
+      "baseline_qps": 208097.0,
+      "baseline_recall": 0.8082
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 195221.0,
+      "recall": 0.8426,
+      "speedup_percent": 0.04,
+      "baseline_qps": 195135.0,
+      "baseline_recall": 0.8433
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 182751.0,
+      "recall": 0.8692,
+      "speedup_percent": 6.1,
+      "baseline_qps": 172236.0,
+      "baseline_recall": 0.8747
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 171748.0,
+      "recall": 0.887901,
+      "speedup_percent": 5.79,
+      "baseline_qps": 162355.0,
+      "baseline_recall": 0.8876
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 161997.0,
+      "recall": 0.8972,
+      "speedup_percent": -0.22,
+      "baseline_qps": 162355.0,
+      "baseline_recall": 0.8876
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 145249.0,
+      "recall": 0.9132,
+      "speedup_percent": -0.33,
+      "baseline_qps": 145734.0,
+      "baseline_recall": 0.909801
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 132998.0,
+      "recall": 0.927,
+      "speedup_percent": 9.17,
+      "baseline_qps": 121831.0,
+      "baseline_recall": 0.9299
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 121962.0,
+      "recall": 0.9342,
+      "speedup_percent": 8.92,
+      "baseline_qps": 111977.0,
+      "baseline_recall": 0.9363
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 112255.0,
+      "recall": 0.9406,
+      "speedup_percent": 7.21,
+      "baseline_qps": 104707.0,
+      "baseline_recall": 0.9414
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 104487.0,
+      "recall": 0.9448,
+      "speedup_percent": -0.21,
+      "baseline_qps": 104707.0,
+      "baseline_recall": 0.9414
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 90829.9,
+      "recall": 0.9538,
+      "speedup_percent": -0.63,
+      "baseline_qps": 91404.1,
+      "baseline_recall": 0.9534
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 80767.0,
+      "recall": 0.9593,
+      "speedup_percent": 1.09,
+      "baseline_qps": 79897.7,
+      "baseline_recall": 0.959501
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 72588.9,
+      "recall": 0.962401,
+      "speedup_percent": -0.75,
+      "baseline_qps": 73135.0,
+      "baseline_recall": 0.962901
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 65998.7,
+      "recall": 0.966601,
+      "speedup_percent": -0.73,
+      "baseline_qps": 66481.9,
+      "baseline_recall": 0.966801
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 60587.8,
+      "recall": 0.969501,
+      "speedup_percent": -1.04,
+      "baseline_qps": 61227.3,
+      "baseline_recall": 0.970301
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 242285.0,
+      "recall": 0.697,
+      "speedup_percent": -0.08,
+      "baseline_qps": 242478.0,
+      "baseline_recall": 0.705
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 223828.0,
+      "recall": 0.7563,
+      "speedup_percent": -0.34,
+      "baseline_qps": 224595.0,
+      "baseline_recall": 0.7647
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 206246.0,
+      "recall": 0.799,
+      "speedup_percent": -0.89,
+      "baseline_qps": 208097.0,
+      "baseline_recall": 0.8082
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 193094.0,
+      "recall": 0.8308,
+      "speedup_percent": null,
+      "baseline_qps": null,
+      "baseline_recall": null
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 182161.0,
+      "recall": 0.8545,
+      "speedup_percent": -0.39,
+      "baseline_qps": 182881.0,
+      "baseline_recall": 0.8603
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 170854.0,
+      "recall": 0.8727,
+      "speedup_percent": -0.8,
+      "baseline_qps": 172236.0,
+      "baseline_recall": 0.8747
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 161243.0,
+      "recall": 0.8894,
+      "speedup_percent": -0.68,
+      "baseline_qps": 162355.0,
+      "baseline_recall": 0.8876
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 145175.0,
+      "recall": 0.9073,
+      "speedup_percent": -0.38,
+      "baseline_qps": 145734.0,
+      "baseline_recall": 0.909801
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 133109.0,
+      "recall": 0.9201,
+      "speedup_percent": -0.31,
+      "baseline_qps": 133518.0,
+      "baseline_recall": 0.9217
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 121496.0,
+      "recall": 0.9298,
+      "speedup_percent": -0.27,
+      "baseline_qps": 121831.0,
+      "baseline_recall": 0.9299
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 111697.0,
+      "recall": 0.9381,
+      "speedup_percent": -0.25,
+      "baseline_qps": 111977.0,
+      "baseline_recall": 0.9363
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 104631.0,
+      "recall": 0.9429,
+      "speedup_percent": -0.07,
+      "baseline_qps": 104707.0,
+      "baseline_recall": 0.9414
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 90907.9,
+      "recall": 0.9509,
+      "speedup_percent": -0.54,
+      "baseline_qps": 91404.1,
+      "baseline_recall": 0.9534
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 80829.2,
+      "recall": 0.9568,
+      "speedup_percent": 1.17,
+      "baseline_qps": 79897.7,
+      "baseline_recall": 0.959501
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 72582.0,
+      "recall": 0.962401,
+      "speedup_percent": -0.76,
+      "baseline_qps": 73135.0,
+      "baseline_recall": 0.962901
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 65709.5,
+      "recall": 0.966101,
+      "speedup_percent": -1.16,
+      "baseline_qps": 66481.9,
+      "baseline_recall": 0.966801
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 60426.3,
+      "recall": 0.969701,
+      "speedup_percent": -1.31,
+      "baseline_qps": 61227.3,
+      "baseline_recall": 0.970301
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 242498.0,
+      "recall": 0.6993,
+      "speedup_percent": 0.01,
+      "baseline_qps": 242478.0,
+      "baseline_recall": 0.705
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 222836.0,
+      "recall": 0.7602,
+      "speedup_percent": -0.78,
+      "baseline_qps": 224595.0,
+      "baseline_recall": 0.7647
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 206274.0,
+      "recall": 0.8037,
+      "speedup_percent": -0.88,
+      "baseline_qps": 208097.0,
+      "baseline_recall": 0.8082
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 193340.0,
+      "recall": 0.8362,
+      "speedup_percent": -0.92,
+      "baseline_qps": 195135.0,
+      "baseline_recall": 0.8433
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 181402.0,
+      "recall": 0.8597,
+      "speedup_percent": -0.81,
+      "baseline_qps": 182881.0,
+      "baseline_recall": 0.8603
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 170867.0,
+      "recall": 0.8735,
+      "speedup_percent": -0.79,
+      "baseline_qps": 172236.0,
+      "baseline_recall": 0.8747
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 160903.0,
+      "recall": 0.8881,
+      "speedup_percent": -0.89,
+      "baseline_qps": 162355.0,
+      "baseline_recall": 0.8876
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 144601.0,
+      "recall": 0.9084,
+      "speedup_percent": -0.78,
+      "baseline_qps": 145734.0,
+      "baseline_recall": 0.909801
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 133399.0,
+      "recall": 0.9229,
+      "speedup_percent": -0.09,
+      "baseline_qps": 133518.0,
+      "baseline_recall": 0.9217
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 121353.0,
+      "recall": 0.9339,
+      "speedup_percent": 8.37,
+      "baseline_qps": 111977.0,
+      "baseline_recall": 0.9363
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 111367.0,
+      "recall": 0.9411,
+      "speedup_percent": 6.36,
+      "baseline_qps": 104707.0,
+      "baseline_recall": 0.9414
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 104305.0,
+      "recall": 0.9481,
+      "speedup_percent": 14.11,
+      "baseline_qps": 91404.1,
+      "baseline_recall": 0.9534
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 90528.3,
+      "recall": 0.9563,
+      "speedup_percent": -0.96,
+      "baseline_qps": 91404.1,
+      "baseline_recall": 0.9534
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 81003.3,
+      "recall": 0.960701,
+      "speedup_percent": 1.38,
+      "baseline_qps": 79897.7,
+      "baseline_recall": 0.959501
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 72834.8,
+      "recall": 0.964201,
+      "speedup_percent": -0.41,
+      "baseline_qps": 73135.0,
+      "baseline_recall": 0.962901
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 65987.0,
+      "recall": 0.968101,
+      "speedup_percent": -0.74,
+      "baseline_qps": 66481.9,
+      "baseline_recall": 0.966801
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 60527.0,
+      "recall": 0.970901,
+      "speedup_percent": -1.14,
+      "baseline_qps": 61227.3,
+      "baseline_recall": 0.970301
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 242465.0,
+      "recall": 0.7029,
+      "speedup_percent": -0.01,
+      "baseline_qps": 242478.0,
+      "baseline_recall": 0.705
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 223044.0,
+      "recall": 0.7664,
+      "speedup_percent": -0.69,
+      "baseline_qps": 224595.0,
+      "baseline_recall": 0.7647
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 206516.0,
+      "recall": 0.8111,
+      "speedup_percent": -0.76,
+      "baseline_qps": 208097.0,
+      "baseline_recall": 0.8082
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 194032.0,
+      "recall": 0.8435,
+      "speedup_percent": -0.57,
+      "baseline_qps": 195135.0,
+      "baseline_recall": 0.8433
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 182119.0,
+      "recall": 0.865601,
+      "speedup_percent": -0.42,
+      "baseline_qps": 182881.0,
+      "baseline_recall": 0.8603
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 171314.0,
+      "recall": 0.879901,
+      "speedup_percent": -0.54,
+      "baseline_qps": 172236.0,
+      "baseline_recall": 0.8747
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 161802.0,
+      "recall": 0.893101,
+      "speedup_percent": -0.34,
+      "baseline_qps": 162355.0,
+      "baseline_recall": 0.8876
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 145114.0,
+      "recall": 0.913401,
+      "speedup_percent": -0.43,
+      "baseline_qps": 145734.0,
+      "baseline_recall": 0.909801
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 132848.0,
+      "recall": 0.9224,
+      "speedup_percent": -0.5,
+      "baseline_qps": 133518.0,
+      "baseline_recall": 0.9217
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 121931.0,
+      "recall": 0.9312,
+      "speedup_percent": 0.08,
+      "baseline_qps": 121831.0,
+      "baseline_recall": 0.9299
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 111764.0,
+      "recall": 0.9378,
+      "speedup_percent": -0.19,
+      "baseline_qps": 111977.0,
+      "baseline_recall": 0.9363
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 104209.0,
+      "recall": 0.9455,
+      "speedup_percent": -0.48,
+      "baseline_qps": 104707.0,
+      "baseline_recall": 0.9414
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 90747.4,
+      "recall": 0.9545,
+      "speedup_percent": -0.72,
+      "baseline_qps": 91404.1,
+      "baseline_recall": 0.9534
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 80888.3,
+      "recall": 0.960001,
+      "speedup_percent": 1.24,
+      "baseline_qps": 79897.7,
+      "baseline_recall": 0.959501
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 72623.0,
+      "recall": 0.964501,
+      "speedup_percent": -0.7,
+      "baseline_qps": 73135.0,
+      "baseline_recall": 0.962901
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 66099.4,
+      "recall": 0.967701,
+      "speedup_percent": -0.58,
+      "baseline_qps": 66481.9,
+      "baseline_recall": 0.966801
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 60654.9,
+      "recall": 0.970001,
+      "speedup_percent": -0.93,
+      "baseline_qps": 61227.3,
+      "baseline_recall": 0.970301
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 243997.0,
+      "recall": 0.7021,
+      "speedup_percent": 0.63,
+      "baseline_qps": 242478.0,
+      "baseline_recall": 0.705
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 224160.0,
+      "recall": 0.757501,
+      "speedup_percent": -0.19,
+      "baseline_qps": 224595.0,
+      "baseline_recall": 0.7647
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 207854.0,
+      "recall": 0.803501,
+      "speedup_percent": -0.12,
+      "baseline_qps": 208097.0,
+      "baseline_recall": 0.8082
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 194396.0,
+      "recall": 0.8394,
+      "speedup_percent": -0.38,
+      "baseline_qps": 195135.0,
+      "baseline_recall": 0.8433
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 182189.0,
+      "recall": 0.858801,
+      "speedup_percent": -0.38,
+      "baseline_qps": 182881.0,
+      "baseline_recall": 0.8603
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 171606.0,
+      "recall": 0.877,
+      "speedup_percent": -0.37,
+      "baseline_qps": 172236.0,
+      "baseline_recall": 0.8747
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 161848.0,
+      "recall": 0.891,
+      "speedup_percent": -0.31,
+      "baseline_qps": 162355.0,
+      "baseline_recall": 0.8876
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 145603.0,
+      "recall": 0.9097,
+      "speedup_percent": -0.09,
+      "baseline_qps": 145734.0,
+      "baseline_recall": 0.909801
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 132633.0,
+      "recall": 0.9261,
+      "speedup_percent": 8.87,
+      "baseline_qps": 121831.0,
+      "baseline_recall": 0.9299
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 121311.0,
+      "recall": 0.9348,
+      "speedup_percent": 8.34,
+      "baseline_qps": 111977.0,
+      "baseline_recall": 0.9363
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 111398.0,
+      "recall": 0.9418,
+      "speedup_percent": 6.39,
+      "baseline_qps": 104707.0,
+      "baseline_recall": 0.9414
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 104354.0,
+      "recall": 0.9456,
+      "speedup_percent": -0.34,
+      "baseline_qps": 104707.0,
+      "baseline_recall": 0.9414
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 90994.6,
+      "recall": 0.9543,
+      "speedup_percent": -0.45,
+      "baseline_qps": 91404.1,
+      "baseline_recall": 0.9534
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 80796.3,
+      "recall": 0.959301,
+      "speedup_percent": 1.12,
+      "baseline_qps": 79897.7,
+      "baseline_recall": 0.959501
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 72745.2,
+      "recall": 0.963401,
+      "speedup_percent": -0.53,
+      "baseline_qps": 73135.0,
+      "baseline_recall": 0.962901
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 66036.2,
+      "recall": 0.967301,
+      "speedup_percent": -0.67,
+      "baseline_qps": 66481.9,
+      "baseline_recall": 0.966801
+    },
+    {
+      "dataset": "wikipedia10m-768-ip",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 60669.5,
+      "recall": 0.970301,
+      "speedup_percent": -0.91,
+      "baseline_qps": 61227.3,
+      "baseline_recall": 0.970301
+    }
+  ],
+  "speedup_metadata": {
+    "description": "speedup_percent: Performance improvement compared to baseline (reordering=none)",
+    "calculation": "((reordered_qps - baseline_qps) / baseline_qps) * 100",
+    "baseline_matching_tolerance": 0.01,
+    "null_values": "speedup_percent is null when no matching baseline found within tolerance"
+  }
+}

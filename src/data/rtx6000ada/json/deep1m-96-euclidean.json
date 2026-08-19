@@ -1,0 +1,3481 @@
+{
+  "dataset_name": "Deep 1M",
+  "internal_name": "deep1m-96-euclidean",
+  "datasets": ["Deep 1M"],
+  "results": [
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 1806020.0,
+      "recall": 0.858618,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 1668100.0,
+      "recall": 0.891391,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 1549030.0,
+      "recall": 0.914963,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 1447060.0,
+      "recall": 0.932533,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 1358450.0,
+      "recall": 0.944374,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 1298040.0,
+      "recall": 0.953325,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 1209080.0,
+      "recall": 0.960236,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 1090880.0,
+      "recall": 0.970349,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 992206.0,
+      "recall": 0.977209,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 903941.0,
+      "recall": 0.981489,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 837695.0,
+      "recall": 0.984879,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 791029.0,
+      "recall": 0.987929,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 695418.0,
+      "recall": 0.99172,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 625792.0,
+      "recall": 0.99384,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 569494.0,
+      "recall": 0.995089,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 517572.0,
+      "recall": 0.99621,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "none",
+      "qps": 470418.0,
+      "recall": 0.99683,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 1796420.0,
+      "recall": 0.857588,
+      "speedup_percent": -0.53,
+      "baseline_qps": 1806020.0,
+      "baseline_recall": 0.858618
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 1661340.0,
+      "recall": 0.891349,
+      "speedup_percent": -0.41,
+      "baseline_qps": 1668100.0,
+      "baseline_recall": 0.891391
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 1542490.0,
+      "recall": 0.914531,
+      "speedup_percent": -0.42,
+      "baseline_qps": 1549030.0,
+      "baseline_recall": 0.914963
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 1432480.0,
+      "recall": 0.931742,
+      "speedup_percent": -1.01,
+      "baseline_qps": 1447060.0,
+      "baseline_recall": 0.932533
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 1341220.0,
+      "recall": 0.944125,
+      "speedup_percent": -1.27,
+      "baseline_qps": 1358450.0,
+      "baseline_recall": 0.944374
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 1261560.0,
+      "recall": 0.953036,
+      "speedup_percent": -2.81,
+      "baseline_qps": 1298040.0,
+      "baseline_recall": 0.953325
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 1190790.0,
+      "recall": 0.960086,
+      "speedup_percent": -1.51,
+      "baseline_qps": 1209080.0,
+      "baseline_recall": 0.960236
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 1068650.0,
+      "recall": 0.970579,
+      "speedup_percent": -2.04,
+      "baseline_qps": 1090880.0,
+      "baseline_recall": 0.970349
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 948774.0,
+      "recall": 0.977369,
+      "speedup_percent": -4.38,
+      "baseline_qps": 992206.0,
+      "baseline_recall": 0.977209
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 867251.0,
+      "recall": 0.981468,
+      "speedup_percent": -4.06,
+      "baseline_qps": 903941.0,
+      "baseline_recall": 0.981489
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 798728.0,
+      "recall": 0.984869,
+      "speedup_percent": -4.65,
+      "baseline_qps": 837695.0,
+      "baseline_recall": 0.984879
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 770073.0,
+      "recall": 0.987859,
+      "speedup_percent": -2.65,
+      "baseline_qps": 791029.0,
+      "baseline_recall": 0.987929
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 673512.0,
+      "recall": 0.991629,
+      "speedup_percent": -3.15,
+      "baseline_qps": 695418.0,
+      "baseline_recall": 0.99172
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 593902.0,
+      "recall": 0.99386,
+      "speedup_percent": -5.1,
+      "baseline_qps": 625792.0,
+      "baseline_recall": 0.99384
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 534112.0,
+      "recall": 0.995109,
+      "speedup_percent": -6.21,
+      "baseline_qps": 569494.0,
+      "baseline_recall": 0.995089
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 460361.0,
+      "recall": 0.99624,
+      "speedup_percent": -11.05,
+      "baseline_qps": 517572.0,
+      "baseline_recall": 0.99621
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "gorder",
+      "qps": 358441.0,
+      "recall": 0.99685,
+      "speedup_percent": -23.8,
+      "baseline_qps": 470418.0,
+      "baseline_recall": 0.99683
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 1793270.0,
+      "recall": 0.859168,
+      "speedup_percent": -0.71,
+      "baseline_qps": 1806020.0,
+      "baseline_recall": 0.858618
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 1661630.0,
+      "recall": 0.89226,
+      "speedup_percent": -0.39,
+      "baseline_qps": 1668100.0,
+      "baseline_recall": 0.891391
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 1536750.0,
+      "recall": 0.915422,
+      "speedup_percent": -0.79,
+      "baseline_qps": 1549030.0,
+      "baseline_recall": 0.914963
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 1444320.0,
+      "recall": 0.932263,
+      "speedup_percent": -0.19,
+      "baseline_qps": 1447060.0,
+      "baseline_recall": 0.932533
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 1355380.0,
+      "recall": 0.944575,
+      "speedup_percent": -0.23,
+      "baseline_qps": 1358450.0,
+      "baseline_recall": 0.944374
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 1275250.0,
+      "recall": 0.953355,
+      "speedup_percent": -1.76,
+      "baseline_qps": 1298040.0,
+      "baseline_recall": 0.953325
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 1204040.0,
+      "recall": 0.960336,
+      "speedup_percent": -0.42,
+      "baseline_qps": 1209080.0,
+      "baseline_recall": 0.960236
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 1083050.0,
+      "recall": 0.970329,
+      "speedup_percent": -0.72,
+      "baseline_qps": 1090880.0,
+      "baseline_recall": 0.970349
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 990704.0,
+      "recall": 0.977099,
+      "speedup_percent": -0.15,
+      "baseline_qps": 992206.0,
+      "baseline_recall": 0.977209
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 900832.0,
+      "recall": 0.981339,
+      "speedup_percent": -0.34,
+      "baseline_qps": 903941.0,
+      "baseline_recall": 0.981489
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 834882.0,
+      "recall": 0.984769,
+      "speedup_percent": -0.34,
+      "baseline_qps": 837695.0,
+      "baseline_recall": 0.984879
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 789190.0,
+      "recall": 0.98777,
+      "speedup_percent": -0.23,
+      "baseline_qps": 791029.0,
+      "baseline_recall": 0.987929
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 689233.0,
+      "recall": 0.991599,
+      "speedup_percent": -0.89,
+      "baseline_qps": 695418.0,
+      "baseline_recall": 0.99172
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 620117.0,
+      "recall": 0.99379,
+      "speedup_percent": -0.91,
+      "baseline_qps": 625792.0,
+      "baseline_recall": 0.99384
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 564622.0,
+      "recall": 0.99498,
+      "speedup_percent": -0.86,
+      "baseline_qps": 569494.0,
+      "baseline_recall": 0.995089
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 512351.0,
+      "recall": 0.99612,
+      "speedup_percent": -1.01,
+      "baseline_qps": 517572.0,
+      "baseline_recall": 0.99621
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "hubsort",
+      "qps": 470152.0,
+      "recall": 0.9968,
+      "speedup_percent": -0.06,
+      "baseline_qps": 470418.0,
+      "baseline_recall": 0.99683
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 1805840.0,
+      "recall": 0.860019,
+      "speedup_percent": -0.01,
+      "baseline_qps": 1806020.0,
+      "baseline_recall": 0.858618
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 1667730.0,
+      "recall": 0.89312,
+      "speedup_percent": -0.02,
+      "baseline_qps": 1668100.0,
+      "baseline_recall": 0.891391
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 1548320.0,
+      "recall": 0.916722,
+      "speedup_percent": -0.05,
+      "baseline_qps": 1549030.0,
+      "baseline_recall": 0.914963
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 1452670.0,
+      "recall": 0.932552,
+      "speedup_percent": 0.39,
+      "baseline_qps": 1447060.0,
+      "baseline_recall": 0.932533
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 1363020.0,
+      "recall": 0.944764,
+      "speedup_percent": 0.34,
+      "baseline_qps": 1358450.0,
+      "baseline_recall": 0.944374
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 1283860.0,
+      "recall": 0.953525,
+      "speedup_percent": -1.09,
+      "baseline_qps": 1298040.0,
+      "baseline_recall": 0.953325
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 1212130.0,
+      "recall": 0.960646,
+      "speedup_percent": 0.25,
+      "baseline_qps": 1209080.0,
+      "baseline_recall": 0.960236
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 1089280.0,
+      "recall": 0.970909,
+      "speedup_percent": -0.15,
+      "baseline_qps": 1090880.0,
+      "baseline_recall": 0.970349
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 991230.0,
+      "recall": 0.977749,
+      "speedup_percent": -0.1,
+      "baseline_qps": 992206.0,
+      "baseline_recall": 0.977209
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 908181.0,
+      "recall": 0.981619,
+      "speedup_percent": 0.47,
+      "baseline_qps": 903941.0,
+      "baseline_recall": 0.981489
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 836806.0,
+      "recall": 0.985049,
+      "speedup_percent": -0.11,
+      "baseline_qps": 837695.0,
+      "baseline_recall": 0.984879
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 791810.0,
+      "recall": 0.987959,
+      "speedup_percent": 0.1,
+      "baseline_qps": 791029.0,
+      "baseline_recall": 0.987929
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 695884.0,
+      "recall": 0.991589,
+      "speedup_percent": 0.07,
+      "baseline_qps": 695418.0,
+      "baseline_recall": 0.99172
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 624982.0,
+      "recall": 0.99388,
+      "speedup_percent": -0.13,
+      "baseline_qps": 625792.0,
+      "baseline_recall": 0.99384
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 569958.0,
+      "recall": 0.99512,
+      "speedup_percent": 0.08,
+      "baseline_qps": 569494.0,
+      "baseline_recall": 0.995089
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 515415.0,
+      "recall": 0.9962,
+      "speedup_percent": -0.42,
+      "baseline_qps": 517572.0,
+      "baseline_recall": 0.99621
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "indegree",
+      "qps": 472540.0,
+      "recall": 0.99685,
+      "speedup_percent": 0.45,
+      "baseline_qps": 470418.0,
+      "baseline_recall": 0.99683
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 1799670.0,
+      "recall": 0.858778,
+      "speedup_percent": -0.35,
+      "baseline_qps": 1806020.0,
+      "baseline_recall": 0.858618
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 1658920.0,
+      "recall": 0.8919,
+      "speedup_percent": -0.55,
+      "baseline_qps": 1668100.0,
+      "baseline_recall": 0.891391
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 1539910.0,
+      "recall": 0.915062,
+      "speedup_percent": -0.59,
+      "baseline_qps": 1549030.0,
+      "baseline_recall": 0.914963
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 1445900.0,
+      "recall": 0.931892,
+      "speedup_percent": -0.08,
+      "baseline_qps": 1447060.0,
+      "baseline_recall": 0.932533
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 1355860.0,
+      "recall": 0.944134,
+      "speedup_percent": -0.19,
+      "baseline_qps": 1358450.0,
+      "baseline_recall": 0.944374
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 1277940.0,
+      "recall": 0.952525,
+      "speedup_percent": -1.55,
+      "baseline_qps": 1298040.0,
+      "baseline_recall": 0.953325
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 1207250.0,
+      "recall": 0.959956,
+      "speedup_percent": -0.15,
+      "baseline_qps": 1209080.0,
+      "baseline_recall": 0.960236
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 1085300.0,
+      "recall": 0.970609,
+      "speedup_percent": -0.51,
+      "baseline_qps": 1090880.0,
+      "baseline_recall": 0.970349
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 993192.0,
+      "recall": 0.977219,
+      "speedup_percent": 0.1,
+      "baseline_qps": 992206.0,
+      "baseline_recall": 0.977209
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 909135.0,
+      "recall": 0.981518,
+      "speedup_percent": 0.57,
+      "baseline_qps": 903941.0,
+      "baseline_recall": 0.981489
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 838602.0,
+      "recall": 0.984939,
+      "speedup_percent": 0.11,
+      "baseline_qps": 837695.0,
+      "baseline_recall": 0.984879
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 790988.0,
+      "recall": 0.987969,
+      "speedup_percent": -0.01,
+      "baseline_qps": 791029.0,
+      "baseline_recall": 0.987929
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 690543.0,
+      "recall": 0.991619,
+      "speedup_percent": -0.7,
+      "baseline_qps": 695418.0,
+      "baseline_recall": 0.99172
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 616460.0,
+      "recall": 0.99387,
+      "speedup_percent": -1.49,
+      "baseline_qps": 625792.0,
+      "baseline_recall": 0.99384
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 564973.0,
+      "recall": 0.995149,
+      "speedup_percent": -0.79,
+      "baseline_qps": 569494.0,
+      "baseline_recall": 0.995089
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 514114.0,
+      "recall": 0.99617,
+      "speedup_percent": -0.67,
+      "baseline_qps": 517572.0,
+      "baseline_recall": 0.99621
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "outdegree",
+      "qps": 467074.0,
+      "recall": 0.99688,
+      "speedup_percent": -0.71,
+      "baseline_qps": 470418.0,
+      "baseline_recall": 0.99683
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 1791900.0,
+      "recall": 0.859399,
+      "speedup_percent": -0.78,
+      "baseline_qps": 1806020.0,
+      "baseline_recall": 0.858618
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 1653470.0,
+      "recall": 0.892671,
+      "speedup_percent": -0.88,
+      "baseline_qps": 1668100.0,
+      "baseline_recall": 0.891391
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 1537460.0,
+      "recall": 0.915701,
+      "speedup_percent": -0.75,
+      "baseline_qps": 1549030.0,
+      "baseline_recall": 0.914963
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 1444150.0,
+      "recall": 0.932052,
+      "speedup_percent": -0.2,
+      "baseline_qps": 1447060.0,
+      "baseline_recall": 0.932533
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 1354910.0,
+      "recall": 0.943864,
+      "speedup_percent": -0.26,
+      "baseline_qps": 1358450.0,
+      "baseline_recall": 0.944374
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 1276540.0,
+      "recall": 0.953135,
+      "speedup_percent": -1.66,
+      "baseline_qps": 1298040.0,
+      "baseline_recall": 0.953325
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 1206030.0,
+      "recall": 0.959926,
+      "speedup_percent": -0.25,
+      "baseline_qps": 1209080.0,
+      "baseline_recall": 0.960236
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 1084540.0,
+      "recall": 0.970508,
+      "speedup_percent": -0.58,
+      "baseline_qps": 1090880.0,
+      "baseline_recall": 0.970349
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 989781.0,
+      "recall": 0.977058,
+      "speedup_percent": -0.24,
+      "baseline_qps": 992206.0,
+      "baseline_recall": 0.977209
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 907431.0,
+      "recall": 0.981298,
+      "speedup_percent": 0.39,
+      "baseline_qps": 903941.0,
+      "baseline_recall": 0.981489
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 835629.0,
+      "recall": 0.984819,
+      "speedup_percent": -0.25,
+      "baseline_qps": 837695.0,
+      "baseline_recall": 0.984879
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 790404.0,
+      "recall": 0.98787,
+      "speedup_percent": -0.08,
+      "baseline_qps": 791029.0,
+      "baseline_recall": 0.987929
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 689744.0,
+      "recall": 0.99174,
+      "speedup_percent": -0.82,
+      "baseline_qps": 695418.0,
+      "baseline_recall": 0.99172
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 620356.0,
+      "recall": 0.99383,
+      "speedup_percent": -0.87,
+      "baseline_qps": 625792.0,
+      "baseline_recall": 0.99384
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 564062.0,
+      "recall": 0.99507,
+      "speedup_percent": -0.95,
+      "baseline_qps": 569494.0,
+      "baseline_recall": 0.995089
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 513437.0,
+      "recall": 0.99617,
+      "speedup_percent": -0.8,
+      "baseline_qps": 517572.0,
+      "baseline_recall": 0.99621
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "random",
+      "qps": 468051.0,
+      "recall": 0.99677,
+      "speedup_percent": -0.5,
+      "baseline_qps": 470418.0,
+      "baseline_recall": 0.99683
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 1793350.0,
+      "recall": 0.859908,
+      "speedup_percent": -0.7,
+      "baseline_qps": 1806020.0,
+      "baseline_recall": 0.858618
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 1660220.0,
+      "recall": 0.89257,
+      "speedup_percent": -0.47,
+      "baseline_qps": 1668100.0,
+      "baseline_recall": 0.891391
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 1536870.0,
+      "recall": 0.915341,
+      "speedup_percent": -0.79,
+      "baseline_qps": 1549030.0,
+      "baseline_recall": 0.914963
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 1441450.0,
+      "recall": 0.932224,
+      "speedup_percent": -0.39,
+      "baseline_qps": 1447060.0,
+      "baseline_recall": 0.932533
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 1353560.0,
+      "recall": 0.944195,
+      "speedup_percent": -0.36,
+      "baseline_qps": 1358450.0,
+      "baseline_recall": 0.944374
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 1274380.0,
+      "recall": 0.953326,
+      "speedup_percent": -1.82,
+      "baseline_qps": 1298040.0,
+      "baseline_recall": 0.953325
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 1204500.0,
+      "recall": 0.960116,
+      "speedup_percent": -0.38,
+      "baseline_qps": 1209080.0,
+      "baseline_recall": 0.960236
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 1083160.0,
+      "recall": 0.970569,
+      "speedup_percent": -0.71,
+      "baseline_qps": 1090880.0,
+      "baseline_recall": 0.970349
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 958944.0,
+      "recall": 0.977329,
+      "speedup_percent": -3.35,
+      "baseline_qps": 992206.0,
+      "baseline_recall": 0.977209
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 877099.0,
+      "recall": 0.981479,
+      "speedup_percent": -2.97,
+      "baseline_qps": 903941.0,
+      "baseline_recall": 0.981489
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 806071.0,
+      "recall": 0.984779,
+      "speedup_percent": -3.78,
+      "baseline_qps": 837695.0,
+      "baseline_recall": 0.984879
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 787545.0,
+      "recall": 0.988029,
+      "speedup_percent": -0.44,
+      "baseline_qps": 791029.0,
+      "baseline_recall": 0.987929
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 687905.0,
+      "recall": 0.991579,
+      "speedup_percent": -1.08,
+      "baseline_qps": 695418.0,
+      "baseline_recall": 0.99172
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 613915.0,
+      "recall": 0.99378,
+      "speedup_percent": -1.9,
+      "baseline_qps": 625792.0,
+      "baseline_recall": 0.99384
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 557766.0,
+      "recall": 0.99509,
+      "speedup_percent": -2.06,
+      "baseline_qps": 569494.0,
+      "baseline_recall": 0.995089
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 501160.0,
+      "recall": 0.99621,
+      "speedup_percent": -3.17,
+      "baseline_qps": 517572.0,
+      "baseline_recall": 0.99621
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "cagra",
+      "reordering": "rcm",
+      "qps": 395225.0,
+      "recall": 0.99683,
+      "speedup_percent": -15.98,
+      "baseline_qps": 470418.0,
+      "baseline_recall": 0.99683
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 1868280.0,
+      "recall": 0.852147,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 1747330.0,
+      "recall": 0.883819,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 1629270.0,
+      "recall": 0.905821,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 1532580.0,
+      "recall": 0.922572,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 1444970.0,
+      "recall": 0.934224,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 1362230.0,
+      "recall": 0.943215,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 1290080.0,
+      "recall": 0.950827,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 1166300.0,
+      "recall": 0.961157,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 1075010.0,
+      "recall": 0.968608,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 990719.0,
+      "recall": 0.973518,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 914964.0,
+      "recall": 0.977478,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 859878.0,
+      "recall": 0.980689,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 753773.0,
+      "recall": 0.9853,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 672058.0,
+      "recall": 0.988309,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 607800.0,
+      "recall": 0.990349,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 555244.0,
+      "recall": 0.991849,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "none",
+      "qps": 536116.0,
+      "recall": 0.99293,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 1878750.0,
+      "recall": 0.857548,
+      "speedup_percent": 0.56,
+      "baseline_qps": 1868280.0,
+      "baseline_recall": 0.852147
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 1755940.0,
+      "recall": 0.88858,
+      "speedup_percent": 0.49,
+      "baseline_qps": 1747330.0,
+      "baseline_recall": 0.883819
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 1637480.0,
+      "recall": 0.909522,
+      "speedup_percent": 0.5,
+      "baseline_qps": 1629270.0,
+      "baseline_recall": 0.905821
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 1529470.0,
+      "recall": 0.924744,
+      "speedup_percent": -0.2,
+      "baseline_qps": 1532580.0,
+      "baseline_recall": 0.922572
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 1439520.0,
+      "recall": 0.936014,
+      "speedup_percent": -0.38,
+      "baseline_qps": 1444970.0,
+      "baseline_recall": 0.934224
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 1360580.0,
+      "recall": 0.944745,
+      "speedup_percent": -0.12,
+      "baseline_qps": 1362230.0,
+      "baseline_recall": 0.943215
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 1290150.0,
+      "recall": 0.952127,
+      "speedup_percent": 0.01,
+      "baseline_qps": 1290080.0,
+      "baseline_recall": 0.950827
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 1170060.0,
+      "recall": 0.961807,
+      "speedup_percent": 0.32,
+      "baseline_qps": 1166300.0,
+      "baseline_recall": 0.961157
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 1044830.0,
+      "recall": 0.969318,
+      "speedup_percent": -2.81,
+      "baseline_qps": 1075010.0,
+      "baseline_recall": 0.968608
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 958776.0,
+      "recall": 0.974228,
+      "speedup_percent": -3.22,
+      "baseline_qps": 990719.0,
+      "baseline_recall": 0.973518
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 886131.0,
+      "recall": 0.977938,
+      "speedup_percent": -3.15,
+      "baseline_qps": 914964.0,
+      "baseline_recall": 0.977478
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 848479.0,
+      "recall": 0.981179,
+      "speedup_percent": -1.33,
+      "baseline_qps": 859878.0,
+      "baseline_recall": 0.980689
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 741439.0,
+      "recall": 0.9855,
+      "speedup_percent": -1.64,
+      "baseline_qps": 753773.0,
+      "baseline_recall": 0.9853
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 646945.0,
+      "recall": 0.988379,
+      "speedup_percent": -3.74,
+      "baseline_qps": 672058.0,
+      "baseline_recall": 0.988309
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 586592.0,
+      "recall": 0.990349,
+      "speedup_percent": -3.49,
+      "baseline_qps": 607800.0,
+      "baseline_recall": 0.990349
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 507803.0,
+      "recall": 0.991819,
+      "speedup_percent": -8.54,
+      "baseline_qps": 555244.0,
+      "baseline_recall": 0.991849
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "gorder",
+      "qps": 341850.0,
+      "recall": 0.992909,
+      "speedup_percent": -36.24,
+      "baseline_qps": 536116.0,
+      "baseline_recall": 0.99293
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 1882060.0,
+      "recall": 0.859667,
+      "speedup_percent": 0.74,
+      "baseline_qps": 1868280.0,
+      "baseline_recall": 0.852147
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 1757840.0,
+      "recall": 0.88923,
+      "speedup_percent": 0.6,
+      "baseline_qps": 1747330.0,
+      "baseline_recall": 0.883819
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 1644390.0,
+      "recall": 0.910151,
+      "speedup_percent": 0.93,
+      "baseline_qps": 1629270.0,
+      "baseline_recall": 0.905821
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 1544610.0,
+      "recall": 0.924953,
+      "speedup_percent": 0.78,
+      "baseline_qps": 1532580.0,
+      "baseline_recall": 0.922572
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 1458020.0,
+      "recall": 0.936234,
+      "speedup_percent": 0.9,
+      "baseline_qps": 1444970.0,
+      "baseline_recall": 0.934224
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 1375810.0,
+      "recall": 0.944885,
+      "speedup_percent": 1.0,
+      "baseline_qps": 1362230.0,
+      "baseline_recall": 0.943215
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 1305810.0,
+      "recall": 0.952126,
+      "speedup_percent": 1.22,
+      "baseline_qps": 1290080.0,
+      "baseline_recall": 0.950827
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 1183220.0,
+      "recall": 0.961946,
+      "speedup_percent": 1.45,
+      "baseline_qps": 1166300.0,
+      "baseline_recall": 0.961157
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 1081990.0,
+      "recall": 0.969357,
+      "speedup_percent": 0.65,
+      "baseline_qps": 1075010.0,
+      "baseline_recall": 0.968608
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 994196.0,
+      "recall": 0.974298,
+      "speedup_percent": 0.35,
+      "baseline_qps": 990719.0,
+      "baseline_recall": 0.973518
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 919770.0,
+      "recall": 0.978038,
+      "speedup_percent": 0.53,
+      "baseline_qps": 914964.0,
+      "baseline_recall": 0.977478
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 875435.0,
+      "recall": 0.981189,
+      "speedup_percent": 1.81,
+      "baseline_qps": 859878.0,
+      "baseline_recall": 0.980689
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 765792.0,
+      "recall": 0.98556,
+      "speedup_percent": 1.59,
+      "baseline_qps": 753773.0,
+      "baseline_recall": 0.9853
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 689503.0,
+      "recall": 0.98849,
+      "speedup_percent": 2.6,
+      "baseline_qps": 672058.0,
+      "baseline_recall": 0.988309
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 628027.0,
+      "recall": 0.990489,
+      "speedup_percent": 3.33,
+      "baseline_qps": 607800.0,
+      "baseline_recall": 0.990349
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 574020.0,
+      "recall": 0.991899,
+      "speedup_percent": 3.38,
+      "baseline_qps": 555244.0,
+      "baseline_recall": 0.991849
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "hubsort",
+      "qps": 523752.0,
+      "recall": 0.99294,
+      "speedup_percent": -2.31,
+      "baseline_qps": 536116.0,
+      "baseline_recall": 0.99293
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 1881480.0,
+      "recall": 0.856038,
+      "speedup_percent": 0.71,
+      "baseline_qps": 1868280.0,
+      "baseline_recall": 0.852147
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 1751290.0,
+      "recall": 0.88745,
+      "speedup_percent": 0.23,
+      "baseline_qps": 1747330.0,
+      "baseline_recall": 0.883819
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 1637780.0,
+      "recall": 0.907952,
+      "speedup_percent": 0.52,
+      "baseline_qps": 1629270.0,
+      "baseline_recall": 0.905821
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 1541750.0,
+      "recall": 0.924593,
+      "speedup_percent": 0.6,
+      "baseline_qps": 1532580.0,
+      "baseline_recall": 0.922572
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 1456830.0,
+      "recall": 0.935554,
+      "speedup_percent": 0.82,
+      "baseline_qps": 1444970.0,
+      "baseline_recall": 0.934224
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 1376380.0,
+      "recall": 0.944146,
+      "speedup_percent": 1.04,
+      "baseline_qps": 1362230.0,
+      "baseline_recall": 0.943215
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 1304520.0,
+      "recall": 0.951457,
+      "speedup_percent": 1.12,
+      "baseline_qps": 1290080.0,
+      "baseline_recall": 0.950827
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 1181440.0,
+      "recall": 0.961357,
+      "speedup_percent": 1.3,
+      "baseline_qps": 1166300.0,
+      "baseline_recall": 0.961157
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 1074180.0,
+      "recall": 0.969348,
+      "speedup_percent": -0.08,
+      "baseline_qps": 1075010.0,
+      "baseline_recall": 0.968608
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 994962.0,
+      "recall": 0.974348,
+      "speedup_percent": 0.43,
+      "baseline_qps": 990719.0,
+      "baseline_recall": 0.973518
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 922848.0,
+      "recall": 0.977978,
+      "speedup_percent": 0.86,
+      "baseline_qps": 914964.0,
+      "baseline_recall": 0.977478
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 875805.0,
+      "recall": 0.981189,
+      "speedup_percent": 1.85,
+      "baseline_qps": 859878.0,
+      "baseline_recall": 0.980689
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 769236.0,
+      "recall": 0.98555,
+      "speedup_percent": 2.05,
+      "baseline_qps": 753773.0,
+      "baseline_recall": 0.9853
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 689871.0,
+      "recall": 0.98849,
+      "speedup_percent": 2.65,
+      "baseline_qps": 672058.0,
+      "baseline_recall": 0.988309
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 627852.0,
+      "recall": 0.990429,
+      "speedup_percent": 3.3,
+      "baseline_qps": 607800.0,
+      "baseline_recall": 0.990349
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 576114.0,
+      "recall": 0.991979,
+      "speedup_percent": 3.76,
+      "baseline_qps": 555244.0,
+      "baseline_recall": 0.991849
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "indegree",
+      "qps": 522783.0,
+      "recall": 0.992969,
+      "speedup_percent": -2.49,
+      "baseline_qps": 536116.0,
+      "baseline_recall": 0.99293
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 1882270.0,
+      "recall": 0.860218,
+      "speedup_percent": 0.75,
+      "baseline_qps": 1868280.0,
+      "baseline_recall": 0.852147
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 1752490.0,
+      "recall": 0.88975,
+      "speedup_percent": 0.3,
+      "baseline_qps": 1747330.0,
+      "baseline_recall": 0.883819
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 1638960.0,
+      "recall": 0.910192,
+      "speedup_percent": 0.59,
+      "baseline_qps": 1629270.0,
+      "baseline_recall": 0.905821
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 1546090.0,
+      "recall": 0.924994,
+      "speedup_percent": 0.88,
+      "baseline_qps": 1532580.0,
+      "baseline_recall": 0.922572
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 1457480.0,
+      "recall": 0.935994,
+      "speedup_percent": 0.87,
+      "baseline_qps": 1444970.0,
+      "baseline_recall": 0.934224
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 1379850.0,
+      "recall": 0.944516,
+      "speedup_percent": 1.29,
+      "baseline_qps": 1362230.0,
+      "baseline_recall": 0.943215
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 1303870.0,
+      "recall": 0.951906,
+      "speedup_percent": 1.07,
+      "baseline_qps": 1290080.0,
+      "baseline_recall": 0.950827
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 1182850.0,
+      "recall": 0.961957,
+      "speedup_percent": 1.42,
+      "baseline_qps": 1166300.0,
+      "baseline_recall": 0.961157
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 1082670.0,
+      "recall": 0.969317,
+      "speedup_percent": 0.71,
+      "baseline_qps": 1075010.0,
+      "baseline_recall": 0.968608
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 997170.0,
+      "recall": 0.974308,
+      "speedup_percent": 0.65,
+      "baseline_qps": 990719.0,
+      "baseline_recall": 0.973518
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 922043.0,
+      "recall": 0.978218,
+      "speedup_percent": 0.77,
+      "baseline_qps": 914964.0,
+      "baseline_recall": 0.977478
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 876301.0,
+      "recall": 0.981159,
+      "speedup_percent": 1.91,
+      "baseline_qps": 859878.0,
+      "baseline_recall": 0.980689
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 768457.0,
+      "recall": 0.985489,
+      "speedup_percent": 1.95,
+      "baseline_qps": 753773.0,
+      "baseline_recall": 0.9853
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 688795.0,
+      "recall": 0.988449,
+      "speedup_percent": 2.49,
+      "baseline_qps": 672058.0,
+      "baseline_recall": 0.988309
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 626727.0,
+      "recall": 0.990419,
+      "speedup_percent": 3.11,
+      "baseline_qps": 607800.0,
+      "baseline_recall": 0.990349
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 574032.0,
+      "recall": 0.991829,
+      "speedup_percent": 3.38,
+      "baseline_qps": 555244.0,
+      "baseline_recall": 0.991849
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "outdegree",
+      "qps": 522654.0,
+      "recall": 0.99297,
+      "speedup_percent": -2.51,
+      "baseline_qps": 536116.0,
+      "baseline_recall": 0.99293
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 1888160.0,
+      "recall": 0.859368,
+      "speedup_percent": 1.06,
+      "baseline_qps": 1868280.0,
+      "baseline_recall": 0.852147
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 1753110.0,
+      "recall": 0.88887,
+      "speedup_percent": 0.33,
+      "baseline_qps": 1747330.0,
+      "baseline_recall": 0.883819
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 1644540.0,
+      "recall": 0.909752,
+      "speedup_percent": 0.94,
+      "baseline_qps": 1629270.0,
+      "baseline_recall": 0.905821
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 1547010.0,
+      "recall": 0.925294,
+      "speedup_percent": 0.94,
+      "baseline_qps": 1532580.0,
+      "baseline_recall": 0.922572
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 1458760.0,
+      "recall": 0.936424,
+      "speedup_percent": 0.95,
+      "baseline_qps": 1444970.0,
+      "baseline_recall": 0.934224
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 1376280.0,
+      "recall": 0.945175,
+      "speedup_percent": 1.03,
+      "baseline_qps": 1362230.0,
+      "baseline_recall": 0.943215
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 1304910.0,
+      "recall": 0.952207,
+      "speedup_percent": 1.15,
+      "baseline_qps": 1290080.0,
+      "baseline_recall": 0.950827
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 1180160.0,
+      "recall": 0.962167,
+      "speedup_percent": 1.19,
+      "baseline_qps": 1166300.0,
+      "baseline_recall": 0.961157
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 1082350.0,
+      "recall": 0.969308,
+      "speedup_percent": 0.68,
+      "baseline_qps": 1075010.0,
+      "baseline_recall": 0.968608
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 996120.0,
+      "recall": 0.974348,
+      "speedup_percent": 0.55,
+      "baseline_qps": 990719.0,
+      "baseline_recall": 0.973518
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 921927.0,
+      "recall": 0.978068,
+      "speedup_percent": 0.76,
+      "baseline_qps": 914964.0,
+      "baseline_recall": 0.977478
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 874643.0,
+      "recall": 0.981259,
+      "speedup_percent": 1.72,
+      "baseline_qps": 859878.0,
+      "baseline_recall": 0.980689
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 769119.0,
+      "recall": 0.98572,
+      "speedup_percent": 2.04,
+      "baseline_qps": 753773.0,
+      "baseline_recall": 0.9853
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 689126.0,
+      "recall": 0.988559,
+      "speedup_percent": 2.54,
+      "baseline_qps": 672058.0,
+      "baseline_recall": 0.988309
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 628561.0,
+      "recall": 0.990539,
+      "speedup_percent": 3.42,
+      "baseline_qps": 607800.0,
+      "baseline_recall": 0.990349
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 573208.0,
+      "recall": 0.991899,
+      "speedup_percent": 3.24,
+      "baseline_qps": 555244.0,
+      "baseline_recall": 0.991849
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "random",
+      "qps": 524308.0,
+      "recall": 0.99299,
+      "speedup_percent": -2.2,
+      "baseline_qps": 536116.0,
+      "baseline_recall": 0.99293
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 1880370.0,
+      "recall": 0.858849,
+      "speedup_percent": 0.65,
+      "baseline_qps": 1868280.0,
+      "baseline_recall": 0.852147
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 1757490.0,
+      "recall": 0.88919,
+      "speedup_percent": 0.58,
+      "baseline_qps": 1747330.0,
+      "baseline_recall": 0.883819
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 1644360.0,
+      "recall": 0.909972,
+      "speedup_percent": 0.93,
+      "baseline_qps": 1629270.0,
+      "baseline_recall": 0.905821
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 1545390.0,
+      "recall": 0.925263,
+      "speedup_percent": 0.84,
+      "baseline_qps": 1532580.0,
+      "baseline_recall": 0.922572
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 1454440.0,
+      "recall": 0.935694,
+      "speedup_percent": 0.66,
+      "baseline_qps": 1444970.0,
+      "baseline_recall": 0.934224
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 1375300.0,
+      "recall": 0.944455,
+      "speedup_percent": 0.96,
+      "baseline_qps": 1362230.0,
+      "baseline_recall": 0.943215
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 1303420.0,
+      "recall": 0.951466,
+      "speedup_percent": 1.03,
+      "baseline_qps": 1290080.0,
+      "baseline_recall": 0.950827
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 1181610.0,
+      "recall": 0.961397,
+      "speedup_percent": 1.31,
+      "baseline_qps": 1166300.0,
+      "baseline_recall": 0.961157
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 1076230.0,
+      "recall": 0.969017,
+      "speedup_percent": 0.11,
+      "baseline_qps": 1075010.0,
+      "baseline_recall": 0.968608
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 989771.0,
+      "recall": 0.973948,
+      "speedup_percent": -0.1,
+      "baseline_qps": 990719.0,
+      "baseline_recall": 0.973518
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 916055.0,
+      "recall": 0.977668,
+      "speedup_percent": 0.12,
+      "baseline_qps": 914964.0,
+      "baseline_recall": 0.977478
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 872100.0,
+      "recall": 0.980869,
+      "speedup_percent": 1.42,
+      "baseline_qps": 859878.0,
+      "baseline_recall": 0.980689
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 764157.0,
+      "recall": 0.9853,
+      "speedup_percent": 1.38,
+      "baseline_qps": 753773.0,
+      "baseline_recall": 0.9853
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 678482.0,
+      "recall": 0.988379,
+      "speedup_percent": 0.96,
+      "baseline_qps": 672058.0,
+      "baseline_recall": 0.988309
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 618298.0,
+      "recall": 0.990379,
+      "speedup_percent": 1.73,
+      "baseline_qps": 607800.0,
+      "baseline_recall": 0.990349
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 546698.0,
+      "recall": 0.991899,
+      "speedup_percent": -1.54,
+      "baseline_qps": 555244.0,
+      "baseline_recall": 0.991849
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "diskann",
+      "reordering": "rcm",
+      "qps": 475228.0,
+      "recall": 0.992929,
+      "speedup_percent": -11.36,
+      "baseline_qps": 536116.0,
+      "baseline_recall": 0.99293
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 2006960.0,
+      "recall": 0.805725,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 1889700.0,
+      "recall": 0.845637,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 1783210.0,
+      "recall": 0.873949,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 1680500.0,
+      "recall": 0.895261,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 1596120.0,
+      "recall": 0.910273,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 1522400.0,
+      "recall": 0.922533,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 1446970.0,
+      "recall": 0.931735,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 1321120.0,
+      "recall": 0.945407,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 1229440.0,
+      "recall": 0.955568,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 1141400.0,
+      "recall": 0.962118,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 1062630.0,
+      "recall": 0.967178,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 1002540.0,
+      "recall": 0.971948,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 888127.0,
+      "recall": 0.977839,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 792517.0,
+      "recall": 0.98213,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 720344.0,
+      "recall": 0.98484,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 660325.0,
+      "recall": 0.9871,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "none",
+      "qps": 634207.0,
+      "recall": 0.98884,
+      "speedup_percent": 0.0
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 2016320.0,
+      "recall": 0.814177,
+      "speedup_percent": 0.47,
+      "baseline_qps": 2006960.0,
+      "baseline_recall": 0.805725
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 1896090.0,
+      "recall": 0.851616,
+      "speedup_percent": 0.34,
+      "baseline_qps": 1889700.0,
+      "baseline_recall": 0.845637
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 1799600.0,
+      "recall": 0.87806,
+      "speedup_percent": 0.92,
+      "baseline_qps": 1783210.0,
+      "baseline_recall": 0.873949
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 1680050.0,
+      "recall": 0.898551,
+      "speedup_percent": -0.03,
+      "baseline_qps": 1680500.0,
+      "baseline_recall": 0.895261
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 1603350.0,
+      "recall": 0.912973,
+      "speedup_percent": 0.45,
+      "baseline_qps": 1596120.0,
+      "baseline_recall": 0.910273
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 1520860.0,
+      "recall": 0.924643,
+      "speedup_percent": -0.1,
+      "baseline_qps": 1522400.0,
+      "baseline_recall": 0.922533
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 1448940.0,
+      "recall": 0.933485,
+      "speedup_percent": 0.14,
+      "baseline_qps": 1446970.0,
+      "baseline_recall": 0.931735
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 1321350.0,
+      "recall": 0.946667,
+      "speedup_percent": 0.02,
+      "baseline_qps": 1321120.0,
+      "baseline_recall": 0.945407
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 1178770.0,
+      "recall": 0.955798,
+      "speedup_percent": -4.12,
+      "baseline_qps": 1229440.0,
+      "baseline_recall": 0.955568
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 1088890.0,
+      "recall": 0.962468,
+      "speedup_percent": -4.6,
+      "baseline_qps": 1141400.0,
+      "baseline_recall": 0.962118
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 1012380.0,
+      "recall": 0.967418,
+      "speedup_percent": -4.73,
+      "baseline_qps": 1062630.0,
+      "baseline_recall": 0.967178
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 1008930.0,
+      "recall": 0.971999,
+      "speedup_percent": 0.64,
+      "baseline_qps": 1002540.0,
+      "baseline_recall": 0.971948
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 894421.0,
+      "recall": 0.977849,
+      "speedup_percent": 0.71,
+      "baseline_qps": 888127.0,
+      "baseline_recall": 0.977839
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 774726.0,
+      "recall": 0.9823,
+      "speedup_percent": -2.24,
+      "baseline_qps": 792517.0,
+      "baseline_recall": 0.98213
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 706572.0,
+      "recall": 0.98492,
+      "speedup_percent": -1.91,
+      "baseline_qps": 720344.0,
+      "baseline_recall": 0.98484
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 596861.0,
+      "recall": 0.98726,
+      "speedup_percent": -9.61,
+      "baseline_qps": 660325.0,
+      "baseline_recall": 0.9871
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "gorder",
+      "qps": 438367.0,
+      "recall": 0.98898,
+      "speedup_percent": -30.88,
+      "baseline_qps": 634207.0,
+      "baseline_recall": 0.98884
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 2014980.0,
+      "recall": 0.814676,
+      "speedup_percent": 0.4,
+      "baseline_qps": 2006960.0,
+      "baseline_recall": 0.805725
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 1896510.0,
+      "recall": 0.852738,
+      "speedup_percent": 0.36,
+      "baseline_qps": 1889700.0,
+      "baseline_recall": 0.845637
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 1792070.0,
+      "recall": 0.87919,
+      "speedup_percent": 0.5,
+      "baseline_qps": 1783210.0,
+      "baseline_recall": 0.873949
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 1696940.0,
+      "recall": 0.899442,
+      "speedup_percent": 0.98,
+      "baseline_qps": 1680500.0,
+      "baseline_recall": 0.895261
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 1615300.0,
+      "recall": 0.913404,
+      "speedup_percent": 1.2,
+      "baseline_qps": 1596120.0,
+      "baseline_recall": 0.910273
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 1541220.0,
+      "recall": 0.924283,
+      "speedup_percent": 1.24,
+      "baseline_qps": 1522400.0,
+      "baseline_recall": 0.922533
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 1472060.0,
+      "recall": 0.933675,
+      "speedup_percent": 1.73,
+      "baseline_qps": 1446970.0,
+      "baseline_recall": 0.931735
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 1345810.0,
+      "recall": 0.946537,
+      "speedup_percent": 1.87,
+      "baseline_qps": 1321120.0,
+      "baseline_recall": 0.945407
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 1240630.0,
+      "recall": 0.956218,
+      "speedup_percent": 0.91,
+      "baseline_qps": 1229440.0,
+      "baseline_recall": 0.955568
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 1151760.0,
+      "recall": 0.962988,
+      "speedup_percent": 0.91,
+      "baseline_qps": 1141400.0,
+      "baseline_recall": 0.962118
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 1074660.0,
+      "recall": 0.968088,
+      "speedup_percent": 1.13,
+      "baseline_qps": 1062630.0,
+      "baseline_recall": 0.967178
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 1024510.0,
+      "recall": 0.972318,
+      "speedup_percent": 2.19,
+      "baseline_qps": 1002540.0,
+      "baseline_recall": 0.971948
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 910859.0,
+      "recall": 0.978029,
+      "speedup_percent": 2.56,
+      "baseline_qps": 888127.0,
+      "baseline_recall": 0.977839
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 819666.0,
+      "recall": 0.98237,
+      "speedup_percent": 3.43,
+      "baseline_qps": 792517.0,
+      "baseline_recall": 0.98213
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 750129.0,
+      "recall": 0.98495,
+      "speedup_percent": 4.13,
+      "baseline_qps": 720344.0,
+      "baseline_recall": 0.98484
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 683571.0,
+      "recall": 0.987261,
+      "speedup_percent": 3.52,
+      "baseline_qps": 660325.0,
+      "baseline_recall": 0.9871
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "hubsort",
+      "qps": 624960.0,
+      "recall": 0.98914,
+      "speedup_percent": -1.46,
+      "baseline_qps": 634207.0,
+      "baseline_recall": 0.98884
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 2021900.0,
+      "recall": 0.810606,
+      "speedup_percent": 0.74,
+      "baseline_qps": 2006960.0,
+      "baseline_recall": 0.805725
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 1905920.0,
+      "recall": 0.848937,
+      "speedup_percent": 0.86,
+      "baseline_qps": 1889700.0,
+      "baseline_recall": 0.845637
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 1791780.0,
+      "recall": 0.876349,
+      "speedup_percent": 0.48,
+      "baseline_qps": 1783210.0,
+      "baseline_recall": 0.873949
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 1699670.0,
+      "recall": 0.897042,
+      "speedup_percent": 1.14,
+      "baseline_qps": 1680500.0,
+      "baseline_recall": 0.895261
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 1614090.0,
+      "recall": 0.911833,
+      "speedup_percent": 1.13,
+      "baseline_qps": 1596120.0,
+      "baseline_recall": 0.910273
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 1543220.0,
+      "recall": 0.923504,
+      "speedup_percent": 1.37,
+      "baseline_qps": 1522400.0,
+      "baseline_recall": 0.922533
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 1473650.0,
+      "recall": 0.933016,
+      "speedup_percent": 1.84,
+      "baseline_qps": 1446970.0,
+      "baseline_recall": 0.931735
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 1345200.0,
+      "recall": 0.946307,
+      "speedup_percent": 1.82,
+      "baseline_qps": 1321120.0,
+      "baseline_recall": 0.945407
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 1244090.0,
+      "recall": 0.955948,
+      "speedup_percent": 1.19,
+      "baseline_qps": 1229440.0,
+      "baseline_recall": 0.955568
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 1154760.0,
+      "recall": 0.962638,
+      "speedup_percent": 1.17,
+      "baseline_qps": 1141400.0,
+      "baseline_recall": 0.962118
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 1077740.0,
+      "recall": 0.967818,
+      "speedup_percent": 1.42,
+      "baseline_qps": 1062630.0,
+      "baseline_recall": 0.967178
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 1024010.0,
+      "recall": 0.972108,
+      "speedup_percent": 2.14,
+      "baseline_qps": 1002540.0,
+      "baseline_recall": 0.971948
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 911210.0,
+      "recall": 0.977949,
+      "speedup_percent": 2.6,
+      "baseline_qps": 888127.0,
+      "baseline_recall": 0.977839
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 819816.0,
+      "recall": 0.98196,
+      "speedup_percent": 3.44,
+      "baseline_qps": 792517.0,
+      "baseline_recall": 0.98213
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 749106.0,
+      "recall": 0.984781,
+      "speedup_percent": 3.99,
+      "baseline_qps": 720344.0,
+      "baseline_recall": 0.98484
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 683842.0,
+      "recall": 0.987101,
+      "speedup_percent": 3.56,
+      "baseline_qps": 660325.0,
+      "baseline_recall": 0.9871
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "indegree",
+      "qps": 622872.0,
+      "recall": 0.98909,
+      "speedup_percent": -1.79,
+      "baseline_qps": 634207.0,
+      "baseline_recall": 0.98884
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 2015740.0,
+      "recall": 0.811786,
+      "speedup_percent": 0.44,
+      "baseline_qps": 2006960.0,
+      "baseline_recall": 0.805725
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 1906480.0,
+      "recall": 0.850648,
+      "speedup_percent": 0.89,
+      "baseline_qps": 1889700.0,
+      "baseline_recall": 0.845637
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 1802320.0,
+      "recall": 0.8777,
+      "speedup_percent": 1.07,
+      "baseline_qps": 1783210.0,
+      "baseline_recall": 0.873949
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 1699800.0,
+      "recall": 0.898122,
+      "speedup_percent": 1.15,
+      "baseline_qps": 1680500.0,
+      "baseline_recall": 0.895261
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 1615310.0,
+      "recall": 0.913013,
+      "speedup_percent": 1.2,
+      "baseline_qps": 1596120.0,
+      "baseline_recall": 0.910273
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 1544370.0,
+      "recall": 0.924023,
+      "speedup_percent": 1.44,
+      "baseline_qps": 1522400.0,
+      "baseline_recall": 0.922533
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 1473720.0,
+      "recall": 0.933144,
+      "speedup_percent": 1.85,
+      "baseline_qps": 1446970.0,
+      "baseline_recall": 0.931735
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 1346380.0,
+      "recall": 0.946217,
+      "speedup_percent": 1.91,
+      "baseline_qps": 1321120.0,
+      "baseline_recall": 0.945407
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 1238300.0,
+      "recall": 0.955977,
+      "speedup_percent": 0.72,
+      "baseline_qps": 1229440.0,
+      "baseline_recall": 0.955568
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 1150860.0,
+      "recall": 0.962838,
+      "speedup_percent": 0.83,
+      "baseline_qps": 1141400.0,
+      "baseline_recall": 0.962118
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 1073220.0,
+      "recall": 0.967728,
+      "speedup_percent": 1.0,
+      "baseline_qps": 1062630.0,
+      "baseline_recall": 0.967178
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 1023870.0,
+      "recall": 0.972119,
+      "speedup_percent": 2.13,
+      "baseline_qps": 1002540.0,
+      "baseline_recall": 0.971948
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 911138.0,
+      "recall": 0.978019,
+      "speedup_percent": 2.59,
+      "baseline_qps": 888127.0,
+      "baseline_recall": 0.977839
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 818717.0,
+      "recall": 0.98202,
+      "speedup_percent": 3.31,
+      "baseline_qps": 792517.0,
+      "baseline_recall": 0.98213
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 749154.0,
+      "recall": 0.98479,
+      "speedup_percent": 4.0,
+      "baseline_qps": 720344.0,
+      "baseline_recall": 0.98484
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 682917.0,
+      "recall": 0.987291,
+      "speedup_percent": 3.42,
+      "baseline_qps": 660325.0,
+      "baseline_recall": 0.9871
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "outdegree",
+      "qps": 622212.0,
+      "recall": 0.98914,
+      "speedup_percent": -1.89,
+      "baseline_qps": 634207.0,
+      "baseline_recall": 0.98884
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 2015800.0,
+      "recall": 0.810756,
+      "speedup_percent": 0.44,
+      "baseline_qps": 2006960.0,
+      "baseline_recall": 0.805725
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 1903220.0,
+      "recall": 0.849897,
+      "speedup_percent": 0.72,
+      "baseline_qps": 1889700.0,
+      "baseline_recall": 0.845637
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 1798100.0,
+      "recall": 0.877288,
+      "speedup_percent": 0.84,
+      "baseline_qps": 1783210.0,
+      "baseline_recall": 0.873949
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 1706380.0,
+      "recall": 0.898562,
+      "speedup_percent": 1.54,
+      "baseline_qps": 1680500.0,
+      "baseline_recall": 0.895261
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 1618400.0,
+      "recall": 0.912553,
+      "speedup_percent": 1.4,
+      "baseline_qps": 1596120.0,
+      "baseline_recall": 0.910273
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 1541180.0,
+      "recall": 0.924104,
+      "speedup_percent": 1.23,
+      "baseline_qps": 1522400.0,
+      "baseline_recall": 0.922533
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 1470520.0,
+      "recall": 0.932895,
+      "speedup_percent": 1.63,
+      "baseline_qps": 1446970.0,
+      "baseline_recall": 0.931735
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 1344650.0,
+      "recall": 0.946536,
+      "speedup_percent": 1.78,
+      "baseline_qps": 1321120.0,
+      "baseline_recall": 0.945407
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 1240310.0,
+      "recall": 0.955667,
+      "speedup_percent": 0.88,
+      "baseline_qps": 1229440.0,
+      "baseline_recall": 0.955568
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 1151940.0,
+      "recall": 0.962708,
+      "speedup_percent": 0.92,
+      "baseline_qps": 1141400.0,
+      "baseline_recall": 0.962118
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 1075120.0,
+      "recall": 0.967788,
+      "speedup_percent": 1.18,
+      "baseline_qps": 1062630.0,
+      "baseline_recall": 0.967178
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 1022900.0,
+      "recall": 0.972158,
+      "speedup_percent": 2.03,
+      "baseline_qps": 1002540.0,
+      "baseline_recall": 0.971948
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 910000.0,
+      "recall": 0.978019,
+      "speedup_percent": 2.46,
+      "baseline_qps": 888127.0,
+      "baseline_recall": 0.977839
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 819253.0,
+      "recall": 0.98217,
+      "speedup_percent": 3.37,
+      "baseline_qps": 792517.0,
+      "baseline_recall": 0.98213
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 749175.0,
+      "recall": 0.98479,
+      "speedup_percent": 4.0,
+      "baseline_qps": 720344.0,
+      "baseline_recall": 0.98484
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 683099.0,
+      "recall": 0.987231,
+      "speedup_percent": 3.45,
+      "baseline_qps": 660325.0,
+      "baseline_recall": 0.9871
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "random",
+      "qps": 626656.0,
+      "recall": 0.98913,
+      "speedup_percent": -1.19,
+      "baseline_qps": 634207.0,
+      "baseline_recall": 0.98884
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 1998830.0,
+      "recall": 0.812627,
+      "speedup_percent": -0.41,
+      "baseline_qps": 2006960.0,
+      "baseline_recall": 0.805725
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 1897000.0,
+      "recall": 0.851158,
+      "speedup_percent": 0.39,
+      "baseline_qps": 1889700.0,
+      "baseline_recall": 0.845637
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 1794910.0,
+      "recall": 0.87756,
+      "speedup_percent": 0.66,
+      "baseline_qps": 1783210.0,
+      "baseline_recall": 0.873949
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 1702800.0,
+      "recall": 0.897982,
+      "speedup_percent": 1.33,
+      "baseline_qps": 1680500.0,
+      "baseline_recall": 0.895261
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 1619120.0,
+      "recall": 0.912574,
+      "speedup_percent": 1.44,
+      "baseline_qps": 1596120.0,
+      "baseline_recall": 0.910273
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 1537340.0,
+      "recall": 0.923694,
+      "speedup_percent": 0.98,
+      "baseline_qps": 1522400.0,
+      "baseline_recall": 0.922533
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 1466280.0,
+      "recall": 0.932925,
+      "speedup_percent": 1.33,
+      "baseline_qps": 1446970.0,
+      "baseline_recall": 0.931735
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 1344510.0,
+      "recall": 0.946626,
+      "speedup_percent": 1.77,
+      "baseline_qps": 1321120.0,
+      "baseline_recall": 0.945407
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 1234200.0,
+      "recall": 0.956157,
+      "speedup_percent": 0.39,
+      "baseline_qps": 1229440.0,
+      "baseline_recall": 0.955568
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 1148640.0,
+      "recall": 0.962728,
+      "speedup_percent": 0.63,
+      "baseline_qps": 1141400.0,
+      "baseline_recall": 0.962118
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 1068330.0,
+      "recall": 0.967688,
+      "speedup_percent": 0.54,
+      "baseline_qps": 1062630.0,
+      "baseline_recall": 0.967178
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 1022480.0,
+      "recall": 0.971928,
+      "speedup_percent": 1.99,
+      "baseline_qps": 1002540.0,
+      "baseline_recall": 0.971948
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 908714.0,
+      "recall": 0.977629,
+      "speedup_percent": 2.32,
+      "baseline_qps": 888127.0,
+      "baseline_recall": 0.977839
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 813556.0,
+      "recall": 0.981969,
+      "speedup_percent": 2.65,
+      "baseline_qps": 792517.0,
+      "baseline_recall": 0.98213
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 744929.0,
+      "recall": 0.98462,
+      "speedup_percent": 3.41,
+      "baseline_qps": 720344.0,
+      "baseline_recall": 0.98484
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 664117.0,
+      "recall": 0.98693,
+      "speedup_percent": 0.57,
+      "baseline_qps": 660325.0,
+      "baseline_recall": 0.9871
+    },
+    {
+      "dataset": "deep1m-96-euclidean",
+      "index": "nsg",
+      "reordering": "rcm",
+      "qps": 548963.0,
+      "recall": 0.98884,
+      "speedup_percent": -13.44,
+      "baseline_qps": 634207.0,
+      "baseline_recall": 0.98884
+    }
+  ],
+  "speedup_metadata": {
+    "description": "speedup_percent: Performance improvement compared to baseline (reordering=none)",
+    "calculation": "((reordered_qps - baseline_qps) / baseline_qps) * 100",
+    "baseline_matching_tolerance": 0.01,
+    "null_values": "speedup_percent is null when no matching baseline found within tolerance"
+  }
+}
