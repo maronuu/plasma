@@ -5,13 +5,13 @@ title: '🎇 Plasma: A Layout-Aware Benchmark Reveals Memory Layout Matters for 
 conference: VecDB@VLDB2026
 resources:
   paper: https://openreview.net/forum?id=tF70hyyM6V
-  poster:
-  code: https://github.com/omron-sinicx/plasma
   benchmark: '#benchmark' # in-page anchor to the body section titled "📊 Benchmark"
+  poster:
   video:
   blog:
   demo:
-  huggingface:
+  huggingface: https://huggingface.co/datasets/omron-sinicx/plasma
+  code: https://github.com/omron-sinicx/plasma
 description: Decoupling graph topology from memory layout on GPU. Vertex reordering alone yields up to 80% QPS gain at equal recall.
 image: https://omron-sinicx.github.io/plasma/teaser.png
 url: https://omron-sinicx.github.io/plasma
