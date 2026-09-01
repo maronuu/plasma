@@ -6,7 +6,7 @@ conference: VecDB@VLDB2026
 resources:
   paper: https://openreview.net/forum?id=tF70hyyM6V
   benchmark: '#benchmark' # in-page anchor to the body section titled "📊 Benchmark"
-  poster:
+  poster: https://drive.google.com/file/d/1ar60BzOPE8IRl8A7Nc167hS3BHxUOBmv/view?usp=sharing
   video:
   blog:
   demo:
